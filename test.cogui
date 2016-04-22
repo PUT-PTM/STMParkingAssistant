@@ -23,8 +23,7 @@
 </info>
 </editorArea>
 <editor id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" partName="Repository" title="Repository" tooltip="Repository" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">
-<subPage horizontalPosition="0" selectedItemId="505" subPageIndex="2" verticalPosition="600"/>
+<input factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory">&#x0A;<subPage horizontalPosition="0" selectedItemId="505" subPageIndex="2" verticalPosition="600"/>
 </input>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.h" partName="system_stm32f4xx.h" path="D:/nowy/test/cmsis_boot/system_stm32f4xx.h" title="system_stm32f4xx.h" tooltip="D:/nowy/test/cmsis_boot/system_stm32f4xx.h" workbook="DefaultEditorWorkbook">
@@ -35,17 +34,17 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/cmsis_boot/system_stm32f4xx.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21721" selectionTopPixel="8611"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/nowy/test/main.c" title="main.c" tooltip="D:/nowy/test/main.c" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/main.c" title="main.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="802" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="802" selectionTopPixel="110"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_ili9341.h" partName="tm_stm32f4_ili9341.h" path="C:/Users/Patryk/Desktop/stm/tm_stm32f4_ili9341.h" title="tm_stm32f4_ili9341.h" tooltip="C:/Users/Patryk/Desktop/stm/tm_stm32f4_ili9341.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/cmsis_lib/include/tm_stm32f4_ili9341.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="3904" selectionTopPixel="2228"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" partName="defines.h" path="C:/Users/Patryk/Desktop/stm/defines.h" title="defines.h" tooltip="C:/Users/Patryk/Desktop/stm/defines.h" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" partName="defines.h" path="C:/Users/Patryk/Desktop/stm/defines.h" title="defines.h" tooltip="C:/Users/Patryk/Desktop/stm/defines.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/cmsis_lib/include/defines.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1603" selectionTopPixel="352"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1293" selectionTopPixel="382"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_dma.c" partName="tm_stm32f4_dma.c" title="tm_stm32f4_dma.c" tooltip="C:\Users\Patryk\Desktop\stm\tm_stm32f4_dma.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/Users/Patryk/Desktop/stm/tm_stm32f4_dma.c"/>
@@ -61,7 +60,7 @@
 <viewState/>
 </view>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="22">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="13">
 <expanded>
 <element path="/test"/>
 <element path="/test/cmsis"/>
@@ -72,7 +71,7 @@
 <element path="/test/cmsis_lib/source"/>
 </expanded>
 <selection>
-<element path="/test/cmsis_lib/include/tm_stm32f4_dma.h"/>
+<element path="/test/cmsis_lib/include/defines.h"/>
 </selection>
 </viewState>
 </view>
@@ -199,10 +198,8 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/C:/Users/Patryk/Desktop/stm/tm_stm32f4_ili9341.c"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/C:/Users/Patryk/Desktop/stm/tm_stm32f4_dma.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test/cmsis_lib/include/tm_stm32f4_dma.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test/cmsis_lib/include/defines.h"/>
 </editors>
-<item historyLabel="tm_stm32f4_ili9341.h" index="0">
-<position info="not_deleted" x="3931" y="0"/>
-</item>
 <item historyLabel="tm_stm32f4_ili9341.h" index="0">
 <position info="not_deleted" x="3736" y="0"/>
 </item>
@@ -343,8 +340,11 @@
 <item historyLabel="tm_stm32f4_ili9341.h" index="6">
 <position info="not_deleted" x="3904" y="29"/>
 </item>
-<item active="true" historyLabel="main.c" index="2">
+<item historyLabel="main.c" index="2">
 <position info="not_deleted" x="802" y="0"/>
+</item>
+<item active="true" historyLabel="defines.h" index="17">
+<position info="not_deleted" x="1612" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -353,6 +353,39 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_hcsr04.c" tooltip="test/cmsis_lib/source/tm_stm32f4_hcsr04.c">
+<persistable path="/test/cmsis_lib/source/tm_stm32f4_hcsr04.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_spi.h" tooltip="test/cmsis_lib/include/tm_stm32f4_spi.h">
+<persistable path="/test/cmsis_lib/include/tm_stm32f4_spi.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="test/cmsis_boot/stm32f4xx.h">
+<persistable path="/test/cmsis_boot/stm32f4xx.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_hcsr04.h" tooltip="test/cmsis_lib/include/tm_stm32f4_hcsr04.h">
+<persistable path="/test/cmsis_lib/include/tm_stm32f4_hcsr04.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="misc.h" tooltip="test/cmsis_lib/include/misc.h">
+<persistable path="/test/cmsis_lib/include/misc.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_timer_properties.h" tooltip="test/cmsis_lib/include/tm_stm32f4_timer_properties.h">
+<persistable path="/test/cmsis_lib/include/tm_stm32f4_timer_properties.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_delay.c" tooltip="test/cmsis_lib/source/tm_stm32f4_delay.c">
+<persistable path="/test/cmsis_lib/source/tm_stm32f4_delay.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_delay.h" tooltip="test/cmsis_lib/include/tm_stm32f4_delay.h">
+<persistable path="/test/cmsis_lib/include/tm_stm32f4_delay.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" tooltip="test/cmsis_lib/include/defines.h">
+<persistable path="/test/cmsis_lib/include/defines.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_timer_properties.c" tooltip="test/cmsis_lib/source/tm_stm32f4_timer_properties.c">
+<persistable path="/test/cmsis_lib/source/tm_stm32f4_timer_properties.c"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_delay.c" tooltip="C:\Users\Patryk\Desktop\sensor\tm_stm32f4_delay.c">
+<persistable uri="file:/C:/Users/Patryk/Desktop/sensor/tm_stm32f4_delay.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_dma.h" tooltip="test/cmsis_lib/include/tm_stm32f4_dma.h">
 <persistable path="/test/cmsis_lib/include/tm_stm32f4_dma.h"/>
 </file>
@@ -361,39 +394,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_ili9341.c" tooltip="C:\Users\Patryk\Desktop\stm\tm_stm32f4_ili9341.c">
 <persistable uri="file:/C:/Users/Patryk/Desktop/stm/tm_stm32f4_ili9341.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_spi.h" tooltip="test/cmsis_lib/include/tm_stm32f4_spi.h">
-<persistable path="/test/cmsis_lib/include/tm_stm32f4_spi.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" tooltip="test/cmsis_lib/include/defines.h">
-<persistable path="/test/cmsis_lib/include/defines.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_ili9341.h" tooltip="test/cmsis_lib/include/tm_stm32f4_ili9341.h">
-<persistable path="/test/cmsis_lib/include/tm_stm32f4_ili9341.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_spi_dma.h" tooltip="test/cmsis_lib/include/tm_stm32f4_spi_dma.h">
-<persistable path="/test/cmsis_lib/include/tm_stm32f4_spi_dma.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_ili9341.c" tooltip="test/cmsis_lib/source/tm_stm32f4_ili9341.c">
-<persistable path="/test/cmsis_lib/source/tm_stm32f4_ili9341.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_spi.c" tooltip="test/cmsis_lib/source/tm_stm32f4_spi.c">
-<persistable path="/test/cmsis_lib/source/tm_stm32f4_spi.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_hcsr04.h" tooltip="test/cmsis_lib/include/tm_stm32f4_hcsr04.h">
-<persistable path="/test/cmsis_lib/include/tm_stm32f4_hcsr04.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_ili9341.h" tooltip="C:\Users\Patryk\Desktop\tm_stm32f4_ili9341.h">
-<persistable uri="file:/C:/Users/Patryk/Desktop/tm_stm32f4_ili9341.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_spi.c" tooltip="C:\Users\Patryk\Desktop\tm_stm32f4_spi.c">
-<persistable uri="file:/C:/Users/Patryk/Desktop/tm_stm32f4_spi.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_tim.c" tooltip="test/cmsis_lib/source/stm32f4xx_tim.c">
-<persistable path="/test/cmsis_lib/source/stm32f4xx_tim.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="kolosy/main.c">
-<persistable path="/kolosy/main.c"/>
 </file>
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
 <persistable>&#x0A;<subPage/>
