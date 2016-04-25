@@ -5,6 +5,7 @@
 #include "stm32f4xx_exti.h"
 #include "stm32f4xx_syscfg.h"
 #include "misc.h"
+//#include <stdio.h>
 
 void TRIG_GPIO_conf(){
 		/* GPIOD Periph clock enable */
@@ -15,7 +16,7 @@ void TRIG_GPIO_conf(){
 		GPIO_InitStructure.GPIO_Pin = GPIO_Pin_1;
 		GPIO_InitStructure.GPIO_Mode = GPIO_Mode_OUT;
 		GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-		GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+		GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
 		GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN;
 		GPIO_Init(GPIOD, &GPIO_InitStructure);
 }
@@ -29,7 +30,7 @@ void ECHO_GPIO_conf(){
 		GPIO_InitStructure.GPIO_Pin = GPIO_Pin_2;
 		GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN;
 		GPIO_InitStructure.GPIO_OType = GPIO_OType_PP;
-		GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+		GPIO_InitStructure.GPIO_Speed = GPIO_Speed_100MHz;
 		GPIO_InitStructure.GPIO_PuPd = GPIO_PuPd_DOWN;
 		GPIO_Init(GPIOD, &GPIO_InitStructure);
 }
@@ -115,16 +116,17 @@ int main(void)
 	TRIG_GPIO_conf();
 	ECHO_GPIO_conf();
 	SystemInit();
-	int i;
+	GPIOD->BSRRH = GPIO_Pin_1;
     while(1)
     {
     	ile=0;
-    	GPIO_WriteBit(GPIOD,GPIO_Pin_1,1);
+    	GPIOD->BSRRL=GPIO_Pin_1;
     	TIM_Cmd(TIM2,ENABLE);
     	while(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_2)==0);
     	TIM_Cmd(TIM3,ENABLE);
-    	while(GPIO_ReadInputDataBit(GPIOA,GPIO_Pin_2)==1);
+    	while(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_2)==1);
     	TIM_Cmd(TIM3,DISABLE);
     	odleglosc=ile/58;
+    	//printf("%i",odleglosc);
     }
 }
