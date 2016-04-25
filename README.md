@@ -8,6 +8,7 @@ Showing results on display.
 This project is based on STM32F4 Discovery Microcontroler and Sonars to measure distans from obstacles.
 
 ## Tools
+CooCox
 
 ## How to run
 
