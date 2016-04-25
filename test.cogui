@@ -34,7 +34,7 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/cmsis_boot/system_stm32f4xx.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21721" selectionTopPixel="8611"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/main.c" title="main.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/main.c" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/main.c" title="main.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/main.c"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="802" selectionTopPixel="110"/>
 </editor>
@@ -42,7 +42,7 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/cmsis_lib/include/tm_stm32f4_ili9341.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="3904" selectionTopPixel="2228"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" partName="defines.h" path="C:/Users/Patryk/Desktop/stm/defines.h" title="defines.h" tooltip="C:/Users/Patryk/Desktop/stm/defines.h" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="defines.h" partName="defines.h" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/cmsis_lib/include/defines.h" title="defines.h" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/cmsis_lib/include/defines.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/test/cmsis_lib/include/defines.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1293" selectionTopPixel="382"/>
 </editor>
@@ -85,7 +85,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
@@ -199,10 +199,8 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" uri="file:/C:/Users/Patryk/Desktop/stm/tm_stm32f4_dma.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test/cmsis_lib/include/tm_stm32f4_dma.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test/cmsis_lib/include/defines.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/test/main.c"/>
 </editors>
-<item historyLabel="tm_stm32f4_ili9341.h" index="0">
-<position info="not_deleted" x="3736" y="0"/>
-</item>
 <item historyLabel="tm_stm32f4_spi.h" index="1">
 <position info="not_deleted" x="4281" y="0"/>
 </item>
@@ -343,8 +341,11 @@
 <item historyLabel="main.c" index="2">
 <position info="not_deleted" x="802" y="0"/>
 </item>
-<item active="true" historyLabel="defines.h" index="17">
+<item historyLabel="defines.h" index="17">
 <position info="not_deleted" x="1612" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="18">
+<position info="not_deleted" x="802" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -353,6 +354,12 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.c" tooltip="hcsr04/cmsis_lib/source/stm32f4xx_gpio.c">
+<persistable path="/hcsr04/cmsis_lib/source/stm32f4xx_gpio.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_gpio.h" tooltip="hcsr04/cmsis_lib/include/stm32f4xx_gpio.h">
+<persistable path="/hcsr04/cmsis_lib/include/stm32f4xx_gpio.h"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_hcsr04.c" tooltip="test/cmsis_lib/source/tm_stm32f4_hcsr04.c">
 <persistable path="/test/cmsis_lib/source/tm_stm32f4_hcsr04.c"/>
 </file>
@@ -388,12 +395,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_dma.h" tooltip="test/cmsis_lib/include/tm_stm32f4_dma.h">
 <persistable path="/test/cmsis_lib/include/tm_stm32f4_dma.h"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_dma.c" tooltip="C:\Users\Patryk\Desktop\stm\tm_stm32f4_dma.c">
-<persistable uri="file:/C:/Users/Patryk/Desktop/stm/tm_stm32f4_dma.c"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="tm_stm32f4_ili9341.c" tooltip="C:\Users\Patryk\Desktop\stm\tm_stm32f4_ili9341.c">
-<persistable uri="file:/C:/Users/Patryk/Desktop/stm/tm_stm32f4_ili9341.c"/>
 </file>
 <file factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser" name="Repository" tooltip="Repository">
 <persistable>&#x0A;<subPage/>
