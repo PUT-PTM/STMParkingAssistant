@@ -58,8 +58,8 @@
       <target file="tm_stm32f4_spi_dma.o" lastModified="1543e30c9c1">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_spi_dma.c" lastModified="14ed4326bbf"/>
       </target>
-      <target file="main.o" lastModified="1544d2c0bef">
-         <source file="..\..\..\main.c" lastModified="1544d2bd62d"/>
+      <target file="main.o" lastModified="1544e1577da">
+         <source file="..\..\..\main.c" lastModified="1544e156fdb"/>
       </target>
    </processor>
 </history>

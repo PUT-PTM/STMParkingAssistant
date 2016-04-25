@@ -130,27 +130,28 @@ int main(void) {
     TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
 
     Timmer2_conf();
-    	Timmer3_conf();
-    	Przerwania2_conf();
-    	Przerwania3_conf();
-    	TRIG_GPIO_conf();
-    	ECHO_GPIO_conf();
-    	SystemInit();
-    	GPIOD->BSRRH = GPIO_Pin_1;
+    Timmer3_conf();
+    Przerwania2_conf();
+    Przerwania3_conf();
+    TRIG_GPIO_conf();
+    ECHO_GPIO_conf();
+    SystemInit();
+    GPIOD->BSRRH = GPIO_Pin_1;
 
-    char str[20];
+    char str[100];
     while (1) {
     	for(i=0;i<20000000;i++);
     	ile=0;
-    	    	GPIOD->BSRRL=GPIO_Pin_1;
-    	    	TIM_Cmd(TIM2,ENABLE);
-    	    	while(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_2)==0);
-    	    	TIM_Cmd(TIM3,ENABLE);
-    	    	while(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_2)==1);
-    	    	TIM_Cmd(TIM3,DISABLE);
-    	    	odleglosc=ile/58;
+    	GPIOD->BSRRL=GPIO_Pin_1;
+    	TIM_Cmd(TIM2,ENABLE);
+    	while(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_2)==0);
+    	TIM_Cmd(TIM3,ENABLE);
+    	while(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_2)==1);
+    	TIM_Cmd(TIM3,DISABLE);
+    	odleglosc=ile/58;
 
     	itoa(odleglosc, str, 10);
+    	TM_ILI9341_DrawFilledRectangle(110,250,160,270,ILI9341_COLOR_BLACK);
     	if(odleglosc<100) TM_ILI9341_Puts(110, 250, str, &TM_Font_11x18, ILI9341_COLOR_WHITE, ILI9341_COLOR_BLACK);
     	else TM_ILI9341_Puts(110, 250, ">100", &TM_Font_11x18, ILI9341_COLOR_WHITE, ILI9341_COLOR_BLACK);
     	if(odleglosc<10&&odleglosc>0) {
@@ -164,59 +165,78 @@ int main(void) {
     		TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
     	}
     	else if(odleglosc<20&&odleglosc>=10) {
-    	    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
-    	    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_RED);
-    	    		TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_RED);
-    	    		TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_RED);
-    	    		TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_RED);
-    	    		TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_RED);
-    	    		TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_RED);
-    	    		TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_BLACK);
-    	    	}
+    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_BLACK);
+    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
+    	    }
     	else if(odleglosc<30&&odleglosc>=20) {
-    	    	    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
-    	    	    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_RED);
-    	    	    		TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_RED);
-    	    	    		TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_RED);
-    	    	    		TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_RED);
-    	    	    		TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_RED);
-    	    	    		TM_ILI9341_DrawFilledRectangle(30, 180, 210, 225, ILI9341_COLOR_BLACK);
-    	}
+    	    TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_BLACK);
+    	    TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_BLACK);
+    	    TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
+    	    }
     	else if(odleglosc<40&&odleglosc>=30) {
-    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
-    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_RED);
-    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_RED);
-    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_RED);
-    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_RED);
-    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 155, 210, 225, ILI9341_COLOR_BLACK);
-    	    	    	    	}
+    	    TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_BLACK);
+    	    TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_BLACK);
+    	    TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_BLACK);
+    	    TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_RED);
+    	    TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
+    	    }
     	else if(odleglosc<50&&odleglosc>=40) {
-    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
-    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_RED);
-    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_RED);
-    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_RED);
-    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 130, 210, 225, ILI9341_COLOR_BLACK);
-    	    	    	    	    	}
+    	    TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_BLACK);
+    	    TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_BLACK);
+    	    TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_BLACK);
+    		TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_BLACK);
+    		TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_RED);
+    		TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
+    	  	}
     	else if(odleglosc<60&&odleglosc>=50) {
-    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
-    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_RED);
-    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_RED);
-    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 105, 210, 225, ILI9341_COLOR_BLACK);
-    	    	    	    	    	    	}
+    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_BLACK);
+    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_BLACK);
+    	   	TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_BLACK);
+    	  	TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_BLACK);
+    	  	TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_BLACK);
+    	 	TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_RED);
+    	   	TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_RED);
+    	 	TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
+    	  	}
     	else if(odleglosc<70&&odleglosc>=60) {
-    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
-    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_RED);
-    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 80, 210, 225, ILI9341_COLOR_BLACK);
-    	    	    	    	    	    	}
+    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_BLACK);
+    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_BLACK);
+    	   	TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_BLACK);
+    	  	TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_BLACK);
+    	  	TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_BLACK);
+    	 	TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_BLACK);
+    	   	TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_RED);
+    	 	TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
+    		}
     	else if(odleglosc<80&&odleglosc>=70) {
-    	    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
-    	    	    	    	    	    	    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 225, ILI9341_COLOR_BLACK);
-    	    	    	    	    	    	    	}
+    		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_BLACK);
+    		TM_ILI9341_DrawFilledRectangle(30, 55, 210, 75, ILI9341_COLOR_BLACK);
+    	   	TM_ILI9341_DrawFilledRectangle(30, 80, 210, 100, ILI9341_COLOR_BLACK);
+    	  	TM_ILI9341_DrawFilledRectangle(30, 105, 210, 125, ILI9341_COLOR_BLACK);
+    	  	TM_ILI9341_DrawFilledRectangle(30, 130, 210, 150, ILI9341_COLOR_BLACK);
+    	 	TM_ILI9341_DrawFilledRectangle(30, 155, 210, 175, ILI9341_COLOR_BLACK);
+    	   	TM_ILI9341_DrawFilledRectangle(30, 180, 210, 200, ILI9341_COLOR_BLACK);
+    	 	TM_ILI9341_DrawFilledRectangle(30, 205, 210, 225, ILI9341_COLOR_RED);
+    		}
     	else if(odleglosc>=80) {
     		TM_ILI9341_DrawFilledRectangle(30, 30, 210, 225, ILI9341_COLOR_BLACK);
-    	    	    	    	    	    	    	}
+    	}
 
-    	//odleglosc+=1;
-    	//TM_ILI9341_Fill(ILI9341_COLOR_YELLOW);
     }
 }
