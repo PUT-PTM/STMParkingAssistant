@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcard\cmsis_lib -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcard -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcard\cmsis -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcard\cmsis_lib\include -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcard\cmsis_boot">
+      <target file="stm32f4xx_rcc.o" lastModified="15485a534f6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="1548597b0de"/>
+      </target>
+      <target file="misc.o" lastModified="15485a536ce">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15485983d78"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15485a535e3">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15485995e3c"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="15485a53668">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="1548597fb5a"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15485a5356f">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="1548597b0b1"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15485a53407">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1548597b0bd"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="15485a533b4">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="15485981d2b"/>
+      </target>
+   </processor>
+</history>
