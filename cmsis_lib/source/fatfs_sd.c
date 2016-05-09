@@ -114,7 +114,7 @@ static void deselect (void)
 /* Select card and wait for ready                                        */
 /*-----------------------------------------------------------------------*/
 
-static int select (void)	/* 1:OK, 0:Timeout */
+static int select1 (void)	/* 1:OK, 0:Timeout */
 {
 	FATFS_CS_LOW;
 	TM_SPI_Send(FATFS_SPI, 0xFF);	/* Dummy clock (force DO enabled) */
@@ -214,7 +214,7 @@ static BYTE send_cmd (		/* Return value: R1 resp (bit7==1:Failed to send) */
 	/* Select the card and wait for ready except to stop multiple block read */
 	if (cmd != CMD12) {
 		deselect();
-		if (!select()) return 0xFF;
+		if (!select1()) return 0xFF;
 	}
 
 	/* Send command packet */
@@ -477,7 +477,7 @@ DRESULT TM_FATFS_SD_disk_ioctl (
 
 	switch (cmd) {
 	case CTRL_SYNC :		/* Wait for end of internal write process of the drive */
-		if (select()) res = RES_OK;
+		if (select1()) res = RES_OK;
 		break;
 
 	case GET_SECTOR_COUNT :	/* Get drive capacity in unit of sector (DWORD) */
