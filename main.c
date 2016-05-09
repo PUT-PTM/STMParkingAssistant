@@ -13,6 +13,7 @@
 #include "stm32f4xx_exti.h"
 #include "stm32f4xx_syscfg.h"
 #include "misc.h"
+#include "tm_stm32f4_fatfs.h"
 
 
 void TRIG_GPIO_conf(){
