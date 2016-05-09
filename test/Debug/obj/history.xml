@@ -31,6 +31,9 @@
       <target file="system_stm32f4xx.o" lastModified="1543e30cee1">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151cfcad7e0"/>
       </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="15494ce2cfa">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1488e449b75"/>
+      </target>
       <target file="misc.o" lastModified="1543e30d200">
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="152264a3700"/>
       </target>
@@ -46,6 +49,9 @@
       <target file="stm32f4xx_dac.o" lastModified="1543e30ca4e">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="15246f19ed0"/>
       </target>
+      <target file="syscalls.o" lastModified="15494c4081f">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15494b56a61"/>
+      </target>
       <target file="tm_stm32f4_dma.o" lastModified="1543e30cd4b">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_dma.c" lastModified="14efdd22df5"/>
       </target>
@@ -58,8 +64,8 @@
       <target file="tm_stm32f4_spi_dma.o" lastModified="1543e30c9c1">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_spi_dma.c" lastModified="14ed4326bbf"/>
       </target>
-      <target file="main.o" lastModified="1544e1577da">
-         <source file="..\..\..\main.c" lastModified="1544e156fdb"/>
+      <target file="main.o" lastModified="15495af68d4">
+         <source file="..\..\..\main.c" lastModified="15495af5c5c"/>
       </target>
    </processor>
 </history>

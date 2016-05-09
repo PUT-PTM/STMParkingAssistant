@@ -188,7 +188,7 @@ FRESULT TM_FATFS_Search(char* Folder, char* tmp_buffer, uint16_t tmp_buffer_size
 /*******************************************************************/
 /*                      FATFS SEARCH CALLBACK                      */
 /*******************************************************************/
-__weak uint8_t TM_FATFS_SearchCallback(char* path, uint8_t is_file, TM_FATFS_Search_t* FindStructure) {
+uint8_t TM_FATFS_SearchCallback(char* path, uint8_t is_file, TM_FATFS_Search_t* FindStructure) {
 	/* NOTE: This function Should not be modified, when the callback is needed,
              the TM_FATFS_SearchCallback could be implemented in the user file
 	*/

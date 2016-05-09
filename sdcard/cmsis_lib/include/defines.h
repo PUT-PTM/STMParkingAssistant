@@ -28,6 +28,10 @@
 #ifndef TM_DEFINES_H
 #define TM_DEFINES_H
 
-/* Put your global defines for all libraries here used in your project */
+/* Activate SDIO 1-bit mode */
+//#define FATFS_SDIO_4BIT 		0
+
+/* Activate SDIO 4-bit mode */
+//#define FATFS_SDIO_4BIT 		1
 
 #endif
