@@ -228,7 +228,7 @@ void sdcard(){
 	if (f_mount(&FatFs, "", 1) == FR_OK) {
 	        //Mounted OK, turn on RED LED
 	        GPIO_SetBits(GPIOD,GPIO_Pin_14);
-
+/*
 	        //Try to open file
 	        if (f_open(&fil, "textfile.txt", FA_OPEN_ALWAYS | FA_READ | FA_WRITE) == FR_OK) {
 	            //File opened, turn off RED and turn on GREEN led
@@ -248,7 +248,7 @@ void sdcard(){
 	            //Close file
 	            f_close(&fil);
 	        }
-
+*/
 	        //Unmount drive
 	        f_mount(0, "", 1);
 	    }
