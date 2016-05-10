@@ -95,8 +95,8 @@ typedef struct {
 #define _DS2S	0x80	/* DBC 2nd byte range 2 start */
 #define _DS2E	0xFC	/* DBC 2nd byte range 2 end */
 
-#elif _CODE_PAGE == 936	/* Simplified Chinese GBK */
-#define _DF1S	0x81
+#elif _CODE_PAGE == 1	/* Simplified Chinese GBK */
+#define _DF1S	0
 #define _DF1E	0xFE
 #define _DS1S	0x40
 #define _DS1E	0x7E
@@ -275,7 +275,7 @@ typedef struct {
 #define _DF1S	0
 
 #else
-#error Unknown code page
+/*#error Unknown code page*/
 
 #endif
 
@@ -3895,7 +3895,7 @@ FRESULT f_setlabel (
 #ifdef _EXCVT
 			if (w >= 0x80) w = ExCvt[w - 0x80];	/* To upper extended characters (SBCS cfg) */
 #else
-			if (!_DF1S && w >= 0x80) w = 0;		/* Reject extended characters (ASCII cfg) */
+		/*	if (!_DF1S && w >= 0x80) w = 0;		/* Reject extended characters (ASCII cfg) */
 #endif
 #endif
 #endif

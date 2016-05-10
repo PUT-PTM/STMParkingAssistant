@@ -3,9 +3,6 @@
 #include "defines.h"
 #include "tm_stm32f4_ili9341.h"
 #include "tm_stm32f4_fonts.h"
-#include <stdio.h>
-#include<stdlib.h>
-#include<time.h>
 #include "stm32f4xx_conf.h"
 #include "stm32f4xx_tim.h"
 #include "stm32f4xx_gpio.h"
@@ -15,6 +12,7 @@
 #include "misc.h"
 #include "tm_stm32f4_fatfs.h"
 
+_libc_init_array();
 
 void TRIG_GPIO_conf(){
 		/* GPIOD Periph clock enable */
@@ -256,7 +254,7 @@ void sdcard(){
 
 void sdcard1(){
 	FATFS FatFs;
-	FIL fil;       /* File object */
+	FIL fil1;       /* File object */
 	    char line[82]; /* Line buffer */
 	    FRESULT fr;    /* FatFs return code */
 
@@ -265,15 +263,15 @@ void sdcard1(){
 	    f_mount(&FatFs, "", 0);
 
 	    /* Open a text file */
-	    //fr = f_open(&fil, "message.txt", FA_READ);
+	    fr = f_open(&fil1, "message.txt", FA_READ);
 	    if (fr) return (int)fr;
 
 	    /* Read all lines and display it */
-	    while (f_gets(line, sizeof line, &fil))
+	    while (f_gets(line, sizeof line, &fil1))
 	        printf(line);
 
 	    /* Close the file */
-	    f_close(&fil);
+	    f_close(&fil1);
 }
 
 unsigned int odleglosc;

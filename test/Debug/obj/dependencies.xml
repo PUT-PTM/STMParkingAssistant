@@ -23,10 +23,6 @@
       <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="152264a3700">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
-      <source file="..\..\..\cmsis_lib\source\ff.c" lastModified="154967c5bcd">
-         <include file="..\..\..\cmsis_lib\include\ff.h"/>
-         <include file="..\..\..\cmsis_lib\include\diskio.h"/>
-      </source>
       <source file="..\..\..\cmsis_lib\include\tm_stm32f4_delay.h" lastModified="15495d44d0f">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
@@ -144,7 +140,7 @@
       <source file="..\..\..\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="14de25630e8">
          <include file="..\..\..\cmsis_lib\include\tm_stm32f4_gpio.h"/>
       </source>
-      <source file="..\..\..\cmsis_lib\include\ffconf.h" lastModified="154967c6e0e">
+      <source file="..\..\..\cmsis_lib\include\ffconf.h" lastModified="1549a3027e5">
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="152264a7580">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
@@ -164,7 +160,7 @@
       <source file="..\..\..\cmsis_lib\source\syscall.c" lastModified="15495c9c613">
          <include file="..\..\..\cmsis_lib\include\ff.h"/>
       </source>
-      <source file="..\..\..\syscalls\syscalls.c" lastModified="15494b57a01">
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="1549a2195f0">
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="152281c8600">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
@@ -191,7 +187,7 @@
       </source>
       <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="151cfc7b330">
       </source>
-      <source file="..\..\..\cmsis_lib\include\tm_stm32f4_fatfs.h" lastModified="14f25c9d501">
+      <source file="..\..\..\cmsis_lib\include\tm_stm32f4_fatfs.h" lastModified="1549a2e2a4b">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
@@ -199,6 +195,21 @@
          <include file="..\..\..\cmsis_lib\include\tm_stm32f4_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\ff.h"/>
          <include file="..\..\..\cmsis_lib\include\diskio.h"/>
+      </source>
+      <source file="..\..\..\main.c" lastModified="1549a25cc46">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\defines.h"/>
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_ili9341.h"/>
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_fonts.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\tm_stm32f4_fatfs.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\source\tm_stm32f4_fatfs.c" lastModified="14f25c9c916">
          <include file="..\..\..\cmsis_lib\include\tm_stm32f4_fatfs.h"/>
@@ -248,10 +259,10 @@
          <include file="..\..\..\cmsis_lib\include\tm_stm32f4_gpio.h"/>
          <include file="..\..\..\cmsis_lib\include\tm_stm32f4_fatfs.h"/>
       </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="151cfc7ab60">
-      </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="152213305d0">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="151cfc7ab60">
       </source>
       <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151cfcad7e0">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>

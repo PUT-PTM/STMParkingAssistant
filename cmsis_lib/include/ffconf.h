@@ -69,7 +69,7 @@
 / Locale and Namespace Configurations
 /---------------------------------------------------------------------------*/
 
-#define _CODE_PAGE	1252
+#define _CODE_PAGE	0
 /* This option specifies the OEM code page to be used on the target system.
 /  Incorrect setting of the code page can cause a file open failure.
 /
@@ -101,7 +101,7 @@
 /   1    - ASCII (No extended character. Valid for only non-LFN configuration.) */
 
 
-#define	_USE_LFN	3
+#define	_USE_LFN	0
 #define	_MAX_LFN	255
 /* The _USE_LFN option switches the LFN feature.
 /
