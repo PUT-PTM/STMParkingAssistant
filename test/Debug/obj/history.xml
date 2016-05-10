@@ -16,11 +16,11 @@
       <target file="diskio.o" lastModified="154967de4d5">
          <source file="..\..\..\cmsis_lib\source\diskio.c" lastModified="14ddc3290f8"/>
       </target>
-      <target file="tm_stm32f4_gpio.o" lastModified="154967df18e">
-         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="14de25630e8"/>
-      </target>
       <target file="stm32f4xx_syscfg.o" lastModified="154967de2aa">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="152264abbd0"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="154967df18e">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="14de25630e8"/>
       </target>
       <target file="fatfs_sd.o" lastModified="154967de939">
          <source file="..\..\..\cmsis_lib\source\fatfs_sd.c" lastModified="15495d78554"/>
@@ -37,11 +37,11 @@
       <target file="stm32f4xx_adc.o" lastModified="154967de797">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="15246f1cdb0"/>
       </target>
-      <target file="tm_stm32f4_timer_properties.o" lastModified="154967df284">
-         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1488e449b75"/>
-      </target>
       <target file="system_stm32f4xx.o" lastModified="154967debfc">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151cfcad7e0"/>
+      </target>
+      <target file="tm_stm32f4_timer_properties.o" lastModified="154967df284">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1488e449b75"/>
       </target>
       <target file="misc.o" lastModified="154967df10d">
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="152264a3700"/>
@@ -61,23 +61,23 @@
       <target file="stm32f4xx_dac.o" lastModified="154967de40a">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="15246f19ed0"/>
       </target>
-      <target file="syscalls.o" lastModified="154967dec66">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="15494b56a61"/>
-      </target>
       <target file="tm_stm32f4_dma.o" lastModified="154967de81a">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_dma.c" lastModified="14efdd22df5"/>
+      </target>
+      <target file="syscalls.o" lastModified="154967dec66">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="15494b56a61"/>
       </target>
       <target file="stm32f4_discovery_lis302dl.o" lastModified="154967df20e">
          <source file="..\..\..\cmsis_lib\source\stm32f4_discovery_lis302dl.c" lastModified="15227fe3830"/>
       </target>
-      <target file="syscall.o" lastModified="154967dea22">
-         <source file="..\..\..\cmsis_lib\source\syscall.c" lastModified="15495c9c22b"/>
+      <target file="tm_stm32f4_spi.o" lastModified="154967deb09">
+         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_spi.c" lastModified="14f312e7c93"/>
       </target>
       <target file="tm_stm32f4_delay.o" lastModified="154967de9cb">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_delay.c" lastModified="15495d68166"/>
       </target>
-      <target file="tm_stm32f4_spi.o" lastModified="154967deb09">
-         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_spi.c" lastModified="14f312e7c93"/>
+      <target file="syscall.o" lastModified="154967dea22">
+         <source file="..\..\..\cmsis_lib\source\syscall.c" lastModified="15495c9c22b"/>
       </target>
       <target file="ff.o" lastModified="154967dee7e">
          <source file="..\..\..\cmsis_lib\source\ff.c" lastModified="154967c57e5"/>
@@ -85,8 +85,8 @@
       <target file="tm_stm32f4_spi_dma.o" lastModified="154967de383">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_spi_dma.c" lastModified="14ed4326bbf"/>
       </target>
-      <target file="main.o" lastModified="154967de635">
-         <source file="..\..\..\main.c" lastModified="154967ddeb8"/>
+      <target file="main.o" lastModified="15499f88ff6">
+         <source file="..\..\..\main.c" lastModified="15499f88b5c"/>
       </target>
    </processor>
 </history>

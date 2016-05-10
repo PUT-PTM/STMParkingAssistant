@@ -228,7 +228,7 @@ void sdcard(){
 	if (f_mount(&FatFs, "", 1) == FR_OK) {
 	        //Mounted OK, turn on RED LED
 	        GPIO_SetBits(GPIOD,GPIO_Pin_14);
-/*
+
 	        //Try to open file
 	        if (f_open(&fil, "textfile.txt", FA_OPEN_ALWAYS | FA_READ | FA_WRITE) == FR_OK) {
 	            //File opened, turn off RED and turn on GREEN led
@@ -248,10 +248,32 @@ void sdcard(){
 	            //Close file
 	            f_close(&fil);
 	        }
-*/
+
 	        //Unmount drive
 	        f_mount(0, "", 1);
 	    }
+}
+
+void sdcard1(){
+	FATFS FatFs;
+	FIL fil;       /* File object */
+	    char line[82]; /* Line buffer */
+	    FRESULT fr;    /* FatFs return code */
+
+
+	    /* Register work area to the default drive */
+	    f_mount(&FatFs, "", 0);
+
+	    /* Open a text file */
+	    //fr = f_open(&fil, "message.txt", FA_READ);
+	    if (fr) return (int)fr;
+
+	    /* Read all lines and display it */
+	    while (f_gets(line, sizeof line, &fil))
+	        printf(line);
+
+	    /* Close the file */
+	    f_close(&fil);
 }
 
 unsigned int odleglosc;
@@ -277,7 +299,8 @@ int main(void) {
     TRIG_GPIO_conf();
     ECHO_GPIO_conf();
     SystemInit();
-    sdcard();
+    //sdcard();
+    sdcard1();
     GPIOD->BSRRH = GPIO_Pin_1;
 
     char str[100];
