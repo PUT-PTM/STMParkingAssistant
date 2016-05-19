@@ -298,7 +298,7 @@ int main(void) {
     ECHO_GPIO_conf();
     SystemInit();
     //sdcard();
-    sdcard1();
+    //sdcard1();
     GPIOD->BSRRH = GPIO_Pin_1;
 
     char str[100];
