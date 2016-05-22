@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=sdcardv2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\sdcardv2 -TC:\CooCox\CoIDE\configuration\ProgramData\sdcardv2/arm-gcc-link.ld -g">
+      <target file="sdcardv2.elf" lastModified="154d3f2e491">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="154d3f2d7af"/>
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="154d3f2d82c"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="154d3f2d8b9"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="154d3f2d907"/>
+         <source file="..\obj\main.o" lastModified="154d3f2d993"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="154d3f2da3f"/>
+         <source file="..\obj\karta_sd.o" lastModified="154d3f2dba7"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="154d3f2dc53"/>
+         <source file="..\obj\spi_sd.o" lastModified="154d3f2dcef"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="154d3f2dd6c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="154d3f2ddd9"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="154d3f2de66"/>
+         <source file="..\obj\ff.o" lastModified="154d3f2df6f"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="154d3f2e00e"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="154d3f2e09c"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="154d3f2e119"/>
+         <source file="..\obj\misc.o" lastModified="154d3f2e186"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="154d3f2e270"/>
+      </target>
+   </processor>
+</history>
