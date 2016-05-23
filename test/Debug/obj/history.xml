@@ -16,7 +16,6 @@
       <target file="diskio.o" lastModified="154afc0e7b9">
          <source file="..\..\..\cmsis_lib\source\diskio.c" lastModified="14ddc3290f8"/>
       </target>
-<<<<<<< HEAD
       <target file="stm32f4xx_syscfg.o" lastModified="1549a01ffa3">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="152264abbd0"/>
       </target>
@@ -24,15 +23,6 @@
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="14de25630e8"/>
       </target>
       <target file="fatfs_sd.o" lastModified="154afc0eae8">
-=======
-      <target file="tm_stm32f4_gpio.o" lastModified="154967df18e">
-         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_gpio.c" lastModified="14de25630e8"/>
-      </target>
-      <target file="stm32f4xx_syscfg.o" lastModified="154967de2aa">
-         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="152264abbd0"/>
-      </target>
-      <target file="fatfs_sd.o" lastModified="154967de939">
->>>>>>> parent of 9639250... sdcard
          <source file="..\..\..\cmsis_lib\source\fatfs_sd.c" lastModified="15495d78554"/>
       </target>
       <target file="tm_stm32f4_fonts.o" lastModified="154afc0f0a1">
@@ -47,7 +37,6 @@
       <target file="stm32f4xx_adc.o" lastModified="1549a0204d4">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="15246f1cdb0"/>
       </target>
-<<<<<<< HEAD
       <target file="system_stm32f4xx.o" lastModified="1549a020929">
          <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151cfcad7e0"/>
       </target>
@@ -55,15 +44,6 @@
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1488e449b75"/>
       </target>
       <target file="misc.o" lastModified="1549a020e49">
-=======
-      <target file="tm_stm32f4_timer_properties.o" lastModified="154967df284">
-         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_timer_properties.c" lastModified="1488e449b75"/>
-      </target>
-      <target file="system_stm32f4xx.o" lastModified="154967debfc">
-         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="151cfcad7e0"/>
-      </target>
-      <target file="misc.o" lastModified="154967df10d">
->>>>>>> parent of 9639250... sdcard
          <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="152264a3700"/>
       </target>
       <target file="stm32f4xx_dma.o" lastModified="1549a020a13">
@@ -81,7 +61,6 @@
       <target file="stm32f4xx_dac.o" lastModified="1549a0200eb">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="15246f19ed0"/>
       </target>
-<<<<<<< HEAD
       <target file="syscalls.o" lastModified="1549a22fa64">
          <source file="..\..\..\syscalls\syscalls.c" lastModified="1549a218650"/>
       </target>
@@ -92,28 +71,12 @@
          <source file="..\..\..\cmsis_lib\source\stm32f4_discovery_lis302dl.c" lastModified="15227fe3830"/>
       </target>
       <target file="syscall.o" lastModified="1549a303042">
-=======
-      <target file="syscalls.o" lastModified="154967dec66">
-         <source file="..\..\..\syscalls\syscalls.c" lastModified="15494b56a61"/>
-      </target>
-      <target file="tm_stm32f4_dma.o" lastModified="154967de81a">
-         <source file="..\..\..\cmsis_lib\source\tm_stm32f4_dma.c" lastModified="14efdd22df5"/>
-      </target>
-      <target file="stm32f4_discovery_lis302dl.o" lastModified="154967df20e">
-         <source file="..\..\..\cmsis_lib\source\stm32f4_discovery_lis302dl.c" lastModified="15227fe3830"/>
-      </target>
-      <target file="syscall.o" lastModified="154967dea22">
->>>>>>> parent of 9639250... sdcard
          <source file="..\..\..\cmsis_lib\source\syscall.c" lastModified="15495c9c22b"/>
       </target>
       <target file="tm_stm32f4_delay.o" lastModified="154afc0eb75">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_delay.c" lastModified="15495d68166"/>
       </target>
-<<<<<<< HEAD
       <target file="tm_stm32f4_spi.o" lastModified="154afc0ec6f">
-=======
-      <target file="tm_stm32f4_spi.o" lastModified="154967deb09">
->>>>>>> parent of 9639250... sdcard
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_spi.c" lastModified="14f312e7c93"/>
       </target>
       <target file="ff.o" lastModified="154afc0edd6">
@@ -122,13 +85,8 @@
       <target file="tm_stm32f4_spi_dma.o" lastModified="154afc0e6cf">
          <source file="..\..\..\cmsis_lib\source\tm_stm32f4_spi_dma.c" lastModified="14ed4326bbf"/>
       </target>
-<<<<<<< HEAD
       <target file="main.o" lastModified="154c7fc8fdd">
          <source file="..\..\..\main.c" lastModified="154c7fc888a"/>
-=======
-      <target file="main.o" lastModified="154967de635">
-         <source file="..\..\..\main.c" lastModified="154967ddeb8"/>
->>>>>>> parent of 9639250... sdcard
       </target>
    </processor>
 </history>
