@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib /I..\..\..\workspace\mp33 /I..\..\..\..\..\Users\Patryk\Desktop /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3 /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc /I..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix">
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\Audio.h" lastModified="138821ee090">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\src\Audio.c" lastModified="1388219ac88">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\Audio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\stm32f4xx_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\startup_stm32f4xx.s" lastModified="154e2308a75">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\mp3tabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\mp3dec.c" lastModified="138811ec228">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_iwdg.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cmInstr.h" lastModified="1384bc1cf08">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_sdio.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\main.h" lastModified="13871e2d740">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_spi.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dma.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\src\system_stm32f4xx.c" lastModified="1388ab9e150">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\dequant.c" lastModified="13881b0c510">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\misc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_gpio.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dbgmcu.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_flash.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dcmi.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_usart.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\src\main.c" lastModified="1388aff6630">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\stm32f4xx_conf.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\utils.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\Audio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\mp3dec.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_spi.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_spi.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_dma.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dma.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_wwdg.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_hash_md5.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_iwdg.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_iwdg.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_flash.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_flash.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\trigtabs_fixpt.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_rcc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_hash_sha1.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_hash.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_sdio.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_usart.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_usart.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\src\mp3_data.c" lastModified="1388ad47dd0">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_cryp.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_cryp_aes.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rng.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_crc.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\bitstream.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_adc.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_hash.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_dcmi.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cm4_simd.h" lastModified="1384bc1cf08">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\stm32f4xx_conf.h" lastModified="13851cfd7a0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_adc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_can.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_crc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dac.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dbgmcu.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dma.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_exti.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_flash.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_hash.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rng.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_spi.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_usart.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_syscfg.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_rng.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rng.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\dqchan.c" lastModified="154e22e2308">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\platform.h" lastModified="138811ec228">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_wwdg.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\misc.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_crc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_crc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\utils.h" lastModified="13875fac0e0">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_adc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_adc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_cryp.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx_conf.h" lastModified="1384bc1cb20">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_adc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_can.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_crc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dac.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dbgmcu.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dcmi.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dma.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_exti.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_flash.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_hash.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_iwdg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rng.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rtc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_spi.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_usart.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_wwdg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\misc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\imdct.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_i2c.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_dbgmcu.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dbgmcu.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_exti.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\src\syscalls.c" lastModified="138773a70b8">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_pwr.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_can.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_hash.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_hash.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rtc.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\mp3dec.h" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\src\utils.c" lastModified="138761cb448">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\utils.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\statname.h" lastModified="138811ebe40">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_tim.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\scalfact.c" lastModified="154e22de2ae">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\dct32.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\buffers.c" lastModified="1388af06e28">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\system_stm32f4xx.h" lastModified="1384bc1cb20">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\huffman.c" lastModified="154e22ce4b7">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_i2c.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_fsmc.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\src\stm32f4xx_it.c" lastModified="13871e2bfd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\stm32f4xx_it.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\main.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_pwr.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_pwr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_can.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_can.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\stproc.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_rtc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rtc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\polyphase.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\mp3common.h" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\mp3dec.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\statname.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_syscfg.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_tim.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_tim.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cmFunc.h" lastModified="1384bc1cf08">
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dac.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_cryp_des.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h" lastModified="1384bc1cf08">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cm4.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\system_stm32f4xx.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\inc\stm32f4xx_it.h" lastModified="1384bc1cb20">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cm4.h" lastModified="1384bc1cf08">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cmInstr.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cmFunc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\core\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_exti.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_exti.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_cryp_tdes.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_cryp.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\subband.c" lastModified="154e22de28f">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_dac.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_dac.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\src\peripherals\stm32f4xx_fsmc.c" lastModified="13851f4ebd0">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_fsmc.h"/>
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\hufftabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\peripherals\stm32f4xx_gpio.h" lastModified="13851f48640">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\lib\inc\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\real\coder.h" lastModified="13881b79340">
+         <include file="..\..\..\..\..\..\..\Users\Patryk\Desktop\STM32F4_Discovery_MP3\helix\pub\mp3common.h"/>
+      </source>
+   </includePath>
+</dependencies>

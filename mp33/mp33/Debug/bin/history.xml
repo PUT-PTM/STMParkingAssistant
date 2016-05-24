@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=mp33.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\mp33 -TC:\CooCox\CoIDE\configuration\ProgramData\mp33/arm-gcc-link.ld -g">
+      <target file="mp33.elf" lastModified="154e23aee3d">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="154e23abc8e"/>
+         <source file="..\obj\dqchan.o" lastModified="154e23abcfb"/>
+         <source file="..\obj\scalfact.o" lastModified="154e23abd88"/>
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="154e23abe15"/>
+         <source file="..\obj\mp3_data.o" lastModified="154e23ad304"/>
+         <source file="..\obj\bitstream.o" lastModified="154e23ad391"/>
+         <source file="..\obj\dequant.o" lastModified="154e23ad3ef"/>
+         <source file="..\obj\hufftabs.o" lastModified="154e23ad45c"/>
+         <source file="..\obj\stm32f4xx_hash.o" lastModified="154e23ad4d9"/>
+         <source file="..\obj\stm32f4xx_cryp_aes.o" lastModified="154e23ad566"/>
+         <source file="..\obj\imdct.o" lastModified="154e23ad612"/>
+         <source file="..\obj\stm32f4xx_hash_sha1.o" lastModified="154e23ad68f"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="154e23ad71b"/>
+         <source file="..\obj\stm32f4xx_pwr.o" lastModified="154e23ad789"/>
+         <source file="..\obj\stm32f4xx_can.o" lastModified="154e23ad835"/>
+         <source file="..\obj\mp3tabs.o" lastModified="154e23ad883"/>
+         <source file="..\obj\stm32f4xx_wwdg.o" lastModified="154e23ad8f0"/>
+         <source file="..\obj\stm32f4xx_hash_md5.o" lastModified="154e23ad95d"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="154e23ad9da"/>
+         <source file="..\obj\subband.o" lastModified="154e23ada29"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="154e23ada48"/>
+         <source file="..\obj\stm32f4xx_crc.o" lastModified="154e23adaa6"/>
+         <source file="..\obj\stm32f4xx_iwdg.o" lastModified="154e23adb23"/>
+         <source file="..\obj\mp3dec.o" lastModified="154e23adba0"/>
+         <source file="..\obj\main.o" lastModified="154e23adc5b"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="154e23adcf7"/>
+         <source file="..\obj\utils.o" lastModified="154e23add65"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="154e23addd2"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="154e23ade6e"/>
+         <source file="..\obj\stm32f4xx_dcmi.o" lastModified="154e23adeeb"/>
+         <source file="..\obj\stm32f4xx_cryp_des.o" lastModified="154e23adf59"/>
+         <source file="..\obj\stm32f4xx_cryp.o" lastModified="154e23adfd6"/>
+         <source file="..\obj\stm32f4xx_fsmc.o" lastModified="154e23ae062"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="154e23ae0df"/>
+         <source file="..\obj\stm32f4xx_flash.o" lastModified="154e23ae16c"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="154e23ae1d9"/>
+         <source file="..\obj\syscalls.o" lastModified="154e23ae266"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="154e23ae2f3"/>
+         <source file="..\obj\stproc.o" lastModified="154e23ae360"/>
+         <source file="..\obj\huffman.o" lastModified="154e23ae3dd"/>
+         <source file="..\obj\trigtabs_fixpt.o" lastModified="154e23ae43b"/>
+         <source file="..\obj\buffers.o" lastModified="154e23ae4a8"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="154e23ae535"/>
+         <source file="..\obj\dct32.o" lastModified="154e23ae5b2"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="154e23ae63f"/>
+         <source file="..\obj\stm32f4xx_rng.o" lastModified="154e23ae6bc"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="154e23ae739"/>
+         <source file="..\obj\misc.o" lastModified="154e23ae796"/>
+         <source file="..\obj\Audio.o" lastModified="154e23ae842"/>
+         <source file="..\obj\polyphase.o" lastModified="154e23ae8ee"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="154e23ae9b9"/>
+         <source file="..\obj\stm32f4xx_cryp_tdes.o" lastModified="154e23aea27"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="154e23aeb21"/>
+         <source file="..\obj\stm32f4xx_dbgmcu.o" lastModified="154e23aebbd"/>
+      </target>
+   </processor>
+</history>
