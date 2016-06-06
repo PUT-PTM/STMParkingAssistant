@@ -17,22 +17,62 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.coocox.welcome.ui.WelcomePage" name="" partName="welcome" title="welcome" tooltip="" workbook="DefaultEditorWorkbook">
-<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">
-<org.coocox.welcome.ui.WelcomePage/>
+<editor id="org.coocox.welcome.ui.WelcomePage" name="" partName="welcome" title="welcome" tooltip="" workbook="DefaultEditorWorkbook">
+<input factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory">&#x0A;<org.coocox.welcome.ui.WelcomePage/>
 </input>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/src/main.c" title="main.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/src/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mp33/src/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4783" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Audio.c" partName="Audio.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/src/Audio.c" title="Audio.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/src/Audio.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mp33/src/Audio.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="4471"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mp3dec.c" partName="mp3dec.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/helix/mp3dec.c" title="mp3dec.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/helix/mp3dec.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mp33/helix/mp3dec.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11013" selectionTopPixel="2642"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_data.c" partName="mp3_data.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/src/mp3_data.c" title="mp3_data.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/src/mp3_data.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mp33/src/mp3_data.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="388" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="karta_sd.c" partName="karta_sd.c" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/karta_sd.c" title="karta_sd.c" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/karta_sd.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mp33/karta_sd.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4001" selectionTopPixel="2644"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="karta_sd.h" partName="karta_sd.h" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/karta_sd.h" title="karta_sd.h" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/karta_sd.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mp33/karta_sd.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1263" selectionTopPixel="527"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ff.h" partName="ff.h" path="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/fatfs/ff.h" title="ff.h" tooltip="C:/Users/Patryk/Documents/GitHub/STMParkingAssistant/mp33/fatfs/ff.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/mp33/fatfs/ff.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="73" selectionOffset="23746" selectionTopPixel="6694"/>
 </editor>
 </editors>
 <views>
 <view id="org.coocox.builder.ui.views.ProjectView" partName="Project">
-<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="0">
+<viewState CommonNavigator.LINKING_ENABLED="0" horizontalPosition="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0" verticalPosition="24">
 <expanded>
 <element path="/mp33"/>
+<element path="/mp33/helix"/>
+<element path="/mp33/lib_cm4"/>
+<element path="/mp33/src"/>
 </expanded>
+<selection>
+<element path="/mp33/karta_sd.h"/>
+</selection>
 </viewState>
 </view>
 <view id="org.coocox.component.ui.ComponentView" partName="Components">
@@ -48,7 +88,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.coocox.builder.ui.views.ProjectView" activePerspective="org.coocox.builder.perspective.CoBuilder">
+<perspectives activePart="org.eclipse.cdt.ui.editor.CEditor" activePerspective="org.coocox.builder.perspective.CoBuilder">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.coocox.builder.ui.PerspectiveCoBuilder" id="org.coocox.builder.perspective.CoBuilder" label="CooCox CoBuilder"/>
 <alwaysOnActionSet id="org.coocox.component.ui.actionSet"/>
@@ -61,23 +101,23 @@
 <alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
 <alwaysOnActionSet id="org.coocox.userspace.actionSet"/>
-<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
-<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
+<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.ShowDisassemblyAction"/>
 <hide_menu_item_id id="org.coocox.codebugger.configuration.showExpressionsAction"/>
-<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
-<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryAction"/>
-<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
-<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
-<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
-<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
-<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showDebugAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showConsoleAction"/>
 <hide_menu_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
-<hide_menu_item_id id="org.eclipse.jdt.ui.refactoring.menu"/>
 <hide_menu_item_id id="org.eclipse.jdt.ui.source.menu"/>
-<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showMemoryBrowserAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showVariablesAction"/>
+<hide_menu_item_id id="org.coocox.builder.ui.openProjectExplorerAction"/>
+<hide_menu_item_id id="org.coocox.codebugger.trace.actions.ShowTraceControlAction"/>
+<hide_menu_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
+<hide_menu_item_id id="org.coocox.codebugger.configuration.showRegistersAction"/>
 <hide_toolbar_item_id id="org.eclipse.cdt.debug.internal.ui.actions.ToggleInstructionStepModeAction"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<hide_toolbar_item_id id="org.eclipse.debug.ui.commands.TerminateAndRelaunch"/>
 <view id="org.coocox.component.ui.ComponentView"/>
 <view id="org.coocox.builder.ui.views.ProjectView"/>
 <view id="org.coocox.component.ui.Help"/>
@@ -138,175 +178,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="702" subPageIndex="2" verticalPosition="0"/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/main.c"/>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
-<org.coocox.welcome.ui.WelcomePage/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/Audio.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/inc/Audio.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/syscalls.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/stm32f4xx_it.c"/>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
-<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="1" verticalPosition="92"/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/lib/inc/stm32f4xx_conf.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/lib/inc/stm32f4xx.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/lib/inc/system_stm32f4xx.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/mp3_data.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/mp3_data.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/Audio.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/sdcardv2/main.c"/>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.builder.ui.editors.ConfigEditor">
-<org.coocox.builder.ui.editors.ConfigEditor horizontalPosition="0" subTagIndex="5" verticalPosition="0"/>
-</editor>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
-<org.coocox.welcome.ui.WelcomePage/>
-</editor>
-<editor factoryID="org.coocox.component.ui.editors.repository.RepositoryElementFactory" id="org.coocox.builder.ui.editors.repository.RepositoryBrowser">
-<subPage horizontalPosition="0" selectedItemId="30" subPageIndex="2" verticalPosition="0"/>
-</editor>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/src/main.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/helix/real/huffman.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/helix/real/subband.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/helix/real/scalfact.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/helix/real/dqchan.c"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" path="/mp33/lib/startup_stm32f4xx.s"/>
-<editor factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage">
-<org.coocox.welcome.ui.WelcomePage/>
-</editor>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/src/Audio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/helix/mp3dec.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/src/mp3_data.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/karta_sd.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/karta_sd.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/fatfs/ff.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/helix/mp3dec.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/src/Audio.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/mp33/src/main.c"/>
 </editors>
-<item historyLabel="Repository" index="0"/>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="1133" y="0"/>
+<item historyLabel="mp3_data.c" index="3">
+<position/>
 </item>
-<item historyLabel="Repository" index="0"/>
-<item historyLabel="main.c" index="1">
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4347" y="1"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="472" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4175" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position/>
+</item>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item historyLabel="mp3dec.c" index="2">
+<position info="not_deleted" x="560" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="389" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="421" y="18"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="471" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="421" y="18"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4175" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4021" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="421" y="18"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="3996" y="27"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4175" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4157" y="0"/>
+</item>
+<item historyLabel="karta_sd.h" index="5">
+<position info="not_deleted" x="1268" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4175" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="991" y="0"/>
+</item>
+<item historyLabel="mp3dec.c" index="2">
+<position info="not_deleted" x="560" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4021" y="0"/>
+</item>
+<item historyLabel="ff.h" index="6">
+<position info="not_deleted" x="23746" y="73"/>
+</item>
+<item historyLabel="karta_sd.h" index="5">
+<position info="not_deleted" x="1268" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="421" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4471" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="425" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4471" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="3996" y="27"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="425" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="3996" y="27"/>
+</item>
+<item historyLabel="karta_sd.h" index="5">
+<position info="not_deleted" x="1263" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="421" y="18"/>
+</item>
+<item historyLabel="Audio.c" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="welcome" index="2"/>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="254" y="0"/>
+<item historyLabel="mp3dec.c" index="2">
+<position info="not_deleted" x="560" y="0"/>
 </item>
-<item historyLabel="Audio.c" index="3">
-<position info="not_deleted" x="96" y="0"/>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="415" y="24"/>
 </item>
-<item historyLabel="Audio.h" index="4">
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4021" y="0"/>
+</item>
+<item historyLabel="karta_sd.h" index="5">
+<position info="not_deleted" x="1263" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4001" y="0"/>
+</item>
+<item historyLabel="karta_sd.h" index="5">
+<position info="not_deleted" x="1263" y="0"/>
+</item>
+<item historyLabel="karta_sd.c" index="4">
+<position info="not_deleted" x="4001" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="439" y="0"/>
+</item>
+<item historyLabel="mp3_data.c" index="3">
+<position info="not_deleted" x="3482987" y="18"/>
+</item>
+<item historyLabel="mp3dec.c" index="7">
+<position info="not_deleted" x="560" y="0"/>
+</item>
+<item historyLabel="Audio.c" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Audio.c" index="3">
-<position info="not_deleted" x="178" y="0"/>
+<item historyLabel="main.c" index="9">
+<position info="not_deleted" x="4783" y="0"/>
 </item>
-<item historyLabel="syscalls.c" index="5">
-<position info="not_deleted" x="78" y="0"/>
+<item historyLabel="mp3dec.c" index="7">
+<position info="not_deleted" x="11013" y="0"/>
 </item>
-<item historyLabel="stm32f4xx_it.c" index="6">
-<position info="not_deleted" x="1636" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="602" y="0"/>
-</item>
-<item historyLabel="Audio.c" index="3">
-<position info="not_deleted" x="178" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="907" y="8"/>
-</item>
-<item historyLabel="Audio.c" index="3">
-<position info="not_deleted" x="6968" y="0"/>
-</item>
-<item historyLabel="Audio.h" index="4">
+<item historyLabel="Audio.c" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2971" y="0"/>
+<item active="true" historyLabel="main.c" index="9">
+<position info="not_deleted" x="4783" y="0"/>
 </item>
-<item historyLabel="Configuration" index="7"/>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2971" y="0"/>
-</item>
-<item historyLabel="stm32f4xx_conf.h" index="8">
-<position info="not_deleted" x="610" y="0"/>
-</item>
-<item historyLabel="stm32f4xx.h" index="9">
-<position info="not_deleted" x="869" y="0"/>
-</item>
-<item historyLabel="system_stm32f4xx.h" index="10">
-<position info="not_deleted" x="665" y="0"/>
-</item>
-<item historyLabel="mp3_data.c" index="11">
-<position info="not_deleted" x="1405" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="2971" y="0"/>
-</item>
-<item historyLabel="mp3_data.c" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Audio.c" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="main.c" index="14">
-<position info="not_deleted" x="246" y="7"/>
-</item>
-<item historyLabel="Configuration" index="15"/>
-<item historyLabel="main.c" index="14">
-<position info="not_deleted" x="1831" y="0"/>
-</item>
-<item historyLabel="welcome" index="16"/>
-<item historyLabel="Repository" index="17"/>
-<item historyLabel="main.c" index="18">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Repository" index="17"/>
-<item historyLabel="main.c" index="18">
-<position info="not_deleted" x="96" y="0"/>
-</item>
-<item historyLabel="Repository" index="17"/>
-<item historyLabel="main.c" index="18">
-<position info="not_deleted" x="96" y="0"/>
-</item>
-<item historyLabel="huffman.c" index="19">
-<position info="not_deleted" x="13948" y="0"/>
-</item>
-<item historyLabel="subband.c" index="20">
-<position info="not_deleted" x="2783" y="0"/>
-</item>
-<item historyLabel="huffman.c" index="19">
-<position info="not_deleted" x="13948" y="23"/>
-</item>
-<item historyLabel="subband.c" index="20">
-<position info="not_deleted" x="2783" y="16"/>
-</item>
-<item historyLabel="scalfact.c" index="21">
-<position info="not_deleted" x="8137" y="0"/>
-</item>
-<item historyLabel="dqchan.c" index="22">
-<position info="not_deleted" x="8453" y="0"/>
-</item>
-<item historyLabel="huffman.c" index="19">
-<position info="not_deleted" x="13948" y="0"/>
-</item>
-<item historyLabel="subband.c" index="20">
-<position info="not_deleted" x="2782" y="0"/>
-</item>
-<item historyLabel="scalfact.c" index="21">
-<position info="not_deleted" x="8136" y="0"/>
-</item>
-<item historyLabel="dqchan.c" index="22">
-<position info="not_deleted" x="8471" y="0"/>
-</item>
-<item historyLabel="startup_stm32f4xx.s" index="23">
-<position info="not_deleted" x="4420" y="0"/>
-</item>
-<item historyLabel="welcome" index="24"/>
-<item historyLabel="main.c" index="25">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="welcome" index="24"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -314,13 +346,32 @@
 <actionBarAdvisor/>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ff.h" tooltip="mp33/fatfs/ff.h">
+<persistable path="/mp33/fatfs/ff.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="karta_sd.h" tooltip="mp33/karta_sd.h">
+<persistable path="/mp33/karta_sd.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="karta_sd.c" tooltip="mp33/karta_sd.c">
+<persistable path="/mp33/karta_sd.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_data.c" tooltip="mp33/src/mp3_data.c">
+<persistable path="/mp33/src/mp3_data.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp3dec.c" tooltip="mp33/helix/mp3dec.c">
+<persistable path="/mp33/helix/mp3dec.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Audio.c" tooltip="mp33/src/Audio.c">
+<persistable path="/mp33/src/Audio.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="mp33/src/main.c">
+<persistable path="/mp33/src/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup.S" tooltip="mp33/lib_cm4/startup.S">
+<persistable path="/mp33/lib_cm4/startup.S"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="mp33/main.c">
 <persistable path="/mp33/main.c"/>
-</file>
-<file factoryID="org.coocox.builder.ui.persistent.PersistentElementFactory" id="org.coocox.welcome.ui.WelcomePage" name="" tooltip="">
-<persistable>
-<org.coocox.welcome.ui.WelcomePage/>
-</persistable>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.asm.AsmEditor" name="startup_stm32f4xx.s" tooltip="mp33/lib/startup_stm32f4xx.s">
 <persistable path="/mp33/lib/startup_stm32f4xx.s"/>
@@ -337,29 +388,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="huffman.c" tooltip="mp33/helix/real/huffman.c">
 <persistable path="/mp33/helix/real/huffman.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="mp33/src/main.c">
-<persistable path="/mp33/src/main.c"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="mp3v1/main.c">
 <persistable path="/mp3v1/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="karta_sd.c" tooltip="sdcardv2/karta_sd.c">
-<persistable path="/sdcardv2/karta_sd.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="mp3_data.c" tooltip="sdcardv2/mp3_data.c">
-<persistable path="/sdcardv2/mp3_data.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="system_stm32f4xx.h" tooltip="sdcardv2/lib/inc/system_stm32f4xx.h">
-<persistable path="/sdcardv2/lib/inc/system_stm32f4xx.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx.h" tooltip="sdcardv2/lib/inc/stm32f4xx.h">
-<persistable path="/sdcardv2/lib/inc/stm32f4xx.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_conf.h" tooltip="sdcardv2/lib/inc/stm32f4xx_conf.h">
-<persistable path="/sdcardv2/lib/inc/stm32f4xx_conf.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="stm32f4xx_it.c" tooltip="sdcardv2/stm32f4xx_it.c">
-<persistable path="/sdcardv2/stm32f4xx_it.c"/>
 </file>
 </mruList>
 </workbench>

@@ -26,6 +26,7 @@ extern const char mp3_data[];
 
 int main(void) {
 	init();
+	start_sd();
 	int volume = 0;
 
 	// Play mp3

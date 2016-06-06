@@ -72,6 +72,7 @@
     <File name="lib/inc/peripherals/stm32f4xx_spi.h" path="lib/inc/peripherals/stm32f4xx_spi.h" type="1"/>
     <File name="mp33/Debug/obj/dct32.o" path="mp33/Debug/obj/dct32.o" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_pwr.c" path="lib/src/peripherals/stm32f4xx_pwr.c" type="1"/>
+    <File name="fatfs/integer.h" path="fatfs/integer.h" type="1"/>
     <File name="mp33/Debug/bin/mp33.hex" path="mp33/Debug/bin/mp33.hex" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_syscfg.o" path="mp33/Debug/obj/stm32f4xx_syscfg.o" type="1"/>
     <File name="src" path="" type="2"/>
@@ -81,15 +82,16 @@
     <File name="mp33/Debug/obj/dependencies.xml" path="mp33/Debug/obj/dependencies.xml" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_adc.h" path="lib/inc/peripherals/stm32f4xx_adc.h" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_dcmi.h" path="lib/inc/peripherals/stm32f4xx_dcmi.h" type="1"/>
-    <File name="lib/inc/core/core_cmInstr.h" path="lib/inc/core/core_cmInstr.h" type="1"/>
+    <File name="fatfs/ff.c" path="fatfs/ff.c" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_i2c.c" path="lib/src/peripherals/stm32f4xx_i2c.c" type="1"/>
     <File name="mp33/Debug/obj/buffers.o" path="mp33/Debug/obj/buffers.o" type="1"/>
+    <File name="lib/inc/core/core_cmInstr.h" path="lib/inc/core/core_cmInstr.h" type="1"/>
     <File name="helix/pub/RCSL.txt" path="helix/pub/RCSL.txt" type="1"/>
     <File name="helix/real" path="" type="2"/>
     <File name="mp33/Debug/obj/dqchan.o" path="mp33/Debug/obj/dqchan.o" type="1"/>
     <File name="helix/pub/mpadecobjfixpt.h" path="helix/pub/mpadecobjfixpt.h" type="1"/>
-    <File name="helix/real/stproc.c" path="helix/real/stproc.c" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_cryp_aes.c" path="lib/src/peripherals/stm32f4xx_cryp_aes.c" type="1"/>
+    <File name="helix/real/stproc.c" path="helix/real/stproc.c" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_spi.c" path="lib/src/peripherals/stm32f4xx_spi.c" type="1"/>
     <File name="helix/real/dct32.c" path="helix/real/dct32.c" type="1"/>
     <File name="helix/pub/LICENSE.txt" path="helix/pub/LICENSE.txt" type="1"/>
@@ -99,6 +101,7 @@
     <File name="inc/stm32f4xx_it.h" path="inc/stm32f4xx_it.h" type="1"/>
     <File name="helix/pub/CVS/Repository" path="helix/pub/CVS/Repository" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_fsmc.o" path="mp33/Debug/obj/stm32f4xx_fsmc.o" type="1"/>
+    <File name="karta_sd.c" path="karta_sd.c" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_syscfg.c" path="lib/src/peripherals/stm32f4xx_syscfg.c" type="1"/>
     <File name="lib/inc/core/arm_math.h" path="lib/inc/core/arm_math.h" type="1"/>
     <File name="mp33/Debug/bin" path="" type="2"/>
@@ -108,36 +111,41 @@
     <File name="lib/inc/peripherals/stm32f4xx_dac.h" path="lib/inc/peripherals/stm32f4xx_dac.h" type="1"/>
     <File name="helix/real/hufftabs.c" path="helix/real/hufftabs.c" type="1"/>
     <File name="lib/src/peripherals" path="" type="2"/>
-    <File name="lib/src/peripherals/stm32f4xx_hash_md5.c" path="lib/src/peripherals/stm32f4xx_hash_md5.c" type="1"/>
-    <File name="lib/src/peripherals/stm32f4xx_dma.c" path="lib/src/peripherals/stm32f4xx_dma.c" type="1"/>
     <File name="helix/real/CVS/Repository" path="helix/real/CVS/Repository" type="1"/>
+    <File name="lib/src/peripherals/stm32f4xx_dma.c" path="lib/src/peripherals/stm32f4xx_dma.c" type="1"/>
     <File name="mp33/Debug/obj/system_stm32f4xx.o" path="mp33/Debug/obj/system_stm32f4xx.o" type="1"/>
+    <File name="lib/src/peripherals/stm32f4xx_hash_md5.c" path="lib/src/peripherals/stm32f4xx_hash_md5.c" type="1"/>
     <File name="lib/inc/core/core_cm3.h" path="lib/inc/core/core_cm3.h" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_cryp_tdes.c" path="lib/src/peripherals/stm32f4xx_cryp_tdes.c" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_usart.h" path="lib/inc/peripherals/stm32f4xx_usart.h" type="1"/>
     <File name="helix/pub/RPSL.txt" path="helix/pub/RPSL.txt" type="1"/>
+    <File name="karta_sd.h" path="karta_sd.h" type="1"/>
     <File name="helix/pub/mp3common.h" path="helix/pub/mp3common.h" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_wwdg.c" path="lib/src/peripherals/stm32f4xx_wwdg.c" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_can.h" path="lib/inc/peripherals/stm32f4xx_can.h" type="1"/>
     <File name="mp33/Debug/obj/subband.o" path="mp33/Debug/obj/subband.o" type="1"/>
     <File name="inc/stm32f4xx_conf.h" path="inc/stm32f4xx_conf.h" type="1"/>
-    <File name="mp33/Debug/obj/mp3_data.o" path="mp33/Debug/obj/mp3_data.o" type="1"/>
     <File name="helix/pub/mp3dec.h" path="helix/pub/mp3dec.h" type="1"/>
+    <File name="mp33/Debug/obj/mp3_data.o" path="mp33/Debug/obj/mp3_data.o" type="1"/>
+    <File name="lib_cm4/core_cm4_simd.h" path="lib_cm4/core_cm4_simd.h" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_can.o" path="mp33/Debug/obj/stm32f4xx_can.o" type="1"/>
     <File name="inc/Audio.h" path="inc/Audio.h" type="1"/>
     <File name="helix/real/CVS" path="" type="2"/>
+    <File name="fatfs/diskio.h" path="fatfs/diskio.h" type="1"/>
     <File name="helix/pub/CVS/Root" path="helix/pub/CVS/Root" type="1"/>
-    <File name="lib/src/peripherals/stm32f4xx_dcmi.c" path="lib/src/peripherals/stm32f4xx_dcmi.c" type="1"/>
     <File name="lib/inc/core/arm_common_tables.h" path="lib/inc/core/arm_common_tables.h" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_dbgmcu.c" path="lib/src/peripherals/stm32f4xx_dbgmcu.c" type="1"/>
+    <File name="lib/src/peripherals/stm32f4xx_dcmi.c" path="lib/src/peripherals/stm32f4xx_dcmi.c" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_iwdg.c" path="lib/src/peripherals/stm32f4xx_iwdg.c" type="1"/>
     <File name="helix/pub" path="" type="2"/>
     <File name="mp33/Debug/bin/history.xml" path="mp33/Debug/bin/history.xml" type="1"/>
     <File name="helix/real/imdct.c" path="helix/real/imdct.c" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_hash_sha1.o" path="mp33/Debug/obj/stm32f4xx_hash_sha1.o" type="1"/>
+    <File name="delay/delay.h" path="delay/delay.h" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_cryp.h" path="lib/inc/peripherals/stm32f4xx_cryp.h" type="1"/>
-    <File name="mp33" path="" type="2"/>
     <File name="lib/inc/peripherals/stm32f4xx_i2c.h" path="lib/inc/peripherals/stm32f4xx_i2c.h" type="1"/>
+    <File name="mp33" path="" type="2"/>
+    <File name="delay/delay.c" path="delay/delay.c" type="1"/>
     <File name="mp33/Debug/obj/startup_stm32f4xx.o" path="mp33/Debug/obj/startup_stm32f4xx.o" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_tim.h" path="lib/inc/peripherals/stm32f4xx_tim.h" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_hash.h" path="lib/inc/peripherals/stm32f4xx_hash.h" type="1"/>
@@ -158,14 +166,17 @@
     <File name="inc/utils.h" path="inc/utils.h" type="1"/>
     <File name="helix/real/trigtabs_fixpt.c" path="helix/real/trigtabs_fixpt.c" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_rng.c" path="lib/src/peripherals/stm32f4xx_rng.c" type="1"/>
+    <File name="lib_cm4/core_cmInstr.h" path="lib_cm4/core_cmInstr.h" type="1"/>
     <File name="helix/real/polyphase.c" path="helix/real/polyphase.c" type="1"/>
+    <File name="lib_cm4/system_stm32f4xx.h" path="lib_cm4/system_stm32f4xx.h" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_wwdg.h" path="lib/inc/peripherals/stm32f4xx_wwdg.h" type="1"/>
-    <File name="mp33/Debug/obj/stm32f4xx_iwdg.o" path="mp33/Debug/obj/stm32f4xx_iwdg.o" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_flash.o" path="mp33/Debug/obj/stm32f4xx_flash.o" type="1"/>
+    <File name="mp33/Debug/obj/stm32f4xx_iwdg.o" path="mp33/Debug/obj/stm32f4xx_iwdg.o" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_usart.c" path="lib/src/peripherals/stm32f4xx_usart.c" type="1"/>
     <File name="lib/inc/core" path="" type="2"/>
-    <File name="helix/real/scalfact.c" path="helix/real/scalfact.c" type="1"/>
     <File name="helix/real/buffers.c" path="helix/real/buffers.c" type="1"/>
+    <File name="helix/real/scalfact.c" path="helix/real/scalfact.c" type="1"/>
+    <File name="lib_cm4/core_cm4.h" path="lib_cm4/core_cm4.h" type="1"/>
     <File name="lib/inc/stm32f4xx.h" path="lib/inc/stm32f4xx.h" type="1"/>
     <File name="helix/real/huffman.c" path="helix/real/huffman.c" type="1"/>
     <File name="mp33/Debug/obj/mp3tabs.o" path="mp33/Debug/obj/mp3tabs.o" type="1"/>
@@ -177,10 +188,12 @@
     <File name="mp33/Debug/obj/stm32f4xx_it.o" path="mp33/Debug/obj/stm32f4xx_it.o" type="1"/>
     <File name="mp33/Debug/obj/history.xml" path="mp33/Debug/obj/history.xml" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_sdio.o" path="mp33/Debug/obj/stm32f4xx_sdio.o" type="1"/>
+    <File name="lib_cm4/fpu.c" path="lib_cm4/fpu.c" type="1"/>
     <File name="mp33/Debug/obj/huffman.o" path="mp33/Debug/obj/huffman.o" type="1"/>
     <File name="mp33/Debug" path="" type="2"/>
     <File name="lib/src/peripherals/stm32f4xx_tim.c" path="lib/src/peripherals/stm32f4xx_tim.c" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_cryp_aes.o" path="mp33/Debug/obj/stm32f4xx_cryp_aes.o" type="1"/>
+    <File name="delay" path="" type="2"/>
     <File name="mp33/Debug/obj/dequant.o" path="mp33/Debug/obj/dequant.o" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_can.c" path="lib/src/peripherals/stm32f4xx_can.c" type="1"/>
     <File name="helix/real/RPSL.txt" path="helix/real/RPSL.txt" type="1"/>
@@ -188,13 +201,18 @@
     <File name="lib/inc/peripherals" path="" type="2"/>
     <File name="lib/inc/peripherals/stm32f4xx_syscfg.h" path="lib/inc/peripherals/stm32f4xx_syscfg.h" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_rtc.o" path="mp33/Debug/obj/stm32f4xx_rtc.o" type="1"/>
+    <File name="lib_cm4/fpu.h" path="lib_cm4/fpu.h" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_crc.o" path="mp33/Debug/obj/stm32f4xx_crc.o" type="1"/>
+    <File name="lib_cm4/stm32f4xx.h" path="lib_cm4/stm32f4xx.h" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_dbgmcu.h" path="lib/inc/peripherals/stm32f4xx_dbgmcu.h" type="1"/>
+    <File name="lib_cm4/core_cmFunc.h" path="lib_cm4/core_cmFunc.h" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_crc.h" path="lib/inc/peripherals/stm32f4xx_crc.h" type="1"/>
+    <File name="lib_cm4/stm32f4xx_rom.ld" path="lib_cm4/stm32f4xx_rom.ld" type="1"/>
     <File name="lib" path="" type="2"/>
-    <File name="helix/real/assembly.h" path="helix/real/assembly.h" type="1"/>
     <File name="lib/Makefile" path="lib/Makefile" type="1"/>
+    <File name="helix/real/assembly.h" path="helix/real/assembly.h" type="1"/>
     <File name="mp33/Debug/obj/Audio.o" path="mp33/Debug/obj/Audio.o" type="1"/>
+    <File name="lib_cm4/vectors.c" path="lib_cm4/vectors.c" type="1"/>
     <File name="lib/src/peripherals/misc.c" path="lib/src/peripherals/misc.c" type="1"/>
     <File name="mp33/Debug/obj/stproc.o" path="mp33/Debug/obj/stproc.o" type="1"/>
     <File name="lib/startup_stm32f4xx.s" path="lib/startup_stm32f4xx.s" type="1"/>
@@ -203,31 +221,34 @@
     <File name="helix/real/dqchan.c" path="helix/real/dqchan.c" type="1"/>
     <File name="helix/pub/CVS/Entries" path="helix/pub/CVS/Entries" type="1"/>
     <File name="lib/inc/core/core_cmFunc.h" path="lib/inc/core/core_cmFunc.h" type="1"/>
+    <File name="lib_cm4/hdr_special_registers.h" path="lib_cm4/hdr_special_registers.h" type="1"/>
     <File name="src/Audio.c" path="src/Audio.c" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_gpio.h" path="lib/inc/peripherals/stm32f4xx_gpio.h" type="1"/>
     <File name="mp33/Debug/obj/trigtabs_fixpt.o" path="mp33/Debug/obj/trigtabs_fixpt.o" type="1"/>
     <File name="mp33/Debug/bin/mp33.elf" path="mp33/Debug/bin/mp33.elf" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_hash_md5.o" path="mp33/Debug/obj/stm32f4xx_hash_md5.o" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_iwdg.h" path="lib/inc/peripherals/stm32f4xx_iwdg.h" type="1"/>
-    <File name="lib/src/peripherals/stm32f4xx_cryp.c" path="lib/src/peripherals/stm32f4xx_cryp.c" type="1"/>
     <File name="helix/real/LICENSE.txt" path="helix/real/LICENSE.txt" type="1"/>
+    <File name="lib/src/peripherals/stm32f4xx_cryp.c" path="lib/src/peripherals/stm32f4xx_cryp.c" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_adc.o" path="mp33/Debug/obj/stm32f4xx_adc.o" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_cryp.o" path="mp33/Debug/obj/stm32f4xx_cryp.o" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_rcc.h" path="lib/inc/peripherals/stm32f4xx_rcc.h" type="1"/>
     <File name="helix/pub/statname.h" path="helix/pub/statname.h" type="1"/>
+    <File name="fatfs" path="" type="2"/>
     <File name="helix/pub/CVS" path="" type="2"/>
     <File name="mp33/Debug/obj/misc.o" path="mp33/Debug/obj/misc.o" type="1"/>
     <File name="helix/real/RCSL.txt" path="helix/real/RCSL.txt" type="1"/>
-    <File name="build" path="" type="2"/>
     <File name="mp33/Debug/obj/stm32f4xx_wwdg.o" path="mp33/Debug/obj/stm32f4xx_wwdg.o" type="1"/>
+    <File name="build" path="" type="2"/>
     <File name="lib/src/peripherals/stm32f4xx_rtc.c" path="lib/src/peripherals/stm32f4xx_rtc.c" type="1"/>
     <File name="mp33/Debug/obj/bitstream.o" path="mp33/Debug/obj/bitstream.o" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_pwr.o" path="mp33/Debug/obj/stm32f4xx_pwr.o" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_rng.h" path="lib/inc/peripherals/stm32f4xx_rng.h" type="1"/>
-    <File name="mp33/Debug/obj/stm32f4xx_exti.o" path="mp33/Debug/obj/stm32f4xx_exti.o" type="1"/>
     <File name="helix/real/coder.h" path="helix/real/coder.h" type="1"/>
-    <File name="lib/src/peripherals/stm32f4xx_exti.c" path="lib/src/peripherals/stm32f4xx_exti.c" type="1"/>
+    <File name="lib_cm4" path="" type="2"/>
+    <File name="mp33/Debug/obj/stm32f4xx_exti.o" path="mp33/Debug/obj/stm32f4xx_exti.o" type="1"/>
     <File name="src/stm32f4xx_it.c" path="src/stm32f4xx_it.c" type="1"/>
+    <File name="lib/src/peripherals/stm32f4xx_exti.c" path="lib/src/peripherals/stm32f4xx_exti.c" type="1"/>
     <File name="mp33/Debug/obj/hufftabs.o" path="mp33/Debug/obj/hufftabs.o" type="1"/>
     <File name="mp33/Debug/bin/mp33.bin" path="mp33/Debug/bin/mp33.bin" type="1"/>
     <File name="src/main.c" path="src/main.c" type="1"/>
@@ -243,8 +264,10 @@
     <File name="lib/inc/system_stm32f4xx.h" path="lib/inc/system_stm32f4xx.h" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_rcc.c" path="lib/src/peripherals/stm32f4xx_rcc.c" type="1"/>
     <File name="mp33/Debug/bin/mp33.map" path="mp33/Debug/bin/mp33.map" type="1"/>
+    <File name="fatfs/ff.h" path="fatfs/ff.h" type="1"/>
     <File name="mp33/Debug/obj/utils.o" path="mp33/Debug/obj/utils.o" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_hash.o" path="mp33/Debug/obj/stm32f4xx_hash.o" type="1"/>
+    <File name="fatfs/spi_sd.c" path="fatfs/spi_sd.c" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_fsmc.h" path="lib/inc/peripherals/stm32f4xx_fsmc.h" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_rng.o" path="mp33/Debug/obj/stm32f4xx_rng.o" type="1"/>
     <File name="lib/inc/peripherals/stm32f4xx_dma.h" path="lib/inc/peripherals/stm32f4xx_dma.h" type="1"/>
@@ -258,15 +281,17 @@
     <File name="mp33/mp33.elf.xcodeproj/project.pbxproj" path="mp33/mp33.elf.xcodeproj/project.pbxproj" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_usart.o" path="mp33/Debug/obj/stm32f4xx_usart.o" type="1"/>
     <File name="mp33/Debug/obj" path="" type="2"/>
-    <File name="lib/inc/peripherals/stm32f4xx_pwr.h" path="lib/inc/peripherals/stm32f4xx_pwr.h" type="1"/>
     <File name="lib/inc" path="" type="2"/>
+    <File name="lib/inc/peripherals/stm32f4xx_pwr.h" path="lib/inc/peripherals/stm32f4xx_pwr.h" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_adc.c" path="lib/src/peripherals/stm32f4xx_adc.c" type="1"/>
-    <File name="mp33/Debug/obj/stm32f4xx_spi.o" path="mp33/Debug/obj/stm32f4xx_spi.o" type="1"/>
     <File name="mp33/Debug/obj/stm32f4xx_cryp_tdes.o" path="mp33/Debug/obj/stm32f4xx_cryp_tdes.o" type="1"/>
+    <File name="mp33/Debug/obj/stm32f4xx_spi.o" path="mp33/Debug/obj/stm32f4xx_spi.o" type="1"/>
+    <File name="fatfs/ffconf.h" path="fatfs/ffconf.h" type="1"/>
     <File name="lib/src/peripherals/stm32f4xx_flash.c" path="lib/src/peripherals/stm32f4xx_flash.c" type="1"/>
     <File name="lib/inc/core/core_cm4.h" path="lib/inc/core/core_cm4.h" type="1"/>
     <File name="helix/real/CVS/Entries" path="helix/real/CVS/Entries" type="1"/>
     <File name="helix/real/CVS/Entries.Log" path="helix/real/CVS/Entries.Log" type="1"/>
     <File name="helix/real/bitstream.c" path="helix/real/bitstream.c" type="1"/>
+    <File name="fatfs/spi_sd.h" path="fatfs/spi_sd.h" type="1"/>
   </Files>
 </Project>

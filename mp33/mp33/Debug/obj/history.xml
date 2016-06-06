@@ -1,167 +1,188 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\helix\pub -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib\inc\peripherals -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib\inc -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\inc -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\helix\real -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib\inc\core -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33 -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\helix">
-      <target file="stm32f4xx_fsmc.o" lastModified="154e23ae062">
-         <source file="..\..\..\lib\src\peripherals\stm32f4xx_fsmc.c" lastModified="13851f4ebd0"/>
-      </target>
-      <target file="stm32f4xx_cryp_aes.o" lastModified="154e23ad566">
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib\inc -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\inc -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\helix\real -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33 -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\helix -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib\inc\peripherals -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\helix\pub -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\fatfs -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib_cm4 -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\delay -I..\..\..\..\..\Users\Patryk\Documents\GitHub -I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\mp33\lib\inc\core">
+      <target file="stm32f4xx_cryp_aes.o" lastModified="154e248c21b">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp_aes.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="syscalls.o" lastModified="154e23ae266">
+      <target file="stm32f4xx_fsmc.o" lastModified="154e248cfe7">
+         <source file="..\..\..\lib\src\peripherals\stm32f4xx_fsmc.c" lastModified="13851f4ebd0"/>
+      </target>
+      <target file="syscalls.o" lastModified="154e248d296">
          <source file="..\..\..\src\syscalls.c" lastModified="138773a6cd0"/>
       </target>
-      <target file="scalfact.o" lastModified="154e23abd88">
+      <target file="scalfact.o" lastModified="154e248a9c0">
          <source file="..\..\..\helix\real\scalfact.c" lastModified="154e22de2ae"/>
       </target>
-      <target file="misc.o" lastModified="154e23ae796">
+      <target file="misc.o" lastModified="154e248d90e">
          <source file="..\..\..\lib\src\peripherals\misc.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_cryp.o" lastModified="154e23adfd6">
+      <target file="stm32f4xx_cryp.o" lastModified="154e248cf5a">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="imdct.o" lastModified="154e23ad612">
+      <target file="imdct.o" lastModified="154e248c2c7">
          <source file="..\..\..\helix\real\imdct.c" lastModified="138811ebe40"/>
       </target>
-      <target file="dequant.o" lastModified="154e23ad3ef">
+      <target file="dequant.o" lastModified="154e248c085">
          <source file="..\..\..\helix\real\dequant.c" lastModified="13881b0c510"/>
       </target>
-      <target file="polyphase.o" lastModified="154e23ae8ee">
-         <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40"/>
-      </target>
-      <target file="stm32f4xx_cryp_des.o" lastModified="154e23adf59">
+      <target file="stm32f4xx_cryp_des.o" lastModified="154e248cecd">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp_des.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="Audio.o" lastModified="154e23ae842">
+      <target file="polyphase.o" lastModified="154e248da59">
+         <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40"/>
+      </target>
+      <target file="vectors.o" lastModified="154e248a849">
+         <source file="..\..\..\lib_cm4\vectors.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="Audio.o" lastModified="154e248d9c6">
          <source file="..\..\..\src\Audio.c" lastModified="1388219a8a0"/>
       </target>
-      <target file="utils.o" lastModified="154e23add65">
+      <target file="utils.o" lastModified="154e248cb24">
          <source file="..\..\..\src\utils.c" lastModified="138761ca890"/>
       </target>
-      <target file="stm32f4xx_tim.o" lastModified="154e23aeb21">
+      <target file="stm32f4xx_tim.o" lastModified="154e248dcda">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_tim.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_exti.o" lastModified="154e23ae739">
-         <source file="..\..\..\lib\src\peripherals\stm32f4xx_exti.c" lastModified="13851f4ebd0"/>
+      <target file="karta_sd.o" lastModified="154e2650160">
+         <source file="..\..\..\karta_sd.c" lastModified="154e264fc01"/>
       </target>
-      <target file="stm32f4xx_iwdg.o" lastModified="154e23adb23">
+      <target file="startup.o" lastModified="154e248c661">
+         <source file="..\..\..\lib_cm4\startup.S" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_iwdg.o" lastModified="154e248c8b3">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_iwdg.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_gpio.o" lastModified="154e23ae0df">
+      <target file="stm32f4xx_exti.o" lastModified="154e248d8a1">
+         <source file="..\..\..\lib\src\peripherals\stm32f4xx_exti.c" lastModified="13851f4ebd0"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="154e248d100">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_gpio.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="mp3tabs.o" lastModified="154e23ad883">
+      <target file="fpu.o" lastModified="154e248c7c8">
+         <source file="..\..\..\lib_cm4\fpu.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="mp3tabs.o" lastModified="154e248c548">
          <source file="..\..\..\helix\mp3tabs.c" lastModified="138811ebe40"/>
       </target>
-      <target file="huffman.o" lastModified="154e23ae3dd">
+      <target file="huffman.o" lastModified="154e248d41d">
          <source file="..\..\..\helix\real\huffman.c" lastModified="154e22ce4b7"/>
       </target>
-      <target file="stm32f4xx_usart.o" lastModified="154e23ad71b">
+      <target file="delay.o" lastModified="154e248aa2e">
+         <source file="..\..\..\delay\delay.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="154e248c3d1">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_usart.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_rtc.o" lastModified="154e23ae9b9">
-         <source file="..\..\..\lib\src\peripherals\stm32f4xx_rtc.c" lastModified="13851f4ebd0"/>
-      </target>
-      <target file="buffers.o" lastModified="154e23ae4a8">
+      <target file="buffers.o" lastModified="154e248d4f7">
          <source file="..\..\..\helix\real\buffers.c" lastModified="1388af06a40"/>
       </target>
-      <target file="stm32f4xx_hash_sha1.o" lastModified="154e23ad68f">
+      <target file="stm32f4xx_rtc.o" lastModified="154e248db24">
+         <source file="..\..\..\lib\src\peripherals\stm32f4xx_rtc.c" lastModified="13851f4ebd0"/>
+      </target>
+      <target file="stm32f4xx_hash_sha1.o" lastModified="154e248c344">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_hash_sha1.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_rcc.o" lastModified="154e23adcf7">
+      <target file="stm32f4xx_rcc.o" lastModified="154e248cab6">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_rcc.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_dac.o" lastModified="154e23ad9da">
+      <target file="stm32f4xx_dac.o" lastModified="154e248c6de">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_dac.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_can.o" lastModified="154e23ad835">
+      <target file="stm32f4xx_can.o" lastModified="154e248c4fa">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_can.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_pwr.o" lastModified="154e23ad789">
+      <target file="stm32f4xx_pwr.o" lastModified="154e248c44e">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_pwr.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="bitstream.o" lastModified="154e23ad391">
+      <target file="bitstream.o" lastModified="154e248c027">
          <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40"/>
       </target>
-      <target file="stm32f4xx_wwdg.o" lastModified="154e23ad8f0">
+      <target file="stm32f4xx_wwdg.o" lastModified="154e248c5b5">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_wwdg.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_rng.o" lastModified="154e23ae6bc">
+      <target file="stm32f4xx_rng.o" lastModified="154e248d834">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_rng.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="dct32.o" lastModified="154e23ae5b2">
+      <target file="dct32.o" lastModified="154e248d71a">
          <source file="..\..\..\helix\real\dct32.c" lastModified="138811ebe40"/>
       </target>
-      <target file="stm32f4xx_adc.o" lastModified="154e23ade6e">
+      <target file="stm32f4xx_adc.o" lastModified="154e248cdd3">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_adc.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="mp3dec.o" lastModified="154e23adba0">
+      <target file="mp3dec.o" lastModified="154e248c94f">
          <source file="..\..\..\helix\mp3dec.c" lastModified="138811ebe40"/>
       </target>
-      <target file="trigtabs_fixpt.o" lastModified="154e23ae43b">
+      <target file="trigtabs_fixpt.o" lastModified="154e248d47a">
          <source file="..\..\..\helix\real\trigtabs_fixpt.c" lastModified="138811ebe40"/>
       </target>
-      <target file="stm32f4xx_flash.o" lastModified="154e23ae16c">
+      <target file="stm32f4xx_flash.o" lastModified="154e248d18c">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_flash.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_cryp_tdes.o" lastModified="154e23aea27">
+      <target file="stm32f4xx_cryp_tdes.o" lastModified="154e248dbc0">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_cryp_tdes.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="startup_stm32f4xx.o" lastModified="154e23ada48">
+      <target file="startup_stm32f4xx.o" lastModified="154e248c75b">
          <source file="..\..\..\lib\startup_stm32f4xx.s" lastModified="154e2308a75"/>
       </target>
-      <target file="dqchan.o" lastModified="154e23abcfb">
+      <target file="dqchan.o" lastModified="154e248a934">
          <source file="..\..\..\helix\real\dqchan.c" lastModified="154e22e2308"/>
       </target>
-      <target file="stm32f4xx_dma.o" lastModified="154e23ae2f3">
+      <target file="stm32f4xx_dma.o" lastModified="154e248d323">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_dma.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_dcmi.o" lastModified="154e23adeeb">
+      <target file="stm32f4xx_dcmi.o" lastModified="154e248ce50">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_dcmi.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="hufftabs.o" lastModified="154e23ad45c">
+      <target file="hufftabs.o" lastModified="154e248c102">
          <source file="..\..\..\helix\real\hufftabs.c" lastModified="138811ebe40"/>
       </target>
-      <target file="stm32f4xx_crc.o" lastModified="154e23adaa6">
+      <target file="stm32f4xx_crc.o" lastModified="154e248c836">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_crc.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_sdio.o" lastModified="154e23abe15">
+      <target file="stm32f4xx_sdio.o" lastModified="154e248aaab">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_sdio.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stproc.o" lastModified="154e23ae360">
+      <target file="stproc.o" lastModified="154e248d3a0">
          <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40"/>
       </target>
-      <target file="stm32f4xx_it.o" lastModified="154e23addd2">
+      <target file="stm32f4xx_it.o" lastModified="154e248cb91">
          <source file="..\..\..\src\stm32f4xx_it.c" lastModified="13871e2bfd0"/>
       </target>
-      <target file="stm32f4xx_hash_md5.o" lastModified="154e23ad95d">
+      <target file="stm32f4xx_hash_md5.o" lastModified="154e248c632">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_hash_md5.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_dbgmcu.o" lastModified="154e23aebbd">
+      <target file="stm32f4xx_dbgmcu.o" lastModified="154e248dd37">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_dbgmcu.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="subband.o" lastModified="154e23ada29">
+      <target file="mp3_data.o" lastModified="154e266676b">
+         <source file="..\..\..\src\mp3_data.c" lastModified="154e2664963"/>
+      </target>
+      <target file="subband.o" lastModified="154e248c74b">
          <source file="..\..\..\helix\real\subband.c" lastModified="154e22de28f"/>
       </target>
-      <target file="mp3_data.o" lastModified="154e23ad304">
-         <source file="..\..\..\src\mp3_data.c" lastModified="1388ad47dd0"/>
-      </target>
-      <target file="stm32f4xx_i2c.o" lastModified="154e23ae63f">
+      <target file="stm32f4xx_i2c.o" lastModified="154e248d7b7">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_i2c.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_syscfg.o" lastModified="154e23abc8e">
+      <target file="stm32f4xx_syscfg.o" lastModified="154e248a8c6">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_syscfg.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_hash.o" lastModified="154e23ad4d9">
+      <target file="stm32f4xx_hash.o" lastModified="154e248c17f">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_hash.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="stm32f4xx_spi.o" lastModified="154e23ae535">
+      <target file="stm32f4xx_spi.o" lastModified="154e248d68e">
          <source file="..\..\..\lib\src\peripherals\stm32f4xx_spi.c" lastModified="13851f4ebd0"/>
       </target>
-      <target file="main.o" lastModified="154e23adc5b">
-         <source file="..\..\..\src\main.c" lastModified="1388aff5690"/>
+      <target file="ff.o" lastModified="154e248d601">
+         <source file="..\..\..\fatfs\ff.c" lastModified="146a7c60130"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="154e23ae1d9">
+      <target file="main.o" lastModified="154e25a1e57">
+         <source file="..\..\..\src\main.c" lastModified="154e259b9eb"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="154e248d1ea">
          <source file="..\..\..\src\system_stm32f4xx.c" lastModified="1388ab9e150"/>
+      </target>
+      <target file="spi_sd.o" lastModified="154e248d083">
+         <source file="..\..\..\fatfs\spi_sd.c" lastModified="146a7c60130"/>
       </target>
    </processor>
 </history>
