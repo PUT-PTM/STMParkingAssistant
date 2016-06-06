@@ -207,96 +207,7 @@ int otwarcie_pliku(void)
 }
 
 
-/*
-void plik_wav()
-{
-	char znak;
-	WORD ile_bajtow;
-	u8 temp[44];		//pomijane dane z pliku .Wav
-	u16 rozmiar_probki,probka;
-	u32 rozmiar_danych,czestotliwosc;
-	int j,ile;//,i;;
-	char liczba[5];		//do zamiany int->str
 
-	dioda(1,0);
-	dioda(2,0);
-	dioda(3,0);
-	dioda(4,0);
-
-
-	// Otwarcie do odczytu pliku .wav
-	fresult = f_open (&plik, "s30.wav", FA_READ);
-	dioda_ok(fresult);
-
-	//opuszczamy 24 bajty
-	fresult = f_read (&plik, &temp[0], 24, &ile_bajtow);
-	//pobieramy czêstotliwosc
-	fresult = f_read (&plik, &czestotliwosc, 4, &ile_bajtow);
-	//opuszczamy 4 bajty
-	fresult = f_read (&plik, &temp[0], 4, &ile_bajtow);
-	//pobieramy wielkosc probki
-	fresult = f_read (&plik, &rozmiar_probki, 2, &ile_bajtow);
-	//opuszczamy 6 bajtów
-	fresult = f_read (&plik, &temp[0], 6, &ile_bajtow);
-	//pobieramy rozmiar danych
-	fresult = f_read (&plik, &rozmiar_danych, 4, &ile_bajtow);
-
-	//otwarcie pliku .txt
-	fresult = f_open (&plik2,"jedkru.TXT", FA_CREATE_ALWAYS | FA_WRITE);
-
-	dioda(1,1); //w³¹czenie diody
-
-	//ile = rozmiar_danych/rozmiar_probki;
-	ile = 0; for(i=0;i<(rozmiar_danych/rozmiar_probki);i++) ile++;
-
-	//zapis danych o pliku do pliku tekstowego
-	fresult = f_write(&plik2, "Czêstotliwosc  :", 15, &ile_bajtow);
-	fresult = f_write(&plik2, intToStr(czestotliwosc,liczba), 5, &ile_bajtow);
-	fresult = f_write(&plik2, "Rozmiar danych :", 15, &ile_bajtow);
-	fresult = f_write(&plik2, intToStr(rozmiar_danych,liczba), 5, &ile_bajtow);
-	fresult = f_write(&plik2, " | Rozmiar próbki :", 18, &ile_bajtow);
-	fresult = f_write(&plik2, intToStr(rozmiar_probki,liczba), 5, &ile_bajtow);
-	fresult = f_write(&plik2, " | Liczba próbek  :", 18, &ile_bajtow);
-	fresult = f_write(&plik2, intToStr(ile,liczba), 5, &ile_bajtow);
-
-	//zamkniecie pliku .txt
-    fresult = f_close (&plik2);
-
-//	int petla;
-//	int wym_tab;
-	wym_tab = 0; for(i=0;i<30000;i++) wym_tab++; //wym_tab = 30000;
-
-	while(ile>0)
-	{
-		if(wym_tab > ile) petla = ile; else petla = wym_tab;
-
-		//buforowanie
-		for(i=0;i<petla;i++)
-		{
-			//dioda_sygnal(3,1);
-			fresult = f_read (&plik, (u8*) &probka,rozmiar_probki, &ile_bajtow);
-			tab1[i] = probka;
-		}
-
-		//odtwarzanie
-		for(i=0;i<petla;i++)
-		{
-			wyslij_dziwek(tab1[i]);
-			wyslij_dziwek(tab1[i]);
-		}
-
-		ile = ile - petla;
-	}
-	dioda(1,0);
-
-
-
-
-	//zamkniêcie pliku .wav
-    fresult = f_close (&plik);
-	dioda_ok(fresult);
-}
-*/
 char* intToStr(int n, char *str)
 {
      int i = 0;
@@ -321,7 +232,7 @@ int min(int a, int b)
 		return a;
 }
 
-static uint32_t Mp3ReadId3V2Text(FIL* pInFile, uint32_t unDataLen, char* pszBuffer, uint32_t unBufferSize)
+/*static*/ uint32_t Mp3ReadId3V2Text(FIL* pInFile, uint32_t unDataLen, char* pszBuffer, uint32_t unBufferSize)
 {
 	UINT unRead = 0;
 	BYTE byEncoding = 0;
@@ -378,7 +289,7 @@ static uint32_t Mp3ReadId3V2Text(FIL* pInFile, uint32_t unDataLen, char* pszBuff
 	return 0;
 }
 
-static uint32_t Mp3ReadId3V2Tag(FIL* pInFile, char* pszArtist, uint32_t unArtistSize, char* pszTitle, uint32_t unTitleSize)
+/*static*/ uint32_t Mp3ReadId3V2Tag(FIL* pInFile, char* pszArtist, uint32_t unArtistSize, char* pszTitle, uint32_t unTitleSize)
 {
 	pszArtist[0] = 0;
 	pszTitle[0] = 0;
@@ -503,9 +414,9 @@ void play_mp3(char* filename) {
 		hMP3Decoder = MP3InitDecoder();
 		InitializeAudio(Audio44100HzSettings);
 		SetAudioVolume(0xAF);
-		PlayAudioWithCallback(AudioCallback, 0);
+		PlayAudioWithCallback(AudioCallback, 1);
 
-		for(;;) {
+		while(1) {
 			/*
 			 * If past half of buffer, refill...
 			 *

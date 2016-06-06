@@ -36,7 +36,7 @@ int main(void)
 	SystemInit();
 	LED_GPIO_conf();
 	start_sd();
-	int i;
+	int i;/*
 	i=otwarcie_pliku();
 	switch(i){
 	case 1: GPIO_SetBits(GPIOD,GPIO_Pin_12);
@@ -48,9 +48,11 @@ int main(void)
 	case 4: GPIO_SetBits(GPIOD,GPIO_Pin_15);
 		break;
 	}
+	*/
+	play_mp3("new.mp3");
     while(1)
     {
-    	play_mp3("new.mp3");
+
     }
 }
 

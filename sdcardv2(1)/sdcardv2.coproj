@@ -98,8 +98,8 @@
     <File name="cmsis_lib/include/stm32f4xx_syscfg.h" path="cmsis_lib/include/stm32f4xx_syscfg.h" type="1"/>
     <File name="helix/pub" path="" type="2"/>
     <File name="helix/pub/statname.h" path="helix/pub/statname.h" type="1"/>
-    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis/core_cm4_simd.h" path="cmsis/core_cm4_simd.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="fatfs" path="" type="2"/>
     <File name="cmsis_boot/stm32f4xx.h" path="cmsis_boot/stm32f4xx.h" type="1"/>
     <File name="helix/real/imdct.c" path="helix/real/imdct.c" type="1"/>
@@ -132,9 +132,9 @@
     <File name="cmsis_boot/startup/startup_stm32f4xx.c" path="cmsis_boot/startup/startup_stm32f4xx.c" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_rcc.c" path="cmsis_lib/source/stm32f4xx_rcc.c" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
+    <File name="Audio.h" path="Audio.h" type="1"/>
     <File name="helix/real/assembly.h" path="helix/real/assembly.h" type="1"/>
     <File name="helix/mp3tabs.c" path="helix/mp3tabs.c" type="1"/>
-    <File name="Audio.h" path="Audio.h" type="1"/>
     <File name="helix/pub/CVS/Repository" path="helix/pub/CVS/Repository" type="1"/>
     <File name="karta_sd.c" path="karta_sd.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_sdio.h" path="cmsis_lib/include/stm32f4xx_sdio.h" type="1"/>
