@@ -1,34 +1,34 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memcpy.o)
-                              ..\obj\mp3dec.o (memcpy)
+                              ..\obj\mp3.o (memcpy)
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memmove.o)
                               ..\obj\mp3dec.o (memmove)
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcmp.o)
-                              ..\obj\karta_sd.o (strcmp)
+                              ..\obj\mp3.o (strcmp)
 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strncmp.o)
-                              ..\obj\karta_sd.o (strncmp)
+                              ..\obj\mp3.o (strncmp)
 
 Allocating common symbols
 Common symbol       size              file
 
-plik2               0x224             ..\obj\karta_sd.o
+plik2               0x224             ..\obj\mp3.o
 petla               0x4               ..\obj\karta_sd.o
-f                   0x4               ..\obj\karta_sd.o
+f                   0x4               ..\obj\mp3.o
 wym_tab             0x4               ..\obj\karta_sd.o
-file                0x224             ..\obj\karta_sd.o
-hMP3Decoder         0x4               ..\obj\karta_sd.o
+file                0x224             ..\obj\mp3.o
+hMP3Decoder         0x4               ..\obj\mp3.o
 i                   0x4               ..\obj\karta_sd.o
-buffer              0x1000            ..\obj\karta_sd.o
-d                   0x4               ..\obj\karta_sd.o
-usta                0x224             ..\obj\karta_sd.o
-fresult             0x1               ..\obj\karta_sd.o
-g_sFatFs            0x230             ..\obj\karta_sd.o
-file_read_buffer    0x2000            ..\obj\karta_sd.o
-plik                0x224             ..\obj\karta_sd.o
-bytes_left          0x4               ..\obj\karta_sd.o
-read_ptr            0x4               ..\obj\karta_sd.o
-mp3FrameInfo        0x1c              ..\obj\karta_sd.o
+buffer              0x1000            ..\obj\mp3.o
+d                   0x4               ..\obj\mp3.o
+usta                0x224             ..\obj\mp3.o
+fresult             0x1               ..\obj\mp3.o
+g_sFatFs            0x230             ..\obj\mp3.o
+file_read_buffer    0x2000            ..\obj\mp3.o
+plik                0x224             ..\obj\mp3.o
+bytes_left          0x4               ..\obj\mp3.o
+read_ptr            0x4               ..\obj\mp3.o
+mp3FrameInfo        0x1c              ..\obj\mp3.o
 
 Discarded input sections
 
@@ -138,6 +138,8 @@ Discarded input sections
  .debug_frame   0x00000000      0x48c ..\obj\stm32f4xx_sdio.o
  .ARM.attributes
                 0x00000000       0x33 ..\obj\stm32f4xx_sdio.o
+ .text          0x00000000        0x0 ..\obj\mp3.o
+ .data          0x00000000        0x0 ..\obj\mp3.o
  .text          0x00000000        0x0 ..\obj\bitstream.o
  .data          0x00000000        0x0 ..\obj\bitstream.o
  .bss           0x00000000        0x0 ..\obj\bitstream.o
@@ -215,7 +217,7 @@ Discarded input sections
                 0x00000000       0x50 ..\obj\mp3dec.o
  .text          0x00000000        0x0 ..\obj\main.o
  .data          0x00000000        0x0 ..\obj\main.o
- .bss           0x00000000        0x0 ..\obj\main.o
+ .bss           0x00000000        0x2 ..\obj\main.o
  .text          0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
  .data          0x00000000       0x10 ..\obj\stm32f4xx_rcc.o
  .bss           0x00000000        0x0 ..\obj\stm32f4xx_rcc.o
@@ -301,11 +303,13 @@ Discarded input sections
                 0x00000000       0x20 ..\obj\stm32f4xx_rcc.o
  .text          0x00000000        0x0 ..\obj\karta_sd.o
  .data          0x00000000        0x0 ..\obj\karta_sd.o
+ .rodata        0x00000000        0xb ..\obj\karta_sd.o
  .text.otwarcie_pliku
                 0x00000000       0x84 ..\obj\karta_sd.o
  .text.intToStr
                 0x00000000      0x128 ..\obj\karta_sd.o
  .text.min      0x00000000       0x24 ..\obj\karta_sd.o
+ COMMON         0x00000000        0xc ..\obj\karta_sd.o
  .text          0x00000000        0x0 ..\obj\stm32f4xx_adc.o
  .data          0x00000000        0x0 ..\obj\stm32f4xx_adc.o
  .bss           0x00000000        0x0 ..\obj\stm32f4xx_adc.o
@@ -925,7 +929,7 @@ Linker script and memory map
 
                 0x20020000                _eram = 0x20020000
 
-.text           0x08000000     0xf394
+.text           0x08000000     0xf388
  *(.isr_vector)
  .isr_vector    0x08000000      0x188 ..\obj\startup_stm32f4xx.o
                 0x08000000                g_pfnVectors
@@ -945,210 +949,210 @@ Linker script and memory map
  .text.xmp3fixpt_UnpackScaleFactors
                 0x08000f30      0x1b4 ..\obj\scalfact.o
                 0x08000f30                xmp3fixpt_UnpackScaleFactors
- .text.xmp3fixpt_SetBitstreamPointer
-                0x080010e4       0x30 ..\obj\bitstream.o
-                0x080010e4                xmp3fixpt_SetBitstreamPointer
- .text.RefillBitstreamCache
-                0x08001114       0xe0 ..\obj\bitstream.o
- .text.xmp3fixpt_GetBits
-                0x080011f4       0x90 ..\obj\bitstream.o
-                0x080011f4                xmp3fixpt_GetBits
- .text.xmp3fixpt_CalcBitsUsed
-                0x08001284       0x38 ..\obj\bitstream.o
-                0x08001284                xmp3fixpt_CalcBitsUsed
- .text.xmp3fixpt_CheckPadBit
-                0x080012bc       0x3c ..\obj\bitstream.o
-                0x080012bc                xmp3fixpt_CheckPadBit
- .text.xmp3fixpt_UnpackFrameHeader
-                0x080012f8      0x304 ..\obj\bitstream.o
-                0x080012f8                xmp3fixpt_UnpackFrameHeader
- .text.xmp3fixpt_UnpackSideInfo
-                0x080015fc      0x33c ..\obj\bitstream.o
-                0x080015fc                xmp3fixpt_UnpackSideInfo
- .text.CLZ      0x08001938       0x1c ..\obj\dequant.o
- .text.xmp3fixpt_Dequantize
-                0x08001954      0x384 ..\obj\dequant.o
-                0x08001954                xmp3fixpt_Dequantize
- .text.MULSHIFT32
-                0x08001cd8       0x24 ..\obj\imdct.o
- .text.FASTABS  0x08001cfc       0x2c ..\obj\imdct.o
- .text.CLZ      0x08001d28       0x1c ..\obj\imdct.o
- .text.AntiAlias
-                0x08001d44      0x360 ..\obj\imdct.o
- .text.WinPrevious
-                0x080020a4      0x2cc ..\obj\imdct.o
- .text.FreqInvertRescale
-                0x08002370      0x34c ..\obj\imdct.o
- .text.idct9    0x080026bc      0x2dc ..\obj\imdct.o
- .text.IMDCT36  0x08002998      0x470 ..\obj\imdct.o
- .text.imdct12  0x08002e08      0x198 ..\obj\imdct.o
- .text.IMDCT12x3
-                0x08002fa0      0x430 ..\obj\imdct.o
- .text.HybridTransform
-                0x080033d0      0x240 ..\obj\imdct.o
- .text.xmp3fixpt_IMDCT
-                0x08003610      0x2ac ..\obj\imdct.o
-                0x08003610                xmp3fixpt_IMDCT
- .text.xmp3fixpt_Subband
-                0x080038bc      0x19c ..\obj\subband.o
-                0x080038bc                xmp3fixpt_Subband
- .text.Default_Reset_Handler
-                0x08003a58       0x5c ..\obj\startup_stm32f4xx.o
-                0x08003a58                Default_Reset_Handler
-                0x08003a58                Reset_Handler
- .text.Default_Handler
-                0x08003ab4        0x8 ..\obj\startup_stm32f4xx.o
-                0x08003ab4                RTC_Alarm_IRQHandler
-                0x08003ab4                HASH_RNG_IRQHandler
-                0x08003ab4                EXTI2_IRQHandler
-                0x08003ab4                TIM8_CC_IRQHandler
-                0x08003ab4                DebugMon_Handler
-                0x08003ab4                TIM1_CC_IRQHandler
-                0x08003ab4                DMA2_Stream5_IRQHandler
-                0x08003ab4                HardFault_Handler
-                0x08003ab4                DMA1_Stream5_IRQHandler
-                0x08003ab4                SysTick_Handler
-                0x08003ab4                PVD_IRQHandler
-                0x08003ab4                SDIO_IRQHandler
-                0x08003ab4                TAMP_STAMP_IRQHandler
-                0x08003ab4                PendSV_Handler
-                0x08003ab4                NMI_Handler
-                0x08003ab4                CAN2_RX1_IRQHandler
-                0x08003ab4                EXTI3_IRQHandler
-                0x08003ab4                TIM8_TRG_COM_TIM14_IRQHandler
-                0x08003ab4                TIM1_UP_TIM10_IRQHandler
-                0x08003ab4                TIM8_UP_TIM13_IRQHandler
-                0x08003ab4                I2C3_ER_IRQHandler
-                0x08003ab4                EXTI0_IRQHandler
-                0x08003ab4                I2C2_EV_IRQHandler
-                0x08003ab4                DMA1_Stream2_IRQHandler
-                0x08003ab4                CAN1_RX0_IRQHandler
-                0x08003ab4                FPU_IRQHandler
-                0x08003ab4                OTG_HS_WKUP_IRQHandler
-                0x08003ab4                UsageFault_Handler
-                0x08003ab4                CAN2_SCE_IRQHandler
-                0x08003ab4                DMA2_Stream2_IRQHandler
-                0x08003ab4                SPI1_IRQHandler
-                0x08003ab4                TIM6_DAC_IRQHandler
-                0x08003ab4                TIM1_BRK_TIM9_IRQHandler
-                0x08003ab4                DCMI_IRQHandler
-                0x08003ab4                CAN2_RX0_IRQHandler
-                0x08003ab4                DMA2_Stream3_IRQHandler
-                0x08003ab4                USART6_IRQHandler
-                0x08003ab4                USART3_IRQHandler
-                0x08003ab4                CRYP_IRQHandler
-                0x08003ab4                CAN1_RX1_IRQHandler
-                0x08003ab4                UART5_IRQHandler
-                0x08003ab4                DMA2_Stream0_IRQHandler
-                0x08003ab4                TIM4_IRQHandler
-                0x08003ab4                I2C1_EV_IRQHandler
-                0x08003ab4                DMA1_Stream6_IRQHandler
-                0x08003ab4                DMA1_Stream1_IRQHandler
-                0x08003ab4                UART4_IRQHandler
-                0x08003ab4                TIM3_IRQHandler
-                0x08003ab4                RCC_IRQHandler
-                0x08003ab4                TIM8_BRK_TIM12_IRQHandler
-                0x08003ab4                EXTI15_10_IRQHandler
-                0x08003ab4                ADC_IRQHandler
-                0x08003ab4                TIM7_IRQHandler
-                0x08003ab4                CAN2_TX_IRQHandler
-                0x08003ab4                TIM5_IRQHandler
-                0x08003ab4                DMA2_Stream7_IRQHandler
-                0x08003ab4                I2C3_EV_IRQHandler
-                0x08003ab4                EXTI9_5_IRQHandler
-                0x08003ab4                RTC_WKUP_IRQHandler
-                0x08003ab4                ETH_WKUP_IRQHandler
-                0x08003ab4                SPI2_IRQHandler
-                0x08003ab4                OTG_HS_EP1_IN_IRQHandler
-                0x08003ab4                MemManage_Handler
-                0x08003ab4                DMA1_Stream0_IRQHandler
-                0x08003ab4                CAN1_TX_IRQHandler
-                0x08003ab4                SVC_Handler
-                0x08003ab4                EXTI4_IRQHandler
-                0x08003ab4                FSMC_IRQHandler
-                0x08003ab4                ETH_IRQHandler
-                0x08003ab4                OTG_HS_EP1_OUT_IRQHandler
-                0x08003ab4                WWDG_IRQHandler
-                0x08003ab4                TIM2_IRQHandler
-                0x08003ab4                OTG_FS_WKUP_IRQHandler
-                0x08003ab4                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08003ab4                OTG_HS_IRQHandler
-                0x08003ab4                EXTI1_IRQHandler
-                0x08003ab4                USART2_IRQHandler
-                0x08003ab4                I2C2_ER_IRQHandler
-                0x08003ab4                DMA2_Stream1_IRQHandler
-                0x08003ab4                CAN1_SCE_IRQHandler
-                0x08003ab4                FLASH_IRQHandler
-                0x08003ab4                DMA2_Stream4_IRQHandler
-                0x08003ab4                BusFault_Handler
-                0x08003ab4                USART1_IRQHandler
-                0x08003ab4                OTG_FS_IRQHandler
-                0x08003ab4                SPI3_IRQHandler
-                0x08003ab4                DMA1_Stream4_IRQHandler
-                0x08003ab4                I2C1_ER_IRQHandler
-                0x08003ab4                DMA2_Stream6_IRQHandler
-                0x08003ab4                DMA1_Stream3_IRQHandler
- .text.MP3InitDecoder
-                0x08003abc       0x18 ..\obj\mp3dec.o
-                0x08003abc                MP3InitDecoder
- .text.MP3FindSyncWord
-                0x08003ad4       0x50 ..\obj\mp3dec.o
-                0x08003ad4                MP3FindSyncWord
- .text.MP3FindFreeSync
-                0x08003b24       0xa0 ..\obj\mp3dec.o
- .text.MP3GetLastFrameInfo
-                0x08003bc4       0xc0 ..\obj\mp3dec.o
-                0x08003bc4                MP3GetLastFrameInfo
- .text.MP3ClearBadFrame
-                0x08003c84       0x54 ..\obj\mp3dec.o
- .text.MP3Decode
-                0x08003cd8      0x430 ..\obj\mp3dec.o
-                0x08003cd8                MP3Decode
- .text.LED_GPIO_conf
-                0x08004108       0x3c ..\obj\main.o
-                0x08004108                LED_GPIO_conf
- .text.main     0x08004144       0x1c ..\obj\main.o
-                0x08004144                main
- .text.RCC_AHB1PeriphClockCmd
-                0x08004160       0x3c ..\obj\stm32f4xx_rcc.o
-                0x08004160                RCC_AHB1PeriphClockCmd
- .text.RCC_APB1PeriphClockCmd
-                0x0800419c       0x3c ..\obj\stm32f4xx_rcc.o
-                0x0800419c                RCC_APB1PeriphClockCmd
- .text.RCC_APB1PeriphResetCmd
-                0x080041d8       0x3c ..\obj\stm32f4xx_rcc.o
-                0x080041d8                RCC_APB1PeriphResetCmd
- .text.RCC_APB2PeriphResetCmd
-                0x08004214       0x3c ..\obj\stm32f4xx_rcc.o
-                0x08004214                RCC_APB2PeriphResetCmd
- .text.rcvr_spi
-                0x08004250       0x48 ..\obj\karta_sd.o
- .text.wait_ready
-                0x08004298       0x38 ..\obj\karta_sd.o
- .text.xmit_spi
-                0x080042d0       0x48 ..\obj\karta_sd.o
- .text.send_cmd
-                0x08004318       0xa4 ..\obj\karta_sd.o
- .text.ini_spi  0x080043bc       0xe8 ..\obj\karta_sd.o
-                0x080043bc                ini_spi
- .text.ini_karta_sd
-                0x080044a4       0x60 ..\obj\karta_sd.o
-                0x080044a4                ini_karta_sd
- .text.start_sd
-                0x08004504       0x14 ..\obj\karta_sd.o
-                0x08004504                start_sd
  .text.Mp3ReadId3V2Text
-                0x08004518      0x100 ..\obj\karta_sd.o
-                0x08004518                Mp3ReadId3V2Text
+                0x080010e4      0x100 ..\obj\mp3.o
+                0x080010e4                Mp3ReadId3V2Text
  .text.Mp3ReadId3V2Tag
-                0x08004618      0x27c ..\obj\karta_sd.o
-                0x08004618                Mp3ReadId3V2Tag
+                0x080011e4      0x27c ..\obj\mp3.o
+                0x080011e4                Mp3ReadId3V2Tag
  .text.play_mp3
-                0x08004894      0x138 ..\obj\karta_sd.o
-                0x08004894                play_mp3
+                0x08001460      0x138 ..\obj\mp3.o
+                0x08001460                play_mp3
  .text.AudioCallback
-                0x080049cc      0x140 ..\obj\karta_sd.o
-                0x080049cc                AudioCallback
+                0x08001598      0x140 ..\obj\mp3.o
+                0x08001598                AudioCallback
+ .text.xmp3fixpt_SetBitstreamPointer
+                0x080016d8       0x30 ..\obj\bitstream.o
+                0x080016d8                xmp3fixpt_SetBitstreamPointer
+ .text.RefillBitstreamCache
+                0x08001708       0xe0 ..\obj\bitstream.o
+ .text.xmp3fixpt_GetBits
+                0x080017e8       0x90 ..\obj\bitstream.o
+                0x080017e8                xmp3fixpt_GetBits
+ .text.xmp3fixpt_CalcBitsUsed
+                0x08001878       0x38 ..\obj\bitstream.o
+                0x08001878                xmp3fixpt_CalcBitsUsed
+ .text.xmp3fixpt_CheckPadBit
+                0x080018b0       0x3c ..\obj\bitstream.o
+                0x080018b0                xmp3fixpt_CheckPadBit
+ .text.xmp3fixpt_UnpackFrameHeader
+                0x080018ec      0x304 ..\obj\bitstream.o
+                0x080018ec                xmp3fixpt_UnpackFrameHeader
+ .text.xmp3fixpt_UnpackSideInfo
+                0x08001bf0      0x33c ..\obj\bitstream.o
+                0x08001bf0                xmp3fixpt_UnpackSideInfo
+ .text.CLZ      0x08001f2c       0x1c ..\obj\dequant.o
+ .text.xmp3fixpt_Dequantize
+                0x08001f48      0x384 ..\obj\dequant.o
+                0x08001f48                xmp3fixpt_Dequantize
+ .text.MULSHIFT32
+                0x080022cc       0x24 ..\obj\imdct.o
+ .text.FASTABS  0x080022f0       0x2c ..\obj\imdct.o
+ .text.CLZ      0x0800231c       0x1c ..\obj\imdct.o
+ .text.AntiAlias
+                0x08002338      0x360 ..\obj\imdct.o
+ .text.WinPrevious
+                0x08002698      0x2cc ..\obj\imdct.o
+ .text.FreqInvertRescale
+                0x08002964      0x34c ..\obj\imdct.o
+ .text.idct9    0x08002cb0      0x2dc ..\obj\imdct.o
+ .text.IMDCT36  0x08002f8c      0x470 ..\obj\imdct.o
+ .text.imdct12  0x080033fc      0x198 ..\obj\imdct.o
+ .text.IMDCT12x3
+                0x08003594      0x430 ..\obj\imdct.o
+ .text.HybridTransform
+                0x080039c4      0x240 ..\obj\imdct.o
+ .text.xmp3fixpt_IMDCT
+                0x08003c04      0x2ac ..\obj\imdct.o
+                0x08003c04                xmp3fixpt_IMDCT
+ .text.xmp3fixpt_Subband
+                0x08003eb0      0x19c ..\obj\subband.o
+                0x08003eb0                xmp3fixpt_Subband
+ .text.Default_Reset_Handler
+                0x0800404c       0x5c ..\obj\startup_stm32f4xx.o
+                0x0800404c                Default_Reset_Handler
+                0x0800404c                Reset_Handler
+ .text.Default_Handler
+                0x080040a8        0x8 ..\obj\startup_stm32f4xx.o
+                0x080040a8                RTC_Alarm_IRQHandler
+                0x080040a8                HASH_RNG_IRQHandler
+                0x080040a8                EXTI2_IRQHandler
+                0x080040a8                TIM8_CC_IRQHandler
+                0x080040a8                DebugMon_Handler
+                0x080040a8                TIM1_CC_IRQHandler
+                0x080040a8                DMA2_Stream5_IRQHandler
+                0x080040a8                HardFault_Handler
+                0x080040a8                DMA1_Stream5_IRQHandler
+                0x080040a8                SysTick_Handler
+                0x080040a8                PVD_IRQHandler
+                0x080040a8                SDIO_IRQHandler
+                0x080040a8                TAMP_STAMP_IRQHandler
+                0x080040a8                PendSV_Handler
+                0x080040a8                NMI_Handler
+                0x080040a8                CAN2_RX1_IRQHandler
+                0x080040a8                EXTI3_IRQHandler
+                0x080040a8                TIM8_TRG_COM_TIM14_IRQHandler
+                0x080040a8                TIM1_UP_TIM10_IRQHandler
+                0x080040a8                TIM8_UP_TIM13_IRQHandler
+                0x080040a8                I2C3_ER_IRQHandler
+                0x080040a8                EXTI0_IRQHandler
+                0x080040a8                I2C2_EV_IRQHandler
+                0x080040a8                DMA1_Stream2_IRQHandler
+                0x080040a8                CAN1_RX0_IRQHandler
+                0x080040a8                FPU_IRQHandler
+                0x080040a8                OTG_HS_WKUP_IRQHandler
+                0x080040a8                UsageFault_Handler
+                0x080040a8                CAN2_SCE_IRQHandler
+                0x080040a8                DMA2_Stream2_IRQHandler
+                0x080040a8                SPI1_IRQHandler
+                0x080040a8                TIM6_DAC_IRQHandler
+                0x080040a8                TIM1_BRK_TIM9_IRQHandler
+                0x080040a8                DCMI_IRQHandler
+                0x080040a8                CAN2_RX0_IRQHandler
+                0x080040a8                DMA2_Stream3_IRQHandler
+                0x080040a8                USART6_IRQHandler
+                0x080040a8                USART3_IRQHandler
+                0x080040a8                CRYP_IRQHandler
+                0x080040a8                CAN1_RX1_IRQHandler
+                0x080040a8                UART5_IRQHandler
+                0x080040a8                DMA2_Stream0_IRQHandler
+                0x080040a8                TIM4_IRQHandler
+                0x080040a8                I2C1_EV_IRQHandler
+                0x080040a8                DMA1_Stream6_IRQHandler
+                0x080040a8                DMA1_Stream1_IRQHandler
+                0x080040a8                UART4_IRQHandler
+                0x080040a8                TIM3_IRQHandler
+                0x080040a8                RCC_IRQHandler
+                0x080040a8                TIM8_BRK_TIM12_IRQHandler
+                0x080040a8                EXTI15_10_IRQHandler
+                0x080040a8                ADC_IRQHandler
+                0x080040a8                TIM7_IRQHandler
+                0x080040a8                CAN2_TX_IRQHandler
+                0x080040a8                TIM5_IRQHandler
+                0x080040a8                DMA2_Stream7_IRQHandler
+                0x080040a8                I2C3_EV_IRQHandler
+                0x080040a8                EXTI9_5_IRQHandler
+                0x080040a8                RTC_WKUP_IRQHandler
+                0x080040a8                ETH_WKUP_IRQHandler
+                0x080040a8                SPI2_IRQHandler
+                0x080040a8                OTG_HS_EP1_IN_IRQHandler
+                0x080040a8                MemManage_Handler
+                0x080040a8                DMA1_Stream0_IRQHandler
+                0x080040a8                CAN1_TX_IRQHandler
+                0x080040a8                SVC_Handler
+                0x080040a8                EXTI4_IRQHandler
+                0x080040a8                FSMC_IRQHandler
+                0x080040a8                ETH_IRQHandler
+                0x080040a8                OTG_HS_EP1_OUT_IRQHandler
+                0x080040a8                WWDG_IRQHandler
+                0x080040a8                TIM2_IRQHandler
+                0x080040a8                OTG_FS_WKUP_IRQHandler
+                0x080040a8                TIM1_TRG_COM_TIM11_IRQHandler
+                0x080040a8                OTG_HS_IRQHandler
+                0x080040a8                EXTI1_IRQHandler
+                0x080040a8                USART2_IRQHandler
+                0x080040a8                I2C2_ER_IRQHandler
+                0x080040a8                DMA2_Stream1_IRQHandler
+                0x080040a8                CAN1_SCE_IRQHandler
+                0x080040a8                FLASH_IRQHandler
+                0x080040a8                DMA2_Stream4_IRQHandler
+                0x080040a8                BusFault_Handler
+                0x080040a8                USART1_IRQHandler
+                0x080040a8                OTG_FS_IRQHandler
+                0x080040a8                SPI3_IRQHandler
+                0x080040a8                DMA1_Stream4_IRQHandler
+                0x080040a8                I2C1_ER_IRQHandler
+                0x080040a8                DMA2_Stream6_IRQHandler
+                0x080040a8                DMA1_Stream3_IRQHandler
+ .text.MP3InitDecoder
+                0x080040b0       0x18 ..\obj\mp3dec.o
+                0x080040b0                MP3InitDecoder
+ .text.MP3FindSyncWord
+                0x080040c8       0x50 ..\obj\mp3dec.o
+                0x080040c8                MP3FindSyncWord
+ .text.MP3FindFreeSync
+                0x08004118       0xa0 ..\obj\mp3dec.o
+ .text.MP3GetLastFrameInfo
+                0x080041b8       0xc0 ..\obj\mp3dec.o
+                0x080041b8                MP3GetLastFrameInfo
+ .text.MP3ClearBadFrame
+                0x08004278       0x54 ..\obj\mp3dec.o
+ .text.MP3Decode
+                0x080042cc      0x430 ..\obj\mp3dec.o
+                0x080042cc                MP3Decode
+ .text.LED_GPIO_conf
+                0x080046fc       0x3c ..\obj\main.o
+                0x080046fc                LED_GPIO_conf
+ .text.main     0x08004738       0x1c ..\obj\main.o
+                0x08004738                main
+ .text.RCC_AHB1PeriphClockCmd
+                0x08004754       0x3c ..\obj\stm32f4xx_rcc.o
+                0x08004754                RCC_AHB1PeriphClockCmd
+ .text.RCC_APB1PeriphClockCmd
+                0x08004790       0x3c ..\obj\stm32f4xx_rcc.o
+                0x08004790                RCC_APB1PeriphClockCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x080047cc       0x3c ..\obj\stm32f4xx_rcc.o
+                0x080047cc                RCC_APB1PeriphResetCmd
+ .text.RCC_APB2PeriphResetCmd
+                0x08004808       0x3c ..\obj\stm32f4xx_rcc.o
+                0x08004808                RCC_APB2PeriphResetCmd
+ .text.rcvr_spi
+                0x08004844       0x48 ..\obj\karta_sd.o
+ .text.wait_ready
+                0x0800488c       0x38 ..\obj\karta_sd.o
+ .text.xmit_spi
+                0x080048c4       0x48 ..\obj\karta_sd.o
+ .text.send_cmd
+                0x0800490c       0xa4 ..\obj\karta_sd.o
+ .text.ini_spi  0x080049b0       0xe8 ..\obj\karta_sd.o
+                0x080049b0                ini_spi
+ .text.ini_karta_sd
+                0x08004a98       0x60 ..\obj\karta_sd.o
+                0x08004a98                ini_karta_sd
+ .text.start_sd
+                0x08004af8       0x14 ..\obj\karta_sd.o
+                0x08004af8                start_sd
  .text.SELECT   0x08004b0c       0x20 ..\obj\spi_sd.o
  .text.DESELECT
                 0x08004b2c       0x20 ..\obj\spi_sd.o
@@ -1366,68 +1370,68 @@ Linker script and memory map
  *(.rodata*)
  .rodata        0x0800be5c      0x250 ..\obj\dqchan.o
  .rodata        0x0800c0ac       0x68 ..\obj\scalfact.o
- .rodata        0x0800c114     0x2304 ..\obj\hufftabs.o
-                0x0800c114                xmp3fixpt_huffTable
-                0x0800e238                xmp3fixpt_huffTabOffset
-                0x0800e2b8                xmp3fixpt_huffTabLookup
-                0x0800e3b8                xmp3fixpt_quadTable
-                0x0800e408                xmp3fixpt_quadTabOffset
-                0x0800e410                xmp3fixpt_quadTabMaxBits
- .rodata        0x0800e418       0x90 ..\obj\imdct.o
- .rodata        0x0800e4a8      0x506 ..\obj\mp3tabs.o
-                0x0800e4a8                xmp3fixpt_samplerateTab
-                0x0800e4cc                xmp3fixpt_bitrateTab
-                0x0800e5dc                xmp3fixpt_samplesPerFrameTab
-                0x0800e5f0                xmp3fixpt_bitsPerSlotTab
-                0x0800e5f8                xmp3fixpt_sideBytesTab
-                0x0800e604                xmp3fixpt_slotTab
-                0x0800e714                xmp3fixpt_sfBandTable
- *fill*         0x0800e9ae        0x2 
- .rodata        0x0800e9b0        0x8 ..\obj\main.o
- .rodata        0x0800e9b8       0x1d ..\obj\karta_sd.o
- *fill*         0x0800e9d5        0x3 
- .rodata        0x0800e9d8      0x86c ..\obj\trigtabs_fixpt.o
-                0x0800e9d8                xmp3fixpt_imdctWin
-                0x0800ec18                xmp3fixpt_ISFMpeg1
-                0x0800ec50                xmp3fixpt_ISFMpeg2
-                0x0800ed50                xmp3fixpt_ISFIIP
-                0x0800ed60                xmp3fixpt_uniqueIDTab
-                0x0800ed68                xmp3fixpt_csa
-                0x0800eda8                xmp3fixpt_coef32
-                0x0800ee24                xmp3fixpt_polyCoef
- .rodata        0x0800f244       0x90 ..\obj\ff.o
- .rodata        0x0800f2d4       0xc0 ..\obj\dct32.o
+ .rodata        0x0800c114       0x11 ..\obj\mp3.o
+ *fill*         0x0800c125        0x3 
+ .rodata        0x0800c128     0x2304 ..\obj\hufftabs.o
+                0x0800c128                xmp3fixpt_huffTable
+                0x0800e24c                xmp3fixpt_huffTabOffset
+                0x0800e2cc                xmp3fixpt_huffTabLookup
+                0x0800e3cc                xmp3fixpt_quadTable
+                0x0800e41c                xmp3fixpt_quadTabOffset
+                0x0800e424                xmp3fixpt_quadTabMaxBits
+ .rodata        0x0800e42c       0x90 ..\obj\imdct.o
+ .rodata        0x0800e4bc      0x506 ..\obj\mp3tabs.o
+                0x0800e4bc                xmp3fixpt_samplerateTab
+                0x0800e4e0                xmp3fixpt_bitrateTab
+                0x0800e5f0                xmp3fixpt_samplesPerFrameTab
+                0x0800e604                xmp3fixpt_bitsPerSlotTab
+                0x0800e60c                xmp3fixpt_sideBytesTab
+                0x0800e618                xmp3fixpt_slotTab
+                0x0800e728                xmp3fixpt_sfBandTable
+ *fill*         0x0800e9c2        0x2 
+ .rodata        0x0800e9c4        0x8 ..\obj\main.o
+ .rodata        0x0800e9cc      0x86c ..\obj\trigtabs_fixpt.o
+                0x0800e9cc                xmp3fixpt_imdctWin
+                0x0800ec0c                xmp3fixpt_ISFMpeg1
+                0x0800ec44                xmp3fixpt_ISFMpeg2
+                0x0800ed44                xmp3fixpt_ISFIIP
+                0x0800ed54                xmp3fixpt_uniqueIDTab
+                0x0800ed5c                xmp3fixpt_csa
+                0x0800ed9c                xmp3fixpt_coef32
+                0x0800ee18                xmp3fixpt_polyCoef
+ .rodata        0x0800f238       0x90 ..\obj\ff.o
+ .rodata        0x0800f2c8       0xc0 ..\obj\dct32.o
  *(.eh_fram e*)
 
-.glue_7         0x0800f394        0x0
- .glue_7        0x0800f394        0x0 linker stubs
+.glue_7         0x0800f388        0x0
+ .glue_7        0x0800f388        0x0 linker stubs
 
-.glue_7t        0x0800f394        0x0
- .glue_7t       0x0800f394        0x0 linker stubs
+.glue_7t        0x0800f388        0x0
+ .glue_7t       0x0800f388        0x0 linker stubs
 
-.vfp11_veneer   0x0800f394        0x0
- .vfp11_veneer  0x0800f394        0x0 linker stubs
+.vfp11_veneer   0x0800f388        0x0
+ .vfp11_veneer  0x0800f388        0x0 linker stubs
 
-.v4_bx          0x0800f394        0x0
- .v4_bx         0x0800f394        0x0 linker stubs
+.v4_bx          0x0800f388        0x0
+ .v4_bx         0x0800f388        0x0 linker stubs
 
-.iplt           0x0800f394        0x0
- .iplt          0x0800f394        0x0 ..\obj\stm32f4xx_syscfg.o
+.iplt           0x0800f388        0x0
+ .iplt          0x0800f388        0x0 ..\obj\stm32f4xx_syscfg.o
 
-.rel.dyn        0x0800f394        0x0
- .rel.iplt      0x0800f394        0x0 ..\obj\stm32f4xx_syscfg.o
+.rel.dyn        0x0800f388        0x0
+ .rel.iplt      0x0800f388        0x0 ..\obj\stm32f4xx_syscfg.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0800f394                __exidx_start = .
+                0x0800f388                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0800f394                __exidx_end = .
-                0x0800f394                __etext = .
-                0x0800f394                _sidata = __etext
+                0x0800f388                __exidx_end = .
+                0x0800f388                __etext = .
+                0x0800f388                _sidata = __etext
 
-.data           0x20000000        0x4 load address 0x0800f394
+.data           0x20000000        0x4 load address 0x0800f388
                 0x20000000                __data_start__ = .
                 0x20000000                _sdata = __data_start__
  *(vtable)
@@ -1453,57 +1457,56 @@ Linker script and memory map
                 0x20000004                __data_end__ = .
                 0x20000004                _edata = __data_end__
 
-.igot.plt       0x20000004        0x0 load address 0x0800f398
+.igot.plt       0x20000004        0x0 load address 0x0800f38c
  .igot.plt      0x20000004        0x0 ..\obj\stm32f4xx_syscfg.o
 
-.bss            0x20000004     0xd830 load address 0x0800f398
+.bss            0x20000004     0xd828 load address 0x0800f38c
                 0x20000004                . = ALIGN (0x4)
                 0x20000004                __bss_start__ = .
                 0x20000004                _sbss = __bss_start__
  *(.bss*)
- .bss           0x20000004     0x4004 ..\obj\karta_sd.o
- .bss           0x20004008        0x4 ..\obj\spi_sd.o
- .bss           0x2000400c     0x5d08 ..\obj\buffers.o
- .bss           0x20009d14        0x6 ..\obj\ff.o
- *fill*         0x20009d1a        0x2 
- .bss           0x20009d1c       0x15 ..\obj\Audio.o
+ .bss           0x20000004     0x4004 ..\obj\mp3.o
+ .bss           0x20004008        0x2 ..\obj\karta_sd.o
+ .bss           0x2000400a        0x4 ..\obj\spi_sd.o
+ *fill*         0x2000400e        0x2 
+ .bss           0x20004010     0x5d08 ..\obj\buffers.o
+ .bss           0x20009d18        0x6 ..\obj\ff.o
+ *fill*         0x20009d1e        0x2 
+ .bss           0x20009d20       0x15 ..\obj\Audio.o
  *(COMMON)
- *fill*         0x20009d31        0x3 
- COMMON         0x20009d34     0x3b00 ..\obj\karta_sd.o
-                0x20009d34                plik2
-                0x20009f58                petla
+ *fill*         0x20009d35        0x3 
+ COMMON         0x20009d38     0x3af4 ..\obj\mp3.o
+                0x20009d38                plik2
                 0x20009f5c                f
-                0x20009f60                wym_tab
-                0x20009f64                file
-                0x2000a188                hMP3Decoder
-                0x2000a18c                i
-                0x2000a190                buffer
-                0x2000b190                d
-                0x2000b194                usta
-                0x2000b3b8                fresult
-                0x2000b3bc                g_sFatFs
-                0x2000b5ec                file_read_buffer
-                0x2000d5ec                plik
-                0x2000d810                bytes_left
-                0x2000d814                read_ptr
-                0x2000d818                mp3FrameInfo
-                0x2000d834                . = ALIGN (0x4)
-                0x2000d834                __bss_end__ = .
-                0x2000d834                _ebss = __bss_end__
+                0x20009f60                file
+                0x2000a184                hMP3Decoder
+                0x2000a188                buffer
+                0x2000b188                d
+                0x2000b18c                usta
+                0x2000b3b0                fresult
+                0x2000b3b4                g_sFatFs
+                0x2000b5e4                file_read_buffer
+                0x2000d5e4                plik
+                0x2000d808                bytes_left
+                0x2000d80c                read_ptr
+                0x2000d810                mp3FrameInfo
+                0x2000d82c                . = ALIGN (0x4)
+                0x2000d82c                __bss_end__ = .
+                0x2000d82c                _ebss = __bss_end__
 
-.heap           0x2000d834        0x0
-                0x2000d834                __end__ = .
-                0x2000d834                _end = __end__
-                0x2000d834                end = __end__
+.heap           0x2000d82c        0x0
+                0x2000d82c                __end__ = .
+                0x2000d82c                _end = __end__
+                0x2000d82c                end = __end__
  *(.heap*)
-                0x2000d834                __HeapLimit = .
+                0x2000d82c                __HeapLimit = .
 
-.co_stack       0x2000d834      0x804 load address 0x0801cbc8
-                0x2000d838                . = ALIGN (0x8)
- *fill*         0x2000d834        0x4 
+.co_stack       0x2000d82c      0x804 load address 0x0801cbb4
+                0x2000d830                . = ALIGN (0x8)
+ *fill*         0x2000d82c        0x4 
  *(.co_stack .co_stack.*)
- .co_stack      0x2000d838      0x800 ..\obj\startup_stm32f4xx.o
-                0x2000d838                pulStack
+ .co_stack      0x2000d830      0x800 ..\obj\startup_stm32f4xx.o
+                0x2000d830                pulStack
                 0x20020000                __StackTop = (ORIGIN (ram) + LENGTH (ram))
                 0x2001f7fc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
                 [!provide]                PROVIDE (__stack, __StackTop)
@@ -1512,6 +1515,7 @@ LOAD ..\obj\stm32f4xx_syscfg.o
 LOAD ..\obj\dqchan.o
 LOAD ..\obj\scalfact.o
 LOAD ..\obj\stm32f4xx_sdio.o
+LOAD ..\obj\mp3.o
 LOAD ..\obj\bitstream.o
 LOAD ..\obj\dequant.o
 LOAD ..\obj\hufftabs.o
@@ -1549,219 +1553,228 @@ LOAD c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm
 END GROUP
 OUTPUT(sdcardv2.elf elf32-littlearm)
 
-.debug_info     0x00000000     0xc759
+.debug_info     0x00000000     0xcf32
  .debug_info    0x00000000      0x74f ..\obj\dqchan.o
  .debug_info    0x0000074f      0x8be ..\obj\scalfact.o
- .debug_info    0x0000100d      0x80e ..\obj\bitstream.o
- .debug_info    0x0000181b      0x774 ..\obj\dequant.o
- .debug_info    0x00001f8f      0x1be ..\obj\hufftabs.o
- .debug_info    0x0000214d     0x1271 ..\obj\imdct.o
- .debug_info    0x000033be      0x1d1 ..\obj\mp3tabs.o
- .debug_info    0x0000358f      0x3d6 ..\obj\subband.o
- .debug_info    0x00003965       0xed ..\obj\startup_stm32f4xx.o
- .debug_info    0x00003a52      0x60e ..\obj\mp3dec.o
- .debug_info    0x00004060      0x2fd ..\obj\main.o
- .debug_info    0x0000435d      0xc59 ..\obj\stm32f4xx_rcc.o
- .debug_info    0x00004fb6      0xe86 ..\obj\karta_sd.o
- .debug_info    0x00005e3c      0x964 ..\obj\spi_sd.o
- .debug_info    0x000067a0      0x61a ..\obj\stm32f4xx_gpio.o
- .debug_info    0x00006dba      0x596 ..\obj\system_stm32f4xx.o
- .debug_info    0x00007350      0x7f9 ..\obj\stproc.o
- .debug_info    0x00007b49      0xa9e ..\obj\huffman.o
- .debug_info    0x000085e7      0x1c4 ..\obj\trigtabs_fixpt.o
- .debug_info    0x000087ab      0x8e8 ..\obj\buffers.o
- .debug_info    0x00009093     0x161e ..\obj\ff.o
- .debug_info    0x0000a6b1      0xb0f ..\obj\stm32f4xx_spi.o
- .debug_info    0x0000b1c0      0x2cd ..\obj\dct32.o
- .debug_info    0x0000b48d      0xf65 ..\obj\Audio.o
- .debug_info    0x0000c3f2      0x367 ..\obj\polyphase.o
+ .debug_info    0x0000100d      0x990 ..\obj\mp3.o
+ .debug_info    0x0000199d      0x80e ..\obj\bitstream.o
+ .debug_info    0x000021ab      0x774 ..\obj\dequant.o
+ .debug_info    0x0000291f      0x1be ..\obj\hufftabs.o
+ .debug_info    0x00002add     0x1271 ..\obj\imdct.o
+ .debug_info    0x00003d4e      0x1d1 ..\obj\mp3tabs.o
+ .debug_info    0x00003f1f      0x3d6 ..\obj\subband.o
+ .debug_info    0x000042f5       0xed ..\obj\startup_stm32f4xx.o
+ .debug_info    0x000043e2      0x60e ..\obj\mp3dec.o
+ .debug_info    0x000049f0      0x61d ..\obj\main.o
+ .debug_info    0x0000500d      0xc59 ..\obj\stm32f4xx_rcc.o
+ .debug_info    0x00005c66      0x9af ..\obj\karta_sd.o
+ .debug_info    0x00006615      0x964 ..\obj\spi_sd.o
+ .debug_info    0x00006f79      0x61a ..\obj\stm32f4xx_gpio.o
+ .debug_info    0x00007593      0x596 ..\obj\system_stm32f4xx.o
+ .debug_info    0x00007b29      0x7f9 ..\obj\stproc.o
+ .debug_info    0x00008322      0xa9e ..\obj\huffman.o
+ .debug_info    0x00008dc0      0x1c4 ..\obj\trigtabs_fixpt.o
+ .debug_info    0x00008f84      0x8e8 ..\obj\buffers.o
+ .debug_info    0x0000986c     0x161e ..\obj\ff.o
+ .debug_info    0x0000ae8a      0xb0f ..\obj\stm32f4xx_spi.o
+ .debug_info    0x0000b999      0x2cd ..\obj\dct32.o
+ .debug_info    0x0000bc66      0xf65 ..\obj\Audio.o
+ .debug_info    0x0000cbcb      0x367 ..\obj\polyphase.o
 
-.debug_abbrev   0x00000000     0x256b
+.debug_abbrev   0x00000000     0x26c9
  .debug_abbrev  0x00000000      0x16d ..\obj\dqchan.o
  .debug_abbrev  0x0000016d      0x176 ..\obj\scalfact.o
- .debug_abbrev  0x000002e3      0x1d9 ..\obj\bitstream.o
- .debug_abbrev  0x000004bc      0x176 ..\obj\dequant.o
- .debug_abbrev  0x00000632       0xad ..\obj\hufftabs.o
- .debug_abbrev  0x000006df      0x22a ..\obj\imdct.o
- .debug_abbrev  0x00000909       0x79 ..\obj\mp3tabs.o
- .debug_abbrev  0x00000982      0x113 ..\obj\subband.o
- .debug_abbrev  0x00000a95       0xb0 ..\obj\startup_stm32f4xx.o
- .debug_abbrev  0x00000b45      0x1f8 ..\obj\mp3dec.o
- .debug_abbrev  0x00000d3d      0x153 ..\obj\main.o
- .debug_abbrev  0x00000e90      0x1e5 ..\obj\stm32f4xx_rcc.o
- .debug_abbrev  0x00001075      0x2da ..\obj\karta_sd.o
- .debug_abbrev  0x0000134f      0x261 ..\obj\spi_sd.o
- .debug_abbrev  0x000015b0      0x1a7 ..\obj\stm32f4xx_gpio.o
- .debug_abbrev  0x00001757      0x138 ..\obj\system_stm32f4xx.o
- .debug_abbrev  0x0000188f      0x151 ..\obj\stproc.o
- .debug_abbrev  0x000019e0      0x1c8 ..\obj\huffman.o
- .debug_abbrev  0x00001ba8       0x68 ..\obj\trigtabs_fixpt.o
- .debug_abbrev  0x00001c10      0x17b ..\obj\buffers.o
- .debug_abbrev  0x00001d8b      0x1ca ..\obj\ff.o
- .debug_abbrev  0x00001f55      0x169 ..\obj\stm32f4xx_spi.o
- .debug_abbrev  0x000020be       0xec ..\obj\dct32.o
- .debug_abbrev  0x000021aa      0x268 ..\obj\Audio.o
- .debug_abbrev  0x00002412      0x159 ..\obj\polyphase.o
+ .debug_abbrev  0x000002e3      0x1d6 ..\obj\mp3.o
+ .debug_abbrev  0x000004b9      0x1d9 ..\obj\bitstream.o
+ .debug_abbrev  0x00000692      0x176 ..\obj\dequant.o
+ .debug_abbrev  0x00000808       0xad ..\obj\hufftabs.o
+ .debug_abbrev  0x000008b5      0x22a ..\obj\imdct.o
+ .debug_abbrev  0x00000adf       0x79 ..\obj\mp3tabs.o
+ .debug_abbrev  0x00000b58      0x113 ..\obj\subband.o
+ .debug_abbrev  0x00000c6b       0xb0 ..\obj\startup_stm32f4xx.o
+ .debug_abbrev  0x00000d1b      0x1f8 ..\obj\mp3dec.o
+ .debug_abbrev  0x00000f13      0x178 ..\obj\main.o
+ .debug_abbrev  0x0000108b      0x1e5 ..\obj\stm32f4xx_rcc.o
+ .debug_abbrev  0x00001270      0x23d ..\obj\karta_sd.o
+ .debug_abbrev  0x000014ad      0x261 ..\obj\spi_sd.o
+ .debug_abbrev  0x0000170e      0x1a7 ..\obj\stm32f4xx_gpio.o
+ .debug_abbrev  0x000018b5      0x138 ..\obj\system_stm32f4xx.o
+ .debug_abbrev  0x000019ed      0x151 ..\obj\stproc.o
+ .debug_abbrev  0x00001b3e      0x1c8 ..\obj\huffman.o
+ .debug_abbrev  0x00001d06       0x68 ..\obj\trigtabs_fixpt.o
+ .debug_abbrev  0x00001d6e      0x17b ..\obj\buffers.o
+ .debug_abbrev  0x00001ee9      0x1ca ..\obj\ff.o
+ .debug_abbrev  0x000020b3      0x169 ..\obj\stm32f4xx_spi.o
+ .debug_abbrev  0x0000221c       0xec ..\obj\dct32.o
+ .debug_abbrev  0x00002308      0x268 ..\obj\Audio.o
+ .debug_abbrev  0x00002570      0x159 ..\obj\polyphase.o
 
-.debug_aranges  0x00000000      0x9b8
+.debug_aranges  0x00000000      0x9d0
  .debug_aranges
                 0x00000000       0x38 ..\obj\dqchan.o
  .debug_aranges
                 0x00000038       0x30 ..\obj\scalfact.o
  .debug_aranges
-                0x00000068       0x50 ..\obj\bitstream.o
+                0x00000068       0x38 ..\obj\mp3.o
  .debug_aranges
-                0x000000b8       0x28 ..\obj\dequant.o
+                0x000000a0       0x50 ..\obj\bitstream.o
  .debug_aranges
-                0x000000e0       0x18 ..\obj\hufftabs.o
+                0x000000f0       0x28 ..\obj\dequant.o
  .debug_aranges
-                0x000000f8       0x78 ..\obj\imdct.o
+                0x00000118       0x18 ..\obj\hufftabs.o
  .debug_aranges
-                0x00000170       0x18 ..\obj\mp3tabs.o
+                0x00000130       0x78 ..\obj\imdct.o
  .debug_aranges
-                0x00000188       0x20 ..\obj\subband.o
+                0x000001a8       0x18 ..\obj\mp3tabs.o
  .debug_aranges
-                0x000001a8       0x28 ..\obj\startup_stm32f4xx.o
+                0x000001c0       0x20 ..\obj\subband.o
  .debug_aranges
-                0x000001d0       0x58 ..\obj\mp3dec.o
+                0x000001e0       0x28 ..\obj\startup_stm32f4xx.o
  .debug_aranges
-                0x00000228       0x28 ..\obj\main.o
+                0x00000208       0x58 ..\obj\mp3dec.o
  .debug_aranges
-                0x00000250      0x178 ..\obj\stm32f4xx_rcc.o
+                0x00000260       0x28 ..\obj\main.o
  .debug_aranges
-                0x000003c8       0x88 ..\obj\karta_sd.o
+                0x00000288      0x178 ..\obj\stm32f4xx_rcc.o
  .debug_aranges
-                0x00000450       0xb8 ..\obj\spi_sd.o
+                0x00000400       0x68 ..\obj\karta_sd.o
  .debug_aranges
-                0x00000508       0x88 ..\obj\stm32f4xx_gpio.o
+                0x00000468       0xb8 ..\obj\spi_sd.o
  .debug_aranges
-                0x00000590       0x30 ..\obj\system_stm32f4xx.o
+                0x00000520       0x88 ..\obj\stm32f4xx_gpio.o
  .debug_aranges
-                0x000005c0       0x40 ..\obj\stproc.o
+                0x000005a8       0x30 ..\obj\system_stm32f4xx.o
  .debug_aranges
-                0x00000600       0x30 ..\obj\huffman.o
+                0x000005d8       0x40 ..\obj\stproc.o
  .debug_aranges
-                0x00000630       0x18 ..\obj\trigtabs_fixpt.o
+                0x00000618       0x30 ..\obj\huffman.o
  .debug_aranges
-                0x00000648       0x30 ..\obj\buffers.o
+                0x00000648       0x18 ..\obj\trigtabs_fixpt.o
  .debug_aranges
-                0x00000678      0x158 ..\obj\ff.o
+                0x00000660       0x30 ..\obj\buffers.o
  .debug_aranges
-                0x000007d0       0xe0 ..\obj\stm32f4xx_spi.o
+                0x00000690      0x158 ..\obj\ff.o
  .debug_aranges
-                0x000008b0       0x28 ..\obj\dct32.o
+                0x000007e8       0xe0 ..\obj\stm32f4xx_spi.o
  .debug_aranges
-                0x000008d8       0xa0 ..\obj\Audio.o
+                0x000008c8       0x28 ..\obj\dct32.o
  .debug_aranges
-                0x00000978       0x40 ..\obj\polyphase.o
+                0x000008f0       0xa0 ..\obj\Audio.o
+ .debug_aranges
+                0x00000990       0x40 ..\obj\polyphase.o
 
-.debug_ranges   0x00000000      0x828
+.debug_ranges   0x00000000      0x830
  .debug_ranges  0x00000000       0x28 ..\obj\dqchan.o
  .debug_ranges  0x00000028       0x20 ..\obj\scalfact.o
- .debug_ranges  0x00000048       0x40 ..\obj\bitstream.o
- .debug_ranges  0x00000088       0x18 ..\obj\dequant.o
- .debug_ranges  0x000000a0       0x68 ..\obj\imdct.o
- .debug_ranges  0x00000108       0x10 ..\obj\subband.o
- .debug_ranges  0x00000118       0x18 ..\obj\startup_stm32f4xx.o
- .debug_ranges  0x00000130       0x48 ..\obj\mp3dec.o
- .debug_ranges  0x00000178       0x18 ..\obj\main.o
- .debug_ranges  0x00000190      0x168 ..\obj\stm32f4xx_rcc.o
- .debug_ranges  0x000002f8       0x90 ..\obj\karta_sd.o
- .debug_ranges  0x00000388       0xa8 ..\obj\spi_sd.o
- .debug_ranges  0x00000430       0x78 ..\obj\stm32f4xx_gpio.o
- .debug_ranges  0x000004a8       0x20 ..\obj\system_stm32f4xx.o
- .debug_ranges  0x000004c8       0x30 ..\obj\stproc.o
- .debug_ranges  0x000004f8       0x20 ..\obj\huffman.o
- .debug_ranges  0x00000518       0x20 ..\obj\buffers.o
- .debug_ranges  0x00000538      0x148 ..\obj\ff.o
- .debug_ranges  0x00000680       0xd0 ..\obj\stm32f4xx_spi.o
- .debug_ranges  0x00000750       0x18 ..\obj\dct32.o
- .debug_ranges  0x00000768       0x90 ..\obj\Audio.o
- .debug_ranges  0x000007f8       0x30 ..\obj\polyphase.o
+ .debug_ranges  0x00000048       0x40 ..\obj\mp3.o
+ .debug_ranges  0x00000088       0x40 ..\obj\bitstream.o
+ .debug_ranges  0x000000c8       0x18 ..\obj\dequant.o
+ .debug_ranges  0x000000e0       0x68 ..\obj\imdct.o
+ .debug_ranges  0x00000148       0x10 ..\obj\subband.o
+ .debug_ranges  0x00000158       0x18 ..\obj\startup_stm32f4xx.o
+ .debug_ranges  0x00000170       0x48 ..\obj\mp3dec.o
+ .debug_ranges  0x000001b8       0x18 ..\obj\main.o
+ .debug_ranges  0x000001d0      0x168 ..\obj\stm32f4xx_rcc.o
+ .debug_ranges  0x00000338       0x58 ..\obj\karta_sd.o
+ .debug_ranges  0x00000390       0xa8 ..\obj\spi_sd.o
+ .debug_ranges  0x00000438       0x78 ..\obj\stm32f4xx_gpio.o
+ .debug_ranges  0x000004b0       0x20 ..\obj\system_stm32f4xx.o
+ .debug_ranges  0x000004d0       0x30 ..\obj\stproc.o
+ .debug_ranges  0x00000500       0x20 ..\obj\huffman.o
+ .debug_ranges  0x00000520       0x20 ..\obj\buffers.o
+ .debug_ranges  0x00000540      0x148 ..\obj\ff.o
+ .debug_ranges  0x00000688       0xd0 ..\obj\stm32f4xx_spi.o
+ .debug_ranges  0x00000758       0x18 ..\obj\dct32.o
+ .debug_ranges  0x00000770       0x90 ..\obj\Audio.o
+ .debug_ranges  0x00000800       0x30 ..\obj\polyphase.o
 
-.debug_line     0x00000000     0x54df
+.debug_line     0x00000000     0x5793
  .debug_line    0x00000000      0x2bf ..\obj\dqchan.o
  .debug_line    0x000002bf      0x321 ..\obj\scalfact.o
- .debug_line    0x000005e0      0x381 ..\obj\bitstream.o
- .debug_line    0x00000961      0x1c9 ..\obj\dequant.o
- .debug_line    0x00000b2a       0x82 ..\obj\hufftabs.o
- .debug_line    0x00000bac      0x695 ..\obj\imdct.o
- .debug_line    0x00001241       0xcb ..\obj\mp3tabs.o
- .debug_line    0x0000130c      0x15d ..\obj\subband.o
- .debug_line    0x00001469       0xba ..\obj\startup_stm32f4xx.o
- .debug_line    0x00001523      0x26f ..\obj\mp3dec.o
- .debug_line    0x00001792      0x27b ..\obj\main.o
- .debug_line    0x00001a0d      0x629 ..\obj\stm32f4xx_rcc.o
- .debug_line    0x00002036      0x622 ..\obj\karta_sd.o
- .debug_line    0x00002658      0x5bc ..\obj\spi_sd.o
- .debug_line    0x00002c14      0x3e4 ..\obj\stm32f4xx_gpio.o
- .debug_line    0x00002ff8      0x234 ..\obj\system_stm32f4xx.o
- .debug_line    0x0000322c      0x341 ..\obj\stproc.o
- .debug_line    0x0000356d      0x30c ..\obj\huffman.o
- .debug_line    0x00003879       0x7d ..\obj\trigtabs_fixpt.o
- .debug_line    0x000038f6      0x16f ..\obj\buffers.o
- .debug_line    0x00003a65      0xbad ..\obj\ff.o
- .debug_line    0x00004612      0x4dd ..\obj\stm32f4xx_spi.o
- .debug_line    0x00004aef      0x300 ..\obj\dct32.o
- .debug_line    0x00004def      0x46e ..\obj\Audio.o
- .debug_line    0x0000525d      0x282 ..\obj\polyphase.o
+ .debug_line    0x000005e0      0x405 ..\obj\mp3.o
+ .debug_line    0x000009e5      0x381 ..\obj\bitstream.o
+ .debug_line    0x00000d66      0x1c9 ..\obj\dequant.o
+ .debug_line    0x00000f2f       0x82 ..\obj\hufftabs.o
+ .debug_line    0x00000fb1      0x695 ..\obj\imdct.o
+ .debug_line    0x00001646       0xcb ..\obj\mp3tabs.o
+ .debug_line    0x00001711      0x15d ..\obj\subband.o
+ .debug_line    0x0000186e       0xba ..\obj\startup_stm32f4xx.o
+ .debug_line    0x00001928      0x26f ..\obj\mp3dec.o
+ .debug_line    0x00001b97      0x2e5 ..\obj\main.o
+ .debug_line    0x00001e7c      0x629 ..\obj\stm32f4xx_rcc.o
+ .debug_line    0x000024a5      0x467 ..\obj\karta_sd.o
+ .debug_line    0x0000290c      0x5bc ..\obj\spi_sd.o
+ .debug_line    0x00002ec8      0x3e4 ..\obj\stm32f4xx_gpio.o
+ .debug_line    0x000032ac      0x234 ..\obj\system_stm32f4xx.o
+ .debug_line    0x000034e0      0x341 ..\obj\stproc.o
+ .debug_line    0x00003821      0x30c ..\obj\huffman.o
+ .debug_line    0x00003b2d       0x7d ..\obj\trigtabs_fixpt.o
+ .debug_line    0x00003baa      0x16f ..\obj\buffers.o
+ .debug_line    0x00003d19      0xbad ..\obj\ff.o
+ .debug_line    0x000048c6      0x4dd ..\obj\stm32f4xx_spi.o
+ .debug_line    0x00004da3      0x300 ..\obj\dct32.o
+ .debug_line    0x000050a3      0x46e ..\obj\Audio.o
+ .debug_line    0x00005511      0x282 ..\obj\polyphase.o
 
-.debug_str      0x00000000     0x3541
+.debug_str      0x00000000     0x3588
  .debug_str     0x00000000      0x3dc ..\obj\dqchan.o
                                 0x476 (size before relaxing)
  .debug_str     0x000003dc      0x272 ..\obj\scalfact.o
                                 0x58a (size before relaxing)
- .debug_str     0x0000064e      0x1a3 ..\obj\bitstream.o
+ .debug_str     0x0000064e      0x5bb ..\obj\mp3.o
+                                0x755 (size before relaxing)
+ .debug_str     0x00000c09      0x1a3 ..\obj\bitstream.o
                                 0x5d3 (size before relaxing)
- .debug_str     0x000007f1       0x95 ..\obj\dequant.o
+ .debug_str     0x00000dac       0x95 ..\obj\dequant.o
                                 0x54c (size before relaxing)
- .debug_str     0x00000886      0x14c ..\obj\hufftabs.o
+ .debug_str     0x00000e41      0x14c ..\obj\hufftabs.o
                                 0x274 (size before relaxing)
- .debug_str     0x000009d2      0x224 ..\obj\imdct.o
+ .debug_str     0x00000f8d      0x224 ..\obj\imdct.o
                                 0x657 (size before relaxing)
- .debug_str     0x00000bf6       0x6a ..\obj\mp3tabs.o
+ .debug_str     0x000011b1       0x6a ..\obj\mp3tabs.o
                                 0x215 (size before relaxing)
- .debug_str     0x00000c60       0x9b ..\obj\subband.o
+ .debug_str     0x0000121b       0x9b ..\obj\subband.o
                                 0x361 (size before relaxing)
- .debug_str     0x00000cfb       0xc9 ..\obj\startup_stm32f4xx.o
+ .debug_str     0x000012b6       0xc9 ..\obj\startup_stm32f4xx.o
                                 0x160 (size before relaxing)
- .debug_str     0x00000dc4      0x2ee ..\obj\mp3dec.o
+ .debug_str     0x0000137f      0x14a ..\obj\mp3dec.o
                                 0x577 (size before relaxing)
- .debug_str     0x000010b2      0x23c ..\obj\main.o
-                                0x369 (size before relaxing)
- .debug_str     0x000012ee      0x6c2 ..\obj\stm32f4xx_rcc.o
+ .debug_str     0x000014c9      0x1c4 ..\obj\main.o
+                                0x579 (size before relaxing)
+ .debug_str     0x0000168d      0x6b8 ..\obj\stm32f4xx_rcc.o
                                 0x869 (size before relaxing)
- .debug_str     0x000019b0      0x4ea ..\obj\karta_sd.o
-                                0xa71 (size before relaxing)
- .debug_str     0x00001e9a      0x181 ..\obj\spi_sd.o
+ .debug_str     0x00001d45      0x19c ..\obj\karta_sd.o
+                                0x725 (size before relaxing)
+ .debug_str     0x00001ee1      0x181 ..\obj\spi_sd.o
                                 0x4c6 (size before relaxing)
- .debug_str     0x0000201b      0x1bc ..\obj\stm32f4xx_gpio.o
+ .debug_str     0x00002062      0x1bc ..\obj\stm32f4xx_gpio.o
                                 0x4bc (size before relaxing)
- .debug_str     0x000021d7      0x131 ..\obj\system_stm32f4xx.o
+ .debug_str     0x0000221e      0x131 ..\obj\system_stm32f4xx.o
                                 0x3c3 (size before relaxing)
- .debug_str     0x00002308      0x113 ..\obj\stproc.o
+ .debug_str     0x0000234f      0x113 ..\obj\stproc.o
                                 0x3c1 (size before relaxing)
- .debug_str     0x0000241b       0xf2 ..\obj\huffman.o
+ .debug_str     0x00002462       0xf2 ..\obj\huffman.o
                                 0x6b7 (size before relaxing)
- .debug_str     0x0000250d       0x84 ..\obj\trigtabs_fixpt.o
+ .debug_str     0x00002554       0x84 ..\obj\trigtabs_fixpt.o
                                 0x1fd (size before relaxing)
- .debug_str     0x00002591       0xc9 ..\obj\buffers.o
+ .debug_str     0x000025d8       0xc9 ..\obj\buffers.o
                                 0x615 (size before relaxing)
- .debug_str     0x0000265a      0x287 ..\obj\ff.o
+ .debug_str     0x000026a1      0x287 ..\obj\ff.o
                                 0x5c4 (size before relaxing)
- .debug_str     0x000028e1      0x323 ..\obj\stm32f4xx_spi.o
+ .debug_str     0x00002928      0x323 ..\obj\stm32f4xx_spi.o
                                 0x6a3 (size before relaxing)
- .debug_str     0x00002c04       0x7f ..\obj\dct32.o
+ .debug_str     0x00002c4b       0x7f ..\obj\dct32.o
                                 0x1a9 (size before relaxing)
- .debug_str     0x00002c83      0x7ce ..\obj\Audio.o
+ .debug_str     0x00002cca      0x7ce ..\obj\Audio.o
                                 0xcd0 (size before relaxing)
- .debug_str     0x00003451       0xf0 ..\obj\polyphase.o
+ .debug_str     0x00003498       0xf0 ..\obj\polyphase.o
                                 0x20d (size before relaxing)
 
 .comment        0x00000000       0x6e
  .comment       0x00000000       0x6e ..\obj\dqchan.o
                                  0x6f (size before relaxing)
  .comment       0x0000006e       0x6f ..\obj\scalfact.o
+ .comment       0x0000006e       0x6f ..\obj\mp3.o
  .comment       0x0000006e       0x6f ..\obj\bitstream.o
  .comment       0x0000006e       0x6f ..\obj\dequant.o
  .comment       0x0000006e       0x6f ..\obj\hufftabs.o
@@ -1793,83 +1806,86 @@ OUTPUT(sdcardv2.elf elf32-littlearm)
  .ARM.attributes
                 0x00000033       0x33 ..\obj\scalfact.o
  .ARM.attributes
-                0x00000066       0x33 ..\obj\bitstream.o
+                0x00000066       0x33 ..\obj\mp3.o
  .ARM.attributes
-                0x00000099       0x33 ..\obj\dequant.o
+                0x00000099       0x33 ..\obj\bitstream.o
  .ARM.attributes
-                0x000000cc       0x33 ..\obj\hufftabs.o
+                0x000000cc       0x33 ..\obj\dequant.o
  .ARM.attributes
-                0x000000ff       0x33 ..\obj\imdct.o
+                0x000000ff       0x33 ..\obj\hufftabs.o
  .ARM.attributes
-                0x00000132       0x33 ..\obj\mp3tabs.o
+                0x00000132       0x33 ..\obj\imdct.o
  .ARM.attributes
-                0x00000165       0x33 ..\obj\subband.o
+                0x00000165       0x33 ..\obj\mp3tabs.o
  .ARM.attributes
-                0x00000198       0x33 ..\obj\startup_stm32f4xx.o
+                0x00000198       0x33 ..\obj\subband.o
  .ARM.attributes
-                0x000001cb       0x33 ..\obj\mp3dec.o
+                0x000001cb       0x33 ..\obj\startup_stm32f4xx.o
  .ARM.attributes
-                0x000001fe       0x33 ..\obj\main.o
+                0x000001fe       0x33 ..\obj\mp3dec.o
  .ARM.attributes
-                0x00000231       0x33 ..\obj\stm32f4xx_rcc.o
+                0x00000231       0x33 ..\obj\main.o
  .ARM.attributes
-                0x00000264       0x33 ..\obj\karta_sd.o
+                0x00000264       0x33 ..\obj\stm32f4xx_rcc.o
  .ARM.attributes
-                0x00000297       0x33 ..\obj\spi_sd.o
+                0x00000297       0x33 ..\obj\karta_sd.o
  .ARM.attributes
-                0x000002ca       0x33 ..\obj\stm32f4xx_gpio.o
+                0x000002ca       0x33 ..\obj\spi_sd.o
  .ARM.attributes
-                0x000002fd       0x33 ..\obj\system_stm32f4xx.o
+                0x000002fd       0x33 ..\obj\stm32f4xx_gpio.o
  .ARM.attributes
-                0x00000330       0x33 ..\obj\stproc.o
+                0x00000330       0x33 ..\obj\system_stm32f4xx.o
  .ARM.attributes
-                0x00000363       0x33 ..\obj\huffman.o
+                0x00000363       0x33 ..\obj\stproc.o
  .ARM.attributes
-                0x00000396       0x33 ..\obj\trigtabs_fixpt.o
+                0x00000396       0x33 ..\obj\huffman.o
  .ARM.attributes
-                0x000003c9       0x33 ..\obj\buffers.o
+                0x000003c9       0x33 ..\obj\trigtabs_fixpt.o
  .ARM.attributes
-                0x000003fc       0x33 ..\obj\ff.o
+                0x000003fc       0x33 ..\obj\buffers.o
  .ARM.attributes
-                0x0000042f       0x33 ..\obj\stm32f4xx_spi.o
+                0x0000042f       0x33 ..\obj\ff.o
  .ARM.attributes
-                0x00000462       0x33 ..\obj\dct32.o
+                0x00000462       0x33 ..\obj\stm32f4xx_spi.o
  .ARM.attributes
-                0x00000495       0x33 ..\obj\Audio.o
+                0x00000495       0x33 ..\obj\dct32.o
  .ARM.attributes
-                0x000004c8       0x33 ..\obj\polyphase.o
+                0x000004c8       0x33 ..\obj\Audio.o
  .ARM.attributes
-                0x000004fb       0x1c c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memcpy.o)
+                0x000004fb       0x33 ..\obj\polyphase.o
  .ARM.attributes
-                0x00000517       0x2e c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memmove.o)
+                0x0000052e       0x1c c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x00000545       0x1c c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcmp.o)
+                0x0000054a       0x2e c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000561       0x2e c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strncmp.o)
+                0x00000578       0x1c c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcmp.o)
+ .ARM.attributes
+                0x00000594       0x2e c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strncmp.o)
 
-.debug_frame    0x00000000     0x25a8
+.debug_frame    0x00000000     0x25b8
  .debug_frame   0x00000000       0xb0 ..\obj\dqchan.o
  .debug_frame   0x000000b0       0x88 ..\obj\scalfact.o
- .debug_frame   0x00000138      0x128 ..\obj\bitstream.o
- .debug_frame   0x00000260       0x64 ..\obj\dequant.o
- .debug_frame   0x000002c4      0x1fc ..\obj\imdct.o
- .debug_frame   0x000004c0       0x38 ..\obj\subband.o
- .debug_frame   0x000004f8       0x4c ..\obj\startup_stm32f4xx.o
- .debug_frame   0x00000544      0x144 ..\obj\mp3dec.o
- .debug_frame   0x00000688       0x50 ..\obj\main.o
- .debug_frame   0x000006d8      0x6d4 ..\obj\stm32f4xx_rcc.o
- .debug_frame   0x00000dac      0x21c ..\obj\karta_sd.o
- .debug_frame   0x00000fc8      0x2dc ..\obj\spi_sd.o
- .debug_frame   0x000012a4      0x23c ..\obj\stm32f4xx_gpio.o
- .debug_frame   0x000014e0       0x7c ..\obj\system_stm32f4xx.o
- .debug_frame   0x0000155c       0xd4 ..\obj\stproc.o
- .debug_frame   0x00001630       0x88 ..\obj\huffman.o
- .debug_frame   0x000016b8       0x84 ..\obj\buffers.o
- .debug_frame   0x0000173c      0x5e8 ..\obj\ff.o
- .debug_frame   0x00001d24      0x3f4 ..\obj\stm32f4xx_spi.o
- .debug_frame   0x00002118       0x60 ..\obj\dct32.o
- .debug_frame   0x00002178      0x264 ..\obj\Audio.o
- .debug_frame   0x000023dc       0xe0 ..\obj\polyphase.o
- .debug_frame   0x000024bc       0x30 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memmove.o)
- .debug_frame   0x000024ec       0x68 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcmp.o)
- .debug_frame   0x00002554       0x54 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strncmp.o)
+ .debug_frame   0x00000138       0xac ..\obj\mp3.o
+ .debug_frame   0x000001e4      0x128 ..\obj\bitstream.o
+ .debug_frame   0x0000030c       0x64 ..\obj\dequant.o
+ .debug_frame   0x00000370      0x1fc ..\obj\imdct.o
+ .debug_frame   0x0000056c       0x38 ..\obj\subband.o
+ .debug_frame   0x000005a4       0x4c ..\obj\startup_stm32f4xx.o
+ .debug_frame   0x000005f0      0x144 ..\obj\mp3dec.o
+ .debug_frame   0x00000734       0x50 ..\obj\main.o
+ .debug_frame   0x00000784      0x6d4 ..\obj\stm32f4xx_rcc.o
+ .debug_frame   0x00000e58      0x180 ..\obj\karta_sd.o
+ .debug_frame   0x00000fd8      0x2dc ..\obj\spi_sd.o
+ .debug_frame   0x000012b4      0x23c ..\obj\stm32f4xx_gpio.o
+ .debug_frame   0x000014f0       0x7c ..\obj\system_stm32f4xx.o
+ .debug_frame   0x0000156c       0xd4 ..\obj\stproc.o
+ .debug_frame   0x00001640       0x88 ..\obj\huffman.o
+ .debug_frame   0x000016c8       0x84 ..\obj\buffers.o
+ .debug_frame   0x0000174c      0x5e8 ..\obj\ff.o
+ .debug_frame   0x00001d34      0x3f4 ..\obj\stm32f4xx_spi.o
+ .debug_frame   0x00002128       0x60 ..\obj\dct32.o
+ .debug_frame   0x00002188      0x264 ..\obj\Audio.o
+ .debug_frame   0x000023ec       0xe0 ..\obj\polyphase.o
+ .debug_frame   0x000024cc       0x30 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-memmove.o)
+ .debug_frame   0x000024fc       0x68 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strcmp.o)
+ .debug_frame   0x00002564       0x54 c:/program files (x86)/gnu tools arm embedded/5.2 2015q4/bin/../lib/gcc/arm-none-eabi/5.2.1/../../../../arm-none-eabi/lib/armv7e-m\libg.a(lib_a-strncmp.o)

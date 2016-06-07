@@ -1,414 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dependencies>
-   <includePath signature="/I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\helix\real /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\helix /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis_lib /I..\..\..\..\..\Users\Patryk\Documents\GitHub /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis_boot /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\helix\pub /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis_lib\include /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\fatfs /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)">
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\imdct.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\coder.h" lastModified="13881b79340">
-         <include file="..\..\..\helix\pub\mp3common.h"/>
-      </source>
-      <source file="..\..\..\helix\mp3tabs.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\pub\mp3common.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\fatfs\ffconf.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\helix\real\dequant.c" lastModified="13881b0c510">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\helix\real\dqchan.c" lastModified="154e22e2308">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d3952372">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\helix\real\hufftabs.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\karta_sd.h" lastModified="155274a203f">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\fatfs\ff.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="154d3952362">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\fatfs\diskio.h" lastModified="146a7c60130">
-         <include file="..\..\..\fatfs\integer.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\lib_cm4\fpu.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\karta_sd.c" lastModified="15527577379">
-         <include file="..\..\..\karta_sd.h"/>
-         <include file="..\..\..\helix\pub\mp3dec.h"/>
-         <include file="..\..\..\Audio.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\platform.h" lastModified="138811ec228">
-      </source>
-      <source file="..\..\..\Audio.h" lastModified="148be2eb0a0">
-      </source>
-      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="146a7c60518">
-      </source>
-      <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="154d3ecf022">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="146a7c60518">
-      </source>
-      <source file="..\..\..\Audio.c" lastModified="155111ec085">
-         <include file="..\..\..\Audio.h"/>
-         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="154d3eceff3">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\assembly.h" lastModified="138811ebe40">
-         <include file="..\..\..\helix\platform.h"/>
-      </source>
-      <source file="..\..\..\helix\real\huffman.c" lastModified="154e22ce4b7">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="146a7c60518">
-         <include file="..\..\..\cmsis\core_cm4.h"/>
-         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
-         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
-      </source>
-      <source file="..\..\..\helix\pub\statname.h" lastModified="138811ebe40">
-      </source>
-      <source file="..\..\..\helix\real\buffers.c" lastModified="1388af06e28">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\helix\real\dct32.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\helix\pub\mp3common.h" lastModified="138811ebe40">
-         <include file="..\..\..\helix\pub\mp3dec.h"/>
-         <include file="..\..\..\helix\pub\statname.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="154d3ed8964">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\pub\mp3dec.h" lastModified="138811ebe40">
-         <include file="..\..\..\helix\platform.h"/>
-      </source>
-      <source file="..\..\..\helix\real\scalfact.c" lastModified="154e22de2ae">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="146a7c637e0">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="146a7c60518">
-      </source>
-      <source file="..\..\..\helix\real\trigtabs_fixpt.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\helix\real\subband.c" lastModified="154e22de28f">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\delay\delay.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\fatfs\ff.h" lastModified="146a7c60130">
-         <include file="..\..\..\fatfs\integer.h"/>
-         <include file="..\..\..\fatfs\ffconf.h"/>
-      </source>
-      <source file="..\..\..\fatfs\ff.c" lastModified="146a7c60518">
-         <include file="..\..\..\fatfs\ff.h"/>
-         <include file="..\..\..\fatfs\diskio.h"/>
-      </source>
-      <source file="..\..\..\cmsis\core_cm4.h" lastModified="146a7c60518">
-         <include file="..\..\..\cmsis\core_cmInstr.h"/>
-         <include file="..\..\..\cmsis\core_cmFunc.h"/>
-         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\fatfs\spi_sd.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\helix\mp3dec.c" lastModified="138811ec228">
-         <include file="..\..\..\helix\pub\mp3common.h"/>
-      </source>
-      <source file="..\..\..\fatfs\integer.h" lastModified="146a7c60900">
-      </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1551ad9b702">
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="154d3ed8954">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\fatfs\spi_sd.c" lastModified="146a7c60130">
-         <include file="..\..\..\fatfs\spi_sd.h"/>
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-         <include file="..\..\..\fatfs\diskio.h"/>
-         <include file="..\..\..\delay\delay.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-      </source>
-   </includePath>
-   <includePath signature="/IE:\projekt PTM\sdcardv2(1) /IE:\projekt PTM\sdcardv2(1)\cmsis_lib\include /IE:\projekt PTM\sdcardv2(1)\cmsis_lib /IE:\projekt PTM\sdcardv2(1)\fatfs /IE:\projekt PTM\sdcardv2(1)\helix\real /IE:\projekt PTM\sdcardv2(1)\cmsis_boot /IE:\projekt PTM\sdcardv2(1)\cmsis /IE:\projekt PTM\sdcardv2(1)\helix\pub /IE:\ /IE:\projekt PTM /IE:\projekt PTM\sdcardv2(1)\helix">
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\imdct.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\coder.h" lastModified="13881b79340">
-         <include file="..\..\..\helix\pub\mp3common.h"/>
-      </source>
-      <source file="..\..\..\helix\mp3tabs.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\pub\mp3common.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\fatfs\ffconf.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\helix\real\dequant.c" lastModified="13881b0c510">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\misc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\helix\real\dqchan.c" lastModified="154e22e2308">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d3952372">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\helix\real\hufftabs.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="154d3952362">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\fatfs\diskio.h" lastModified="146a7c60130">
-         <include file="..\..\..\fatfs\integer.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\lib_cm4\fpu.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="154d3ecf022">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="154d3eceff3">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\assembly.h" lastModified="138811ebe40">
-         <include file="..\..\..\helix\platform.h"/>
-      </source>
-      <source file="..\..\..\helix\real\huffman.c" lastModified="154e22ce4b7">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\helix\pub\statname.h" lastModified="138811ebe40">
-      </source>
-      <source file="..\..\..\helix\real\dct32.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\helix\pub\mp3common.h" lastModified="138811ebe40">
-         <include file="..\..\..\helix\pub\mp3dec.h"/>
-         <include file="..\..\..\helix\pub\statname.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="154d3ed8964">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\pub\mp3dec.h" lastModified="138811ebe40">
-         <include file="..\..\..\helix\platform.h"/>
-      </source>
-      <source file="..\..\..\helix\real\scalfact.c" lastModified="154e22de2ae">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\helix\real\trigtabs_fixpt.c" lastModified="138811ebe40">
-         <include file="..\..\..\helix\real\coder.h"/>
-      </source>
-      <source file="..\..\..\helix\real\subband.c" lastModified="154e22de28f">
-         <include file="..\..\..\helix\real\coder.h"/>
-         <include file="..\..\..\helix\real\assembly.h"/>
-      </source>
-      <source file="..\..\..\delay\delay.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\fatfs\ff.h" lastModified="146a7c60130">
-         <include file="..\..\..\fatfs\integer.h"/>
-         <include file="..\..\..\fatfs\ffconf.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\fatfs\spi_sd.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1551ad9b702">
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="154d3ed8954">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-      </source>
-      <source file="..\..\..\fatfs\spi_sd.c" lastModified="146a7c60130">
-         <include file="..\..\..\fatfs\spi_sd.h"/>
-         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
-         <include file="..\..\..\fatfs\diskio.h"/>
-         <include file="..\..\..\delay\delay.h"/>
-      </source>
-      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130">
-         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
-      </source>
-   </includePath>
    <includePath signature="/I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2 /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis_lib /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis_boot /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis_lib\include /I..\..\..\..\..\Users\Patryk\Documents\GitHub /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2\cmsis">
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146a7c60130">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
@@ -490,20 +81,418 @@
       </source>
       <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="146a7c60130">
       </source>
-      <source file="..\..\..\fatfs\spi_sd.h" lastModified="146a7c60130">
-      </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="146a7c60130">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
       </source>
+      <source file="..\..\..\fatfs\spi_sd.h" lastModified="146a7c60130">
+      </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146a7c60130">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="154d3ed8954">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
       </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/IE:\projekt PTM\sdcardv2(1) /IE:\projekt PTM\sdcardv2(1)\cmsis_lib\include /IE:\projekt PTM\sdcardv2(1)\cmsis_lib /IE:\projekt PTM\sdcardv2(1)\fatfs /IE:\projekt PTM\sdcardv2(1)\helix\real /IE:\projekt PTM\sdcardv2(1)\cmsis_boot /IE:\projekt PTM\sdcardv2(1)\cmsis /IE:\projekt PTM\sdcardv2(1)\helix\pub /IE:\ /IE:\projekt PTM /IE:\projekt PTM\sdcardv2(1)\helix">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\imdct.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\coder.h" lastModified="13881b79340">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\helix\mp3tabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fatfs\ffconf.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dequant.c" lastModified="13881b0c510">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d3952372">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dqchan.c" lastModified="154e22e2308">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\helix\real\hufftabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="154d3952362">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\fatfs\diskio.h" lastModified="146a7c60130">
+         <include file="..\..\..\fatfs\integer.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib_cm4\fpu.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="154d3ecf022">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="154d3eceff3">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\huffman.c" lastModified="154e22ce4b7">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\helix\real\assembly.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\statname.h" lastModified="138811ebe40">
+      </source>
+      <source file="..\..\..\helix\real\dct32.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\mp3common.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\pub\mp3dec.h"/>
+         <include file="..\..\..\helix\pub\statname.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="154d3ed8964">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\mp3dec.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\helix\real\scalfact.c" lastModified="154e22de2ae">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\trigtabs_fixpt.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\helix\real\subband.c" lastModified="154e22de28f">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\delay\delay.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\fatfs\ff.h" lastModified="146a7c60130">
+         <include file="..\..\..\fatfs\integer.h"/>
+         <include file="..\..\..\fatfs\ffconf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fatfs\spi_sd.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1551ad9b702">
+      </source>
       <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146a7c60130">
          <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="154d3ed8954">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\fatfs\spi_sd.c" lastModified="146a7c60130">
+         <include file="..\..\..\fatfs\spi_sd.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\fatfs\diskio.h"/>
+         <include file="..\..\..\delay\delay.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\helix\real /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\helix /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis_lib /I..\..\..\..\..\Users\Patryk\Documents\GitHub /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis_boot /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\helix\pub /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\cmsis_lib\include /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)\fatfs /I..\..\..\..\..\Users\Patryk\Documents\GitHub\STMParkingAssistant\sdcardv2(1)">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\imdct.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\coder.h" lastModified="13881b79340">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\helix\mp3tabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fatfs\ffconf.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dequant.c" lastModified="13881b0c510">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d3952372">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dqchan.c" lastModified="154e22e2308">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\helix\real\hufftabs.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h" lastModified="154d3952362">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\fatfs\diskio.h" lastModified="146a7c60130">
+         <include file="..\..\..\fatfs\integer.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\lib_cm4\fpu.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\platform.h" lastModified="138811ec228">
+      </source>
+      <source file="..\..\..\Audio.h" lastModified="148be2eb0a0">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="146a7c60518">
+      </source>
+      <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="154d3ecf022">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="146a7c60518">
+      </source>
+      <source file="..\..\..\Audio.c" lastModified="155111ec085">
+         <include file="..\..\..\Audio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h" lastModified="154d3eceff3">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\huffman.c" lastModified="154e22ce4b7">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\helix\real\assembly.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="146a7c60518">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\statname.h" lastModified="138811ebe40">
+      </source>
+      <source file="..\..\..\helix\real\buffers.c" lastModified="1388af06e28">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\helix\real\dct32.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\mp3common.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\pub\mp3dec.h"/>
+         <include file="..\..\..\helix\pub\statname.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="154d3ed8964">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\helix\pub\mp3dec.h" lastModified="138811ebe40">
+         <include file="..\..\..\helix\platform.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\helix\real\scalfact.c" lastModified="154e22de2ae">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="146a7c637e0">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dac.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_dma.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="146a7c60518">
+      </source>
+      <source file="..\..\..\helix\real\trigtabs_fixpt.c" lastModified="138811ebe40">
+         <include file="..\..\..\helix\real\coder.h"/>
+      </source>
+      <source file="..\..\..\helix\real\subband.c" lastModified="154e22de28f">
+         <include file="..\..\..\helix\real\coder.h"/>
+         <include file="..\..\..\helix\real\assembly.h"/>
+      </source>
+      <source file="..\..\..\delay\delay.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\fatfs\ff.h" lastModified="146a7c60130">
+         <include file="..\..\..\fatfs\integer.h"/>
+         <include file="..\..\..\fatfs\ffconf.h"/>
+      </source>
+      <source file="..\..\..\fatfs\ff.c" lastModified="146a7c60518">
+         <include file="..\..\..\fatfs\ff.h"/>
+         <include file="..\..\..\fatfs\diskio.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="146a7c60518">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\fatfs\spi_sd.h" lastModified="146a7c60130">
+      </source>
+      <source file="..\..\..\helix\mp3dec.c" lastModified="138811ec228">
+         <include file="..\..\..\helix\pub\mp3common.h"/>
+      </source>
+      <source file="..\..\..\fatfs\integer.h" lastModified="146a7c60900">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="1551ad9b702">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="146a7c60130">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="154d3ed8954">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\fatfs\spi_sd.c" lastModified="146a7c60130">
+         <include file="..\..\..\fatfs\spi_sd.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\fatfs\diskio.h"/>
+         <include file="..\..\..\delay\delay.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>

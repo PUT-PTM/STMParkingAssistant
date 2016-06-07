@@ -13,6 +13,7 @@
 #include "fatfs/spi_sd.h"
 #include "delay/delay.h"
 #include "lib_cm4/fpu.h"
+#include "mp3.h"
 
 
 

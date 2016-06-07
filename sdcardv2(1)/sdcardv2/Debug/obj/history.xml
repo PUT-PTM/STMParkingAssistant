@@ -4,8 +4,8 @@
       <target file="imdct.o" lastModified="15525d4e1e6">
          <source file="..\..\..\helix\real\imdct.c" lastModified="138811ebe40"/>
       </target>
-      <target file="karta_sd.o" lastModified="1552757744f">
-         <source file="..\..\..\karta_sd.c" lastModified="15527576f91"/>
+      <target file="karta_sd.o" lastModified="1552a457e02">
+         <source file="..\..\..\karta_sd.c" lastModified="1552a44d93e"/>
       </target>
       <target file="stm32f4xx_exti.o" lastModified="15525d4ee79">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="146a7c60130"/>
@@ -58,14 +58,17 @@
       <target file="polyphase.o" lastModified="15525d4f02e">
          <source file="..\..\..\helix\real\polyphase.c" lastModified="138811ebe40"/>
       </target>
+      <target file="mp3.o" lastModified="1552a457b72">
+         <source file="..\..\..\mp3.c" lastModified="1552a4499c0"/>
+      </target>
       <target file="bitstream.o" lastModified="15525d4e04f">
          <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40"/>
       </target>
-      <target file="dqchan.o" lastModified="15525d4ded8">
-         <source file="..\..\..\helix\real\dqchan.c" lastModified="154e22e2308"/>
-      </target>
       <target file="stm32f4xx_spi.o" lastModified="15525d4ece2">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="146a7c60130"/>
+      </target>
+      <target file="dqchan.o" lastModified="15525d4ded8">
+         <source file="..\..\..\helix\real\dqchan.c" lastModified="154e22e2308"/>
       </target>
       <target file="mp3dec.o" lastModified="15525d4e3e9">
          <source file="..\..\..\helix\mp3dec.c" lastModified="138811ebe40"/>
@@ -73,11 +76,11 @@
       <target file="stm32f4xx_rcc.o" lastModified="15525d4e570">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="146a7c60130"/>
       </target>
-      <target file="stproc.o" lastModified="15525d4e9f4">
-         <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40"/>
-      </target>
       <target file="buffers.o" lastModified="15525d4eb3c">
          <source file="..\..\..\helix\real\buffers.c" lastModified="1388af06a40"/>
+      </target>
+      <target file="stproc.o" lastModified="15525d4e9f4">
+         <source file="..\..\..\helix\real\stproc.c" lastModified="138811ebe40"/>
       </target>
       <target file="stm32f4xx_dac.o" lastModified="15525d4e2b1">
          <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="154d3952372"/>
@@ -100,8 +103,8 @@
       <target file="ff.o" lastModified="15525d4ec56">
          <source file="..\..\..\fatfs\ff.c" lastModified="146a7c60130"/>
       </target>
-      <target file="main.o" lastModified="155275d7201">
-         <source file="..\..\..\main.c" lastModified="155275d6a1b"/>
+      <target file="main.o" lastModified="1552a457c9b">
+         <source file="..\..\..\main.c" lastModified="1552a453c70"/>
       </target>
    </processor>
 </history>

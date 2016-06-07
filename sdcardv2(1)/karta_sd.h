@@ -49,8 +49,6 @@ void ini_karta_sd();
 int start_sd(void);
 int otwarcie_pliku(void);
 char* intToStr(int n, char *str);
-void play_mp3(char* filename);
-void AudioCallback(void *context, int buffer);
+
 int min(int a, int b);
-uint32_t Mp3ReadId3V2Tag(FIL* pInFile, char* pszArtist, uint32_t unArtistSize, char* pszTitle, uint32_t unTitleSize);
-uint32_t Mp3ReadId3V2Text(FIL* pInFile, uint32_t unDataLen, char* pszBuffer, uint32_t unBufferSize);
+

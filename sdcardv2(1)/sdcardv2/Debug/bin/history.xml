@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=sdcardv2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\sdcardv2 -TC:\CooCox\CoIDE\configuration\ProgramData\sdcardv2/arm-gcc-link.ld -g">
-      <target file="sdcardv2.elf" lastModified="155275d7434">
+      <target file="sdcardv2.elf" lastModified="1552a45811f">
          <source file="..\obj\stm32f4xx_syscfg.o" lastModified="15525d4de6b"/>
          <source file="..\obj\dqchan.o" lastModified="15525d4ded8"/>
          <source file="..\obj\scalfact.o" lastModified="15525d4df55"/>
          <source file="..\obj\stm32f4xx_sdio.o" lastModified="15525d4dfe2"/>
+         <source file="..\obj\mp3.o" lastModified="1552a457b72"/>
          <source file="..\obj\bitstream.o" lastModified="15525d4e04f"/>
          <source file="..\obj\dequant.o" lastModified="15525d4e0ad"/>
          <source file="..\obj\hufftabs.o" lastModified="15525d4e12a"/>
@@ -15,9 +16,9 @@
          <source file="..\obj\subband.o" lastModified="15525d4e30f"/>
          <source file="..\obj\startup_stm32f4xx.o" lastModified="15525d4e35d"/>
          <source file="..\obj\mp3dec.o" lastModified="15525d4e3e9"/>
-         <source file="..\obj\main.o" lastModified="155275d7201"/>
+         <source file="..\obj\main.o" lastModified="1552a457c9b"/>
          <source file="..\obj\stm32f4xx_rcc.o" lastModified="15525d4e570"/>
-         <source file="..\obj\karta_sd.o" lastModified="1552757744f"/>
+         <source file="..\obj\karta_sd.o" lastModified="1552a457e02"/>
          <source file="..\obj\stm32f4xx_adc.o" lastModified="15525d4e783"/>
          <source file="..\obj\spi_sd.o" lastModified="15525d4e810"/>
          <source file="..\obj\stm32f4xx_gpio.o" lastModified="15525d4e88d"/>
