@@ -106,7 +106,7 @@ void start_sensor(){
     Przerwania3_conf();
     TRIG_GPIO_conf();
     ECHO_GPIO_conf();
-	
+	SystemInit();
 	GPIOD->BSRRH = GPIO_Pin_1;
 }
 

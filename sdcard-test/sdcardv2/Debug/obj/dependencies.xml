@@ -28,7 +28,7 @@
          <include file="..\..\..\cmsis\core_cmFunc.h"/>
          <include file="..\..\..\cmsis\core_cm4_simd.h"/>
       </source>
-      <source file="..\..\..\sensor.c" lastModified="15531c18eb9">
+      <source file="..\..\..\sensor.c" lastModified="155365544b6">
          <include file="..\..\..\sensor.h"/>
       </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="146a7c60130">
@@ -295,6 +295,26 @@
          <include file="..\..\..\helix\real\coder.h"/>
          <include file="..\..\..\helix\real\assembly.h"/>
       </source>
+      <source file="..\..\..\main.c" lastModified="155365f4a49">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_i2c.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_exti.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_syscfg.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_adc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_spi.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+         <include file="..\..\..\fatfs\ff.h"/>
+         <include file="..\..\..\fatfs\spi_sd.h"/>
+         <include file="..\..\..\delay\delay.h"/>
+         <include file="..\..\..\lib_cm4\fpu.h"/>
+         <include file="..\..\..\mp3.h"/>
+         <include file="..\..\..\disp.h"/>
+         <include file="..\..\..\sensor.h"/>
+      </source>
       <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="154d3ed8964">
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
          <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
@@ -314,9 +334,6 @@
          <include file="..\..\..\helix\platform.h"/>
       </source>
       <source file="..\..\..\delay\delay.h" lastModified="146a7c60130">
-      </source>
-      <source file="..\..\..\mp3.c" lastModified="1552a4499c0">
-         <include file="..\..\..\mp3.h"/>
       </source>
       <source file="..\..\..\helix\real\bitstream.c" lastModified="138811ebe40">
          <include file="..\..\..\helix\real\coder.h"/>

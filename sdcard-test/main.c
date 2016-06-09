@@ -41,8 +41,8 @@ void Przerwania4_conf(){
 	przerwania.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&przerwania);
 
-	TIM_ClearITPendingBit(TIM7, TIM_IT_Update);
-	TIM_ITConfig(TIM7, TIM_IT_Update, ENABLE);
+	TIM_ClearITPendingBit(TIM4, TIM_IT_Update);
+	TIM_ITConfig(TIM4, TIM_IT_Update, ENABLE);
 }
 
 void TIM4_IRQHandler(void){
@@ -72,18 +72,18 @@ int i;
 void parking_assistant(){
 	for(i=0;i<20000000;i++);
 	odleglosc=sensor_pomiar();
-	display(odleglosc);/*
+	display(odleglosc);
 	if(odleglosc<20){
 		Timmer4_conf(0.5);
 		Przerwania4_conf();
-	}*/
+	}
 }
 
 int main(void)
 {
 	SystemInit();
 	LED_GPIO_conf();
-	//start_sensor();
+	start_sensor();
 	start_sd();
 	start_disp();
 	int i;

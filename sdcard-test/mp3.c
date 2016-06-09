@@ -232,7 +232,7 @@ void play_mp3(char* filename) {
 					f_close(&file);
 
 					// Wait for user button release
-					while(BUTTON){};
+					//while(BUTTON){};
 
 					// Return to previous function
 					return;
