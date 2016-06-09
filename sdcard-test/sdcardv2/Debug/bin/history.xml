@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=sdcardv2.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\sdcardv2 -TC:\CooCox\CoIDE\configuration\ProgramData\sdcardv2/arm-gcc-link.ld -g">
+      <target file="sdcardv2.elf" lastModified="15536474196">
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="1552a8e1391"/>
+         <source file="..\obj\tm_stm32f4_spi_dma.o" lastModified="1552a8e1517"/>
+         <source file="..\obj\dqchan.o" lastModified="1552a8e1585"/>
+         <source file="..\obj\scalfact.o" lastModified="1552a8e1602"/>
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="1552a8e168f"/>
+         <source file="..\obj\mp3.o" lastModified="1552a8e17e6"/>
+         <source file="..\obj\bitstream.o" lastModified="1552a8e1883"/>
+         <source file="..\obj\dequant.o" lastModified="1552a8e18e0"/>
+         <source file="..\obj\hufftabs.o" lastModified="1552a8e194e"/>
+         <source file="..\obj\imdct.o" lastModified="1552a8e1a09"/>
+         <source file="..\obj\mp3tabs.o" lastModified="1552a8e1a86"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="1552a8e1b03"/>
+         <source file="..\obj\subband.o" lastModified="1552a8e1b71"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1552a8e1bfd"/>
+         <source file="..\obj\mp3dec.o" lastModified="1552a8e1caa"/>
+         <source file="..\obj\main.o" lastModified="15536473f44"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1552a8e1f59"/>
+         <source file="..\obj\sensor.o" lastModified="15531c1948a"/>
+         <source file="..\obj\karta_sd.o" lastModified="1552a8e214d"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="1552a8e21f9"/>
+         <source file="..\obj\tm_stm32f4_dma.o" lastModified="15536354c9f"/>
+         <source file="..\obj\tm_stm32f4_spi.o" lastModified="1552a8e23af"/>
+         <source file="..\obj\spi_sd.o" lastModified="1552a8e245b"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1552a8e24e7"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1552a8e2564"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="1552a8e25e1"/>
+         <source file="..\obj\disp.o" lastModified="15531c5c631"/>
+         <source file="..\obj\stproc.o" lastModified="1552a8e276c"/>
+         <source file="..\obj\huffman.o" lastModified="1552a8e2808"/>
+         <source file="..\obj\trigtabs_fixpt.o" lastModified="1552a8e2885"/>
+         <source file="..\obj\buffers.o" lastModified="1552a8e2922"/>
+         <source file="..\obj\ff.o" lastModified="1552a8e2a6b"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="1552a8e2b07"/>
+         <source file="..\obj\dct32.o" lastModified="1552a8e2b84"/>
+         <source file="..\obj\stm32f4xx_i2c.o" lastModified="1552a8e2c30"/>
+         <source file="..\obj\tm_stm32f4_ili9341.o" lastModified="1552a8e2d1a"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="1552a8e2d88"/>
+         <source file="..\obj\misc.o" lastModified="1552a8e2df5"/>
+         <source file="..\obj\Audio.o" lastModified="1553634a3da"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="1552a8e2f1e"/>
+         <source file="..\obj\polyphase.o" lastModified="1552a8e2fd9"/>
+         <source file="..\obj\tm_stm32f4_fonts.o" lastModified="1552a8e3095"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1552a8e319e"/>
+      </target>
+   </processor>
+</history>

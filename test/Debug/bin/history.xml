@@ -1,36 +1,36 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=test.map -O0 --gc-sections -lstdc++ -LC:/Users/Patryk/Documents/GitHub/STMParkingAssistant -TC:/Users/Patryk/Documents/GitHub/STMParkingAssistant/arm-gcc-link.ld -g">
-      <target file="test.elf" lastModified="154c7fc927d">
-         <source file="..\obj\tm_stm32f4_fatfs.o" lastModified="154afc0e5e4"/>
-         <source file="..\obj\unicode.o" lastModified="1549a302c4a"/>
-         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="1549a01ffa3"/>
-         <source file="..\obj\tm_stm32f4_spi_dma.o" lastModified="154afc0e6cf"/>
-         <source file="..\obj\stm32f4xx_dac.o" lastModified="1549a0200eb"/>
-         <source file="..\obj\diskio.o" lastModified="154afc0e7b9"/>
-         <source file="..\obj\startup_stm32f4xx.o" lastModified="1549a020234"/>
-         <source file="..\obj\main.o" lastModified="154c7fc8fdd"/>
-         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1549a020428"/>
-         <source file="..\obj\stm32f4xx_adc.o" lastModified="1549a0204d4"/>
-         <source file="..\obj\tm_stm32f4_dma.o" lastModified="154afc0e9de"/>
-         <source file="..\obj\fatfs_sd.o" lastModified="154afc0eae8"/>
-         <source file="..\obj\tm_stm32f4_delay.o" lastModified="154afc0eb75"/>
-         <source file="..\obj\syscall.o" lastModified="1549a303042"/>
-         <source file="..\obj\tm_stm32f4_spi.o" lastModified="154afc0ec6f"/>
-         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1549a0208bc"/>
-         <source file="..\obj\system_stm32f4xx.o" lastModified="1549a020929"/>
-         <source file="..\obj\syscalls.o" lastModified="1549a22fa64"/>
-         <source file="..\obj\stm32f4xx_dma.o" lastModified="1549a020a13"/>
-         <source file="..\obj\ff.o" lastModified="154afc0edd6"/>
-         <source file="..\obj\stm32f4xx_spi.o" lastModified="1549a020c36"/>
-         <source file="..\obj\tm_stm32f4_ili9341.o" lastModified="154afc0ef0a"/>
-         <source file="..\obj\stm32f4xx_exti.o" lastModified="1549a020dec"/>
-         <source file="..\obj\misc.o" lastModified="1549a020e49"/>
-         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="154afc0ef97"/>
-         <source file="..\obj\stm32f4_discovery_lis302dl.o" lastModified="1549a020f53"/>
-         <source file="..\obj\tm_stm32f4_timer_properties.o" lastModified="154afc0f004"/>
-         <source file="..\obj\tm_stm32f4_fonts.o" lastModified="154afc0f0a1"/>
-         <source file="..\obj\stm32f4xx_tim.o" lastModified="1549a021157"/>
+      <target file="test.elf" lastModified="155364ba0bd">
+         <source file="..\obj\tm_stm32f4_fatfs.o" lastModified="155364b8c89"/>
+         <source file="..\obj\unicode.o" lastModified="155364b8cd7"/>
+         <source file="..\obj\stm32f4xx_syscfg.o" lastModified="155364b8d45"/>
+         <source file="..\obj\tm_stm32f4_spi_dma.o" lastModified="155364b8e00"/>
+         <source file="..\obj\stm32f4xx_dac.o" lastModified="155364b8e8d"/>
+         <source file="..\obj\diskio.o" lastModified="155364b8f58"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="155364b8fb6"/>
+         <source file="..\obj\main.o" lastModified="155364b90ee"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="155364b91aa"/>
+         <source file="..\obj\stm32f4xx_adc.o" lastModified="155364b9246"/>
+         <source file="..\obj\tm_stm32f4_dma.o" lastModified="155364b92c3"/>
+         <source file="..\obj\fatfs_sd.o" lastModified="155364b93bd"/>
+         <source file="..\obj\tm_stm32f4_delay.o" lastModified="155364b944a"/>
+         <source file="..\obj\syscall.o" lastModified="155364b94a7"/>
+         <source file="..\obj\tm_stm32f4_spi.o" lastModified="155364b95c1"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="155364b964d"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="155364b96bb"/>
+         <source file="..\obj\syscalls.o" lastModified="155364b9728"/>
+         <source file="..\obj\stm32f4xx_dma.o" lastModified="155364b97a5"/>
+         <source file="..\obj\ff.o" lastModified="155364b991c"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="155364b99a9"/>
+         <source file="..\obj\tm_stm32f4_ili9341.o" lastModified="155364b9a74"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="155364b9ae1"/>
+         <source file="..\obj\misc.o" lastModified="155364b9b4f"/>
+         <source file="..\obj\tm_stm32f4_gpio.o" lastModified="155364b9bdb"/>
+         <source file="..\obj\stm32f4_discovery_lis302dl.o" lastModified="155364b9c58"/>
+         <source file="..\obj\tm_stm32f4_timer_properties.o" lastModified="155364b9cd5"/>
+         <source file="..\obj\tm_stm32f4_fonts.o" lastModified="155364b9d72"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="155364b9e5c"/>
       </target>
    </processor>
 </history>
