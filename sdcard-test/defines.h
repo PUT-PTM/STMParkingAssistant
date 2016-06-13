@@ -28,8 +28,8 @@
 #ifndef TM_DEFINES_H
 #define TM_DEFINES_H
 
-#define ILI9341_SPI                 SPI3 //OR something similar
-#define ILI9341_SPI_PINS            TM_SPI_PinsPack_1
+#define ILI9341_SPI                 SPI1 //OR something similar
+#define ILI9341_SPI_PINS            TM_SPI_PinsPack_2
 
 /* Change custom CS, DC and RESET pins */
 /* CS pin */

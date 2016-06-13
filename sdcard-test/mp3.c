@@ -4,7 +4,8 @@
 #define BUTTON			(GPIOA->IDR & GPIO_Pin_0)
 
 // MP3 Variables
-#define FILE_READ_BUFFER_SIZE 8192
+#define FILE_READ_BUFFER_SIZE 32768
+#define MP3Size 687348
 MP3FrameInfo			mp3FrameInfo;
 HMP3Decoder				hMP3Decoder;
 FIL						file;
@@ -194,7 +195,7 @@ void play_mp3(char* filename) {
 		hMP3Decoder = MP3InitDecoder();
 		InitializeAudio(Audio44100HzSettings);
 		SetAudioVolume(0xAF);
-		PlayAudioWithCallback(AudioCallback, 1);
+		PlayAudioWithCallback(AudioCallback, 0);
 
 		while(1) {
 			/*
@@ -236,9 +237,12 @@ void play_mp3(char* filename) {
 
 					// Return to previous function
 					return;
+
 				}
+
 			}
 		}
+
 	}
 }
 

@@ -17,37 +17,37 @@
 #include "disp.h"
 #include "sensor.h"
 
-void Timmer4_conf(float czas){
-	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE);
+void Timmer7_conf(float czas){
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM7, ENABLE);
 
 	TIM_TimeBaseInitTypeDef Timmer;
 	Timmer.TIM_Period = (84000000)/(10000/czas) -1; //czas seconds
 	Timmer.TIM_Prescaler = 9999;
 	Timmer.TIM_ClockDivision = TIM_CKD_DIV1;
 	Timmer.TIM_CounterMode = TIM_CounterMode_Up;
-	TIM_TimeBaseInit(TIM4, &Timmer);
+	TIM_TimeBaseInit(TIM7, &Timmer);
 
-	TIM_Cmd(TIM4, ENABLE);
+	TIM_Cmd(TIM7, ENABLE);
 }
 
-void Przerwania4_conf(){
+void Przerwania7_conf(){
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
 	// ustawienie trybu pracy priorytetow przerwan
 
 	NVIC_InitTypeDef przerwania;
-	przerwania.NVIC_IRQChannel = TIM4_IRQn;
+	przerwania.NVIC_IRQChannel = TIM7_IRQn;
 	przerwania.NVIC_IRQChannelPreemptionPriority = 0x00;
 	przerwania.NVIC_IRQChannelSubPriority = 0x00;
 	przerwania.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&przerwania);
 
-	TIM_ClearITPendingBit(TIM4, TIM_IT_Update);
-	TIM_ITConfig(TIM4, TIM_IT_Update, ENABLE);
+	TIM_ClearITPendingBit(TIM7, TIM_IT_Update);
+	TIM_ITConfig(TIM7, TIM_IT_Update, ENABLE);
 }
 
-void TIM4_IRQHandler(void){
-	if(TIM_GetITStatus(TIM4,TIM_IT_Update)!=RESET){
-		TIM_ClearITPendingBit(TIM4,TIM_IT_Update);
+void TIM7_IRQHandler(void){
+	if(TIM_GetITStatus(TIM7,TIM_IT_Update)!=RESET){
+		TIM_ClearITPendingBit(TIM7,TIM_IT_Update);
 		play_mp3("new.mp3");
 	}
 }
@@ -70,22 +70,26 @@ unsigned int odleglosc;
 int i;
 
 void parking_assistant(){
-	for(i=0;i<20000000;i++);
+
+	//for(i=0;i<100000;i++);
 	odleglosc=sensor_pomiar();
 	display(odleglosc);
+	if(odleglosc>50)for(i=0;i<100000;i++);
+
 	if(odleglosc<20){
-		Timmer4_conf(0.5);
-		Przerwania4_conf();
+		play_mp3("new.mp3");
 	}
-}
+	}
 
 int main(void)
 {
+
 	SystemInit();
 	LED_GPIO_conf();
-	start_sensor();
 	start_sd();
+	start_sensor();
 	start_disp();
+
 	int i;
 	i=otwarcie_pliku();
 	switch(i){
@@ -99,10 +103,9 @@ int main(void)
 		break;
 	}
 
-	//play_mp3("new.mp3");
     while(1)
     {
-		parking_assistant();
+    	parking_assistant();
     }
 }
 

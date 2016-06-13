@@ -283,4 +283,5 @@ void DMA1_Stream7_IRQHandler() {
 	} else {
 		DMARunning = false;
 	}
+	//ProcessInterrupt(DMA1_Stream7);
 }
