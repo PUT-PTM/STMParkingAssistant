@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IE:\projekt PTM\sdcard-test\cmsis_lib -IE:\projekt PTM\sdcard-test\helix -IE:\projekt PTM\sdcard-test\cmsis_boot -IE:\projekt PTM\sdcard-test\cmsis_lib\include -IE:\projekt PTM\sdcard-test -IE:\projekt PTM\sdcard-test\helix\real -IE:\projekt PTM\sdcard-test\helix\pub -IE:\ -IE:\projekt PTM\sdcard-test\cmsis -IE:\projekt PTM\sdcard-test\tm -IE:\projekt PTM -IE:\projekt PTM\sdcard-test\fatfs">
+      <target file="tm_stm32f4_fonts.o" lastModified="1554b56db4a">
+         <source file="..\..\..\tm\tm_stm32f4_fonts.c" lastModified="155489c3260"/>
+      </target>
+      <target file="scalfact.o" lastModified="1554b56c2e2">
+         <source file="..\..\..\helix\real\scalfact.c" lastModified="155489c3260"/>
+      </target>
+      <target file="tm_stm32f4_spi_dma.o" lastModified="1554b56c1d0">
+         <source file="..\..\..\tm\tm_stm32f4_spi_dma.c" lastModified="155489c3260"/>
+      </target>
+      <target file="mp3.o" lastModified="1554b56c46f">
+         <source file="..\..\..\mp3.c" lastModified="155489c3260"/>
+      </target>
+      <target file="misc.o" lastModified="1554b56d8b4">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="155489c3260"/>
+      </target>
+      <target file="tm_stm32f4_dma.o" lastModified="1554b56cd99">
+         <source file="..\..\..\tm\tm_stm32f4_dma.c" lastModified="155489c3260"/>
+      </target>
+      <target file="imdct.o" lastModified="1554b56c699">
+         <source file="..\..\..\helix\real\imdct.c" lastModified="155489c3260"/>
+      </target>
+      <target file="dequant.o" lastModified="1554b56c558">
+         <source file="..\..\..\helix\real\dequant.c" lastModified="155489c3260"/>
+      </target>
+      <target file="polyphase.o" lastModified="1554b56da9f">
+         <source file="..\..\..\helix\real\polyphase.c" lastModified="155489c3260"/>
+      </target>
+      <target file="tm_stm32f4_gpio.o" lastModified="1554b56d9fc">
+         <source file="..\..\..\tm\tm_stm32f4_gpio.c" lastModified="155489c3260"/>
+      </target>
+      <target file="Audio.o" lastModified="1554b56d972">
+         <source file="..\..\..\Audio.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="1554b56dc54">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="155489c3260"/>
+      </target>
+      <target file="karta_sd.o" lastModified="1554b56cc50">
+         <source file="..\..\..\karta_sd.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="1554b56d83c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="1554b56cf9b">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="155489c3260"/>
+      </target>
+      <target file="tm_stm32f4_spi.o" lastModified="1554b56ce6e">
+         <source file="..\..\..\tm\tm_stm32f4_spi.c" lastModified="155489c3260"/>
+      </target>
+      <target file="mp3tabs.o" lastModified="1554b56c6f9">
+         <source file="..\..\..\helix\mp3tabs.c" lastModified="155489c3260"/>
+      </target>
+      <target file="tm_stm32f4_ili9341.o" lastModified="1554b56d7c5">
+         <source file="..\..\..\tm\tm_stm32f4_ili9341.c" lastModified="155489c3260"/>
+      </target>
+      <target file="huffman.o" lastModified="1554b56d2b8">
+         <source file="..\..\..\helix\real\huffman.c" lastModified="155489c3260"/>
+      </target>
+      <target file="buffers.o" lastModified="1554b56d385">
+         <source file="..\..\..\helix\real\buffers.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="1554b56cb15">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_dac.o" lastModified="1554b56c783">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dac.c" lastModified="155489c3260"/>
+      </target>
+      <target file="bitstream.o" lastModified="1554b56c4e6">
+         <source file="..\..\..\helix\real\bitstream.c" lastModified="155489c3260"/>
+      </target>
+      <target file="dct32.o" lastModified="1554b56d5f6">
+         <source file="..\..\..\helix\real\dct32.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_adc.o" lastModified="1554b56ccfe">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_adc.c" lastModified="155489c3260"/>
+      </target>
+      <target file="mp3dec.o" lastModified="1554b56c903">
+         <source file="..\..\..\helix\mp3dec.c" lastModified="155489c3260"/>
+      </target>
+      <target file="trigtabs_fixpt.o" lastModified="1554b56d310">
+         <source file="..\..\..\helix\real\trigtabs_fixpt.c" lastModified="155489c3260"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="1554b56c86e">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="155489c3260"/>
+      </target>
+      <target file="dqchan.o" lastModified="1554b56c262">
+         <source file="..\..\..\helix\real\dqchan.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_dma.o" lastModified="1554b56d0a6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_dma.c" lastModified="155489c3260"/>
+      </target>
+      <target file="hufftabs.o" lastModified="1554b56c5d1">
+         <source file="..\..\..\helix\real\hufftabs.c" lastModified="155489c3260"/>
+      </target>
+      <target file="sensor.o" lastModified="1554b56cb9e">
+         <source file="..\..\..\sensor.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_sdio.o" lastModified="1554b56c383">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stproc.o" lastModified="1554b56d230">
+         <source file="..\..\..\helix\real\stproc.c" lastModified="155489c3260"/>
+      </target>
+      <target file="subband.o" lastModified="1554b56c81d">
+         <source file="..\..\..\helix\real\subband.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_syscfg.o" lastModified="1554b56bf77">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_syscfg.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_i2c.o" lastModified="1554b56d6a2">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_i2c.c" lastModified="155489c3260"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="1554b56d56c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="155489c3260"/>
+      </target>
+      <target file="ff.o" lastModified="1554b56d4b1">
+         <source file="..\..\..\fatfs\ff.c" lastModified="155489c3260"/>
+      </target>
+      <target file="main.o" lastModified="1554e0f7c77">
+         <source file="..\..\..\main.c" lastModified="1554e0f6847"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="1554b56d015">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="155489c3260"/>
+      </target>
+      <target file="disp.o" lastModified="1554b56d1b2">
+         <source file="..\..\..\disp.c" lastModified="155489c3260"/>
+      </target>
+      <target file="spi_sd.o" lastModified="1554b56cf0f">
+         <source file="..\..\..\fatfs\spi_sd.c" lastModified="155489c3260"/>
+      </target>
+   </processor>
+</history>
