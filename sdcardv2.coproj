@@ -186,9 +186,9 @@
     <File name="cmsis_lib/include/stm32f4xx_dma.h" path="cmsis_lib/include/stm32f4xx_dma.h" type="1"/>
     <File name="cmsis_lib/source/stm32f4xx_tim.c" path="cmsis_lib/source/stm32f4xx_tim.c" type="1"/>
     <File name="cmsis_lib/include/stm32f4xx_gpio.h" path="cmsis_lib/include/stm32f4xx_gpio.h" type="1"/>
-    <File name="helix/real/buffers.c" path="helix/real/buffers.c" type="1"/>
     <File name="tm/tm_stm32f4_gpio.h" path="tm/tm_stm32f4_gpio.h" type="1"/>
     <File name="helix/real/scalfact.c" path="helix/real/scalfact.c" type="1"/>
+    <File name="helix/real/buffers.c" path="helix/real/buffers.c" type="1"/>
     <File name="tm/tm_stm32f4_spi.c" path="tm/tm_stm32f4_spi.c" type="1"/>
     <File name="helix/real/huffman.c" path="helix/real/huffman.c" type="1"/>
     <File name="fatfs/ffconf.h" path="fatfs/ffconf.h" type="1"/>

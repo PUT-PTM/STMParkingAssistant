@@ -17,41 +17,6 @@
 #include "disp.h"
 #include "sensor.h"
 
-void Timmer7_conf(float czas){
-	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM7, ENABLE);
-
-	TIM_TimeBaseInitTypeDef Timmer;
-	Timmer.TIM_Period = (84000000)/(10000/czas) -1; //czas seconds
-	Timmer.TIM_Prescaler = 9999;
-	Timmer.TIM_ClockDivision = TIM_CKD_DIV1;
-	Timmer.TIM_CounterMode = TIM_CounterMode_Up;
-	TIM_TimeBaseInit(TIM7, &Timmer);
-
-	TIM_Cmd(TIM7, ENABLE);
-}
-
-void Przerwania7_conf(){
-	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
-	// ustawienie trybu pracy priorytetow przerwan
-
-	NVIC_InitTypeDef przerwania;
-	przerwania.NVIC_IRQChannel = TIM7_IRQn;
-	przerwania.NVIC_IRQChannelPreemptionPriority = 0x00;
-	przerwania.NVIC_IRQChannelSubPriority = 0x00;
-	przerwania.NVIC_IRQChannelCmd = ENABLE;
-	NVIC_Init(&przerwania);
-
-	TIM_ClearITPendingBit(TIM7, TIM_IT_Update);
-	TIM_ITConfig(TIM7, TIM_IT_Update, ENABLE);
-}
-
-void TIM7_IRQHandler(void){
-	if(TIM_GetITStatus(TIM7,TIM_IT_Update)!=RESET){
-		TIM_ClearITPendingBit(TIM7,TIM_IT_Update);
-		play_mp3("new.mp3");
-	}
-}
-
 void LED_GPIO_conf(){
 		/* GPIOD Periph clock enable */
 		RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOD, ENABLE);
@@ -71,7 +36,6 @@ int i;
 
 void parking_assistant(){
 
-	//for(i=0;i<100000;i++);
 	odleglosc=sensor_pomiar();
 	display(odleglosc);
 	if(odleglosc>=30) for(i=0;i<1000000;i++);
@@ -94,19 +58,6 @@ int main(void)
 	start_sd();
 	start_sensor();
 	start_disp();
-
-	int i;
-	i=otwarcie_pliku();
-	switch(i){
-	case 1: GPIO_SetBits(GPIOD,GPIO_Pin_12);
-		break;
-	case 2: GPIO_SetBits(GPIOD,GPIO_Pin_13);
-		break;
-	case 3: GPIO_SetBits(GPIOD,GPIO_Pin_14);
-		break;
-	case 4: GPIO_SetBits(GPIOD,GPIO_Pin_15);
-		break;
-	}
 
     while(1)
     {

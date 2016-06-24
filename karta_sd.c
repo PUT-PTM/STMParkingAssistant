@@ -2,8 +2,6 @@
 
 #include <string.h>
 
-int petla;
-int wym_tab;
 int i;
 
 
@@ -164,22 +162,20 @@ int otwarcie_pliku(void)
 {
 	/*
 	 * Funkcja do testowania biblioteki FATFS i pod³¹czenia karty
-	 * "miga" diod¹, której numer znajdzie w pliku "liczba.txt"
+	 * zwraca numer odczytany z karty SD znajdujacy sie w pliku "liczba.txt" w celu zapalenia odpowiedniej diody
 	 */
 	FIL plik;
 	char znak;
 	WORD ile_bajtow;
 
-	// Otwarcie do odczytu pliku bitmapy
+	// Otwarcie do odczytu pliku
 	fresult = f_open (&plik, "liczba.txt", FA_READ);
-	//dioda_ok(fresult);
 
 	fresult = f_read (&plik, &znak, 1, &ile_bajtow);
-	//dioda_ok(fresult);
 
-	// Zamyka plik
+
 	fresult = f_close (&plik);
-	//dioda_ok(fresult);
+
 	
 	if(znak == '1')	return 1;
 	else
@@ -188,30 +184,4 @@ int otwarcie_pliku(void)
 	if(znak == '3')	return 3;
 	else
 	if(znak == '4')	return 4;
-}
-
-
-
-char* intToStr(int n, char *str)
-{
-     int i = 0;
-     for(i=0;i<5;i++)
-    	 str[i] = 0;
-
-
-     str[4] = ((n/1) %10) + 48;
-     str[3] = ((n/10) %10) + 48;
-     str[2] = ((n/100) %10) + 48;
-     str[1] = ((n/1000) %10) + 48;
-     str[0] = ((n/10000) %10) + 48;
-
-     return str;
-}
-
-int min(int a, int b)
-{
-	if(a > b)
-		return b;
-	else
-		return a;
 }
