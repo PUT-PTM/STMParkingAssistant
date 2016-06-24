@@ -232,8 +232,6 @@ void play_mp3(char* filename) {
 					// Close currently open file
 					f_close(&file);
 
-					// Wait for user button release
-					//while(BUTTON){};
 
 					// Return to previous function
 					return;

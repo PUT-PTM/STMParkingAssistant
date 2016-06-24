@@ -3,12 +3,9 @@
 void start_disp(){
 //Initialize ILI9341
     TM_ILI9341_Init();
-    //Rotate LCD for 90 degrees
-    //TM_ILI9341_Rotate(TM_ILI9341_Orientation_Landscape_2);
     //FIll lcd with color
     TM_ILI9341_Fill(ILI9341_COLOR_BLACK);
-    //Draw red filled rectangle
-    //TM_ILI9341_DrawFilledRectangle(30, 30, 210, 50, ILI9341_COLOR_RED);
+
 }
 
 void display(unsigned int odleglosc){
